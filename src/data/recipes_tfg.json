@@ -1,0 +1,7279 @@
+[
+  {
+    "id": "tfc:anvil/aluminium_silicate_nugget",
+    "input": "item: gtceu:aluminium_silicate_ingot",
+    "result": "aluminium_silicate_nugget x9",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Aluminium Silicate Ingot",
+    "resultName": "Aluminium Silicate Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bolt",
+    "input": "item: gtceu:bismuth_rod",
+    "result": "bismuth_bolt x4",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Bismuth Rod",
+    "resultName": "Bismuth Bolt \u00d74"
+  },
+  {
+    "id": "tfc:anvil/bismuth_nugget",
+    "input": "item: gtceu:bismuth_ingot",
+    "result": "bismuth_nugget x9",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Bismuth Ingot",
+    "resultName": "Bismuth Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/bismuth_sheet",
+    "input": "item: gtceu:bismuth_double_ingot",
+    "result": "bismuth_plate",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Bismuth Double Ingot",
+    "resultName": "Bismuth Plate"
+  },
+  {
+    "id": "tfc:anvil/bismuth_rod",
+    "input": "item: gtceu:bismuth_ingot",
+    "result": "bismuth_rod x2",
+    "tier": 1,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Bismuth Ingot",
+    "resultName": "Bismuth Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/bismuth_screw",
+    "input": "item: gtceu:bismuth_rod",
+    "result": "bismuth_screw x4",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "punch_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Bismuth Rod",
+    "resultName": "Bismuth Screw \u00d74"
+  },
+  {
+    "id": "tfc:anvil/copper_axe_head",
+    "input": "item: minecraft:copper_ingot",
+    "result": "copper_axe_head",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Axe Head"
+  },
+  {
+    "id": "tfg:anvil/create_copper_bars",
+    "input": "tag: forge:ingots/copper",
+    "result": "copper_bars x4",
+    "tier": 1,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Bars \u00d74"
+  },
+  {
+    "id": "tfg:anvil/create_copper_bars_double",
+    "input": "tag: forge:double_ingots/copper",
+    "result": "copper_bars x8",
+    "tier": 1,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Copper Double Ingot",
+    "resultName": "Copper Bars \u00d78"
+  },
+  {
+    "id": "tfg:anvil/createdeco_copper_bars_overlay",
+    "input": "tag: forge:ingots/copper",
+    "result": "copper_bars_overlay x4",
+    "tier": 1,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Bars Overlay \u00d74"
+  },
+  {
+    "id": "tfg:anvil/createdeco_copper_bars_overlay_double",
+    "input": "tag: forge:double_ingots/copper",
+    "result": "copper_bars_overlay x8",
+    "tier": 1,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Copper Double Ingot",
+    "resultName": "Copper Bars Overlay \u00d78"
+  },
+  {
+    "id": "tfc:anvil/copper_bolt",
+    "input": "item: gtceu:copper_rod",
+    "result": "copper_bolt x4",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Copper Rod",
+    "resultName": "Copper Bolt \u00d74"
+  },
+  {
+    "id": "tfc:anvil/copper_knife_butchery_head",
+    "input": "item: minecraft:copper_ingot",
+    "result": "copper_butchery_knife_head",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Butchery Knife Head"
+  },
+  {
+    "id": "tfg:anvil/createdeco_copper_door",
+    "input": "tag: forge:double_plates/copper",
+    "result": "copper_door",
+    "tier": 1,
+    "rules": [
+      "draw_last",
+      "draw_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Copper",
+    "resultName": "Copper Door"
+  },
+  {
+    "id": "tfc:anvil/copper_file_head",
+    "input": "item: minecraft:copper_ingot",
+    "result": "copper_file_head",
+    "tier": 1,
+    "rules": [
+      "upset_last",
+      "bend_not_last",
+      "punch_not_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper File Head"
+  },
+  {
+    "id": "tfc:anvil/copper_hammer_head",
+    "input": "item: minecraft:copper_ingot",
+    "result": "copper_hammer_head",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Hammer Head"
+  },
+  {
+    "id": "tfc:anvil/copper_hoe_head",
+    "input": "item: minecraft:copper_ingot",
+    "result": "copper_hoe_head",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "hit_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Hoe Head"
+  },
+  {
+    "id": "tfc:anvil/copper_knife_blade",
+    "input": "item: minecraft:copper_ingot",
+    "result": "copper_knife_head",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Knife Head"
+  },
+  {
+    "id": "tfc:anvil/copper_mining_hammer_head",
+    "input": "item: gtceu:copper_double_ingot",
+    "result": "copper_mining_hammer_head",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Copper Double Ingot",
+    "resultName": "Copper Mining Hammer Head"
+  },
+  {
+    "id": "tfc:anvil/copper_nugget",
+    "input": "item: minecraft:copper_ingot",
+    "result": "copper_nugget x9",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/copper_pickaxe_head",
+    "input": "item: minecraft:copper_ingot",
+    "result": "copper_pickaxe_head",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Pickaxe Head"
+  },
+  {
+    "id": "tfc:anvil/copper_ring",
+    "input": "item: gtceu:copper_rod",
+    "result": "copper_ring x2",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Copper Rod",
+    "resultName": "Copper Ring \u00d72"
+  },
+  {
+    "id": "tfc:anvil/copper_rod",
+    "input": "item: minecraft:copper_ingot",
+    "result": "copper_rod x2",
+    "tier": 1,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/copper_saw_blade",
+    "input": "item: minecraft:copper_ingot",
+    "result": "copper_saw_head",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Saw Head"
+  },
+  {
+    "id": "tfc:anvil/copper_screw",
+    "input": "item: gtceu:copper_rod",
+    "result": "copper_screw x4",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "punch_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Copper Rod",
+    "resultName": "Copper Screw \u00d74"
+  },
+  {
+    "id": "tfc:anvil/copper_screwdriver_tip",
+    "input": "item: minecraft:copper_ingot",
+    "result": "copper_screwdriver_tip",
+    "tier": 1,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Screwdriver Tip"
+  },
+  {
+    "id": "tfc:anvil/copper_scythe_blade",
+    "input": "item: minecraft:copper_ingot",
+    "result": "copper_scythe_head",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Scythe Head"
+  },
+  {
+    "id": "tfc:anvil/copper_sheet",
+    "input": "item: gtceu:copper_double_ingot",
+    "result": "copper_sheet",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Copper Double Ingot",
+    "resultName": "Copper Sheet"
+  },
+  {
+    "id": "tfc:anvil/copper_shovel_head",
+    "input": "item: minecraft:copper_ingot",
+    "result": "copper_shovel_head",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Shovel Head"
+  },
+  {
+    "id": "tfc:anvil/copper_spade_head",
+    "input": "item: gtceu:copper_double_ingot",
+    "result": "copper_spade_head",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Copper Double Ingot",
+    "resultName": "Copper Spade Head"
+  },
+  {
+    "id": "tfg:anvil/copper_spindle_head",
+    "input": "item: gtceu:copper_rod",
+    "result": "copper_spindle_head",
+    "tier": 1,
+    "rules": [
+      "draw_last",
+      "upset_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Copper Rod",
+    "resultName": "Copper Spindle Head"
+  },
+  {
+    "id": "tfc:anvil/copper_spring",
+    "input": "item: gtceu:long_copper_rod",
+    "result": "copper_spring",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Long Copper Rod",
+    "resultName": "Copper Spring"
+  },
+  {
+    "id": "tfc:anvil/copper_sword_blade",
+    "input": "item: gtceu:copper_double_ingot",
+    "result": "copper_sword_head",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Copper Double Ingot",
+    "resultName": "Copper Sword Head"
+  },
+  {
+    "id": "tfc:anvil/copper_wire_cutter_head",
+    "input": "item: gtceu:copper_double_ingot",
+    "result": "copper_wire_cutter_head",
+    "tier": 1,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Copper Double Ingot",
+    "resultName": "Copper Wire Cutter Head"
+  },
+  {
+    "id": "tfc:anvil/copper_wrench_tip",
+    "input": "item: gtceu:copper_double_ingot",
+    "result": "copper_wrench_tip",
+    "tier": 1,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Copper Double Ingot",
+    "resultName": "Copper Wrench Tip"
+  },
+  {
+    "id": "firmalife:anvil/pie_pan",
+    "input": "tag: forge:sheets/cast_iron",
+    "result": "firmalife:pie_pan x4",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Cast Iron Sheet",
+    "resultName": "Pie Pan \u00d74"
+  },
+  {
+    "id": "firmalife:anvil/sprinkler",
+    "input": "tag: forge:sheets/copper",
+    "result": "firmalife:sprinkler",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Copper Sheet",
+    "resultName": "Sprinkler"
+  },
+  {
+    "id": "tfc:anvil/gold_bolt",
+    "input": "item: gtceu:gold_rod",
+    "result": "gold_bolt x4",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Gold Rod",
+    "resultName": "Gold Bolt \u00d74"
+  },
+  {
+    "id": "tfc:anvil/gold_nugget",
+    "input": "item: minecraft:gold_ingot",
+    "result": "gold_nugget x9",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Gold Ingot",
+    "resultName": "Gold Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/gold_ring",
+    "input": "item: gtceu:gold_rod",
+    "result": "gold_ring x2",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Gold Rod",
+    "resultName": "Gold Ring \u00d72"
+  },
+  {
+    "id": "tfc:anvil/gold_rod",
+    "input": "item: minecraft:gold_ingot",
+    "result": "gold_rod x2",
+    "tier": 1,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Gold Ingot",
+    "resultName": "Gold Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/gold_screw",
+    "input": "item: gtceu:gold_rod",
+    "result": "gold_screw x4",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "punch_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Gold Rod",
+    "resultName": "Gold Screw \u00d74"
+  },
+  {
+    "id": "tfc:anvil/gold_spring",
+    "input": "item: gtceu:long_gold_rod",
+    "result": "gold_spring",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Long Gold Rod",
+    "resultName": "Gold Spring"
+  },
+  {
+    "id": "tfc:anvil/gold_sheet",
+    "input": "item: gtceu:gold_double_ingot",
+    "result": "golden_sheet",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Gold Double Ingot",
+    "resultName": "Golden Sheet"
+  },
+  {
+    "id": "tfc:anvil/copper_scraping_knife_blade",
+    "input": "item: gtceu:copper_double_ingot",
+    "result": "metal/scraping_knife_blade/copper",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "draw_not_last",
+      "draw_second_last"
+    ],
+    "inputName": "Copper Double Ingot",
+    "resultName": "Copper Scraping Knife Blade"
+  },
+  {
+    "id": "tfc:anvil/nickel_nugget",
+    "input": "item: gtceu:nickel_ingot",
+    "result": "nickel_nugget x9",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Nickel Ingot",
+    "resultName": "Nickel Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/nickel_rod",
+    "input": "item: gtceu:nickel_ingot",
+    "result": "nickel_rod x2",
+    "tier": 1,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Nickel Ingot",
+    "resultName": "Nickel Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/nickel_sheet",
+    "input": "item: gtceu:nickel_double_ingot",
+    "result": "nickel_sheet",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Nickel Double Ingot",
+    "resultName": "Nickel Sheet"
+  },
+  {
+    "id": "rnr:anvil/copper_mattock_head",
+    "input": "tag: forge:ingots/copper",
+    "result": "rnr:metal/mattock_head/copper",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "punch_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Mattock Head"
+  },
+  {
+    "id": "tfc:anvil/rose_gold_bolt",
+    "input": "item: gtceu:rose_gold_rod",
+    "result": "rose_gold_bolt x4",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Rose Gold Rod",
+    "resultName": "Rose Gold Bolt \u00d74"
+  },
+  {
+    "id": "tfc:anvil/rose_gold_nugget",
+    "input": "item: gtceu:rose_gold_ingot",
+    "result": "rose_gold_nugget x9",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Rose Gold Ingot",
+    "resultName": "Rose Gold Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/rose_gold_ring",
+    "input": "item: gtceu:rose_gold_rod",
+    "result": "rose_gold_ring x2",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Rose Gold Rod",
+    "resultName": "Rose Gold Ring \u00d72"
+  },
+  {
+    "id": "tfc:anvil/rose_gold_rod",
+    "input": "item: gtceu:rose_gold_ingot",
+    "result": "rose_gold_rod x2",
+    "tier": 1,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Rose Gold Ingot",
+    "resultName": "Rose Gold Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/rose_gold_screw",
+    "input": "item: gtceu:rose_gold_rod",
+    "result": "rose_gold_screw x4",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "punch_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Rose Gold Rod",
+    "resultName": "Rose Gold Screw \u00d74"
+  },
+  {
+    "id": "tfc:anvil/rose_gold_sheet",
+    "input": "item: gtceu:rose_gold_double_ingot",
+    "result": "rose_gold_sheet",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Rose Gold Double Ingot",
+    "resultName": "Rose Gold Sheet"
+  },
+  {
+    "id": "tfc:anvil/silver_bolt",
+    "input": "item: gtceu:silver_rod",
+    "result": "silver_bolt x4",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Silver Rod",
+    "resultName": "Silver Bolt \u00d74"
+  },
+  {
+    "id": "tfc:anvil/silver_nugget",
+    "input": "item: gtceu:silver_ingot",
+    "result": "silver_nugget x9",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Silver Ingot",
+    "resultName": "Silver Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/silver_ring",
+    "input": "item: gtceu:silver_rod",
+    "result": "silver_ring x2",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Silver Rod",
+    "resultName": "Silver Ring \u00d72"
+  },
+  {
+    "id": "tfc:anvil/silver_rod",
+    "input": "item: gtceu:silver_ingot",
+    "result": "silver_rod x2",
+    "tier": 1,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Silver Ingot",
+    "resultName": "Silver Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/silver_screw",
+    "input": "item: gtceu:silver_rod",
+    "result": "silver_screw x4",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "punch_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Silver Rod",
+    "resultName": "Silver Screw \u00d74"
+  },
+  {
+    "id": "tfc:anvil/silver_sheet",
+    "input": "item: gtceu:silver_double_ingot",
+    "result": "silver_sheet",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Silver Double Ingot",
+    "resultName": "Silver Sheet"
+  },
+  {
+    "id": "tfc:anvil/copper_small_spring",
+    "input": "item: gtceu:copper_rod",
+    "result": "small_copper_spring",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Copper Rod",
+    "resultName": "Small Copper Spring"
+  },
+  {
+    "id": "tfc:anvil/gold_small_spring",
+    "input": "item: gtceu:gold_rod",
+    "result": "small_gold_spring",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Gold Rod",
+    "resultName": "Small Gold Spring"
+  },
+  {
+    "id": "tfc:anvil/tin_small_spring",
+    "input": "item: gtceu:tin_rod",
+    "result": "small_tin_spring",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Tin Rod",
+    "resultName": "Small Tin Spring"
+  },
+  {
+    "id": "tfg:anvil/soaked_unrefined_paper",
+    "input": "item: gtceu:thermochemically_treated_hardwood_dust",
+    "result": "soaked_unrefined_paper",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Thermochemically Treated Hardwood Dust",
+    "resultName": "Soaked Unrefined Paper"
+  },
+  {
+    "id": "tfc:anvil/sterling_silver_bolt",
+    "input": "item: gtceu:sterling_silver_rod",
+    "result": "sterling_silver_bolt x4",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Sterling Silver Rod",
+    "resultName": "Sterling Silver Bolt \u00d74"
+  },
+  {
+    "id": "tfc:anvil/sterling_silver_nugget",
+    "input": "item: gtceu:sterling_silver_ingot",
+    "result": "sterling_silver_nugget x9",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Sterling Silver Ingot",
+    "resultName": "Sterling Silver Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/sterling_silver_sheet",
+    "input": "item: gtceu:sterling_silver_double_ingot",
+    "result": "sterling_silver_plate",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Sterling Silver Double Ingot",
+    "resultName": "Sterling Silver Plate"
+  },
+  {
+    "id": "tfc:anvil/sterling_silver_ring",
+    "input": "item: gtceu:sterling_silver_rod",
+    "result": "sterling_silver_ring x2",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Sterling Silver Rod",
+    "resultName": "Sterling Silver Ring \u00d72"
+  },
+  {
+    "id": "tfc:anvil/sterling_silver_rod",
+    "input": "item: gtceu:sterling_silver_ingot",
+    "result": "sterling_silver_rod x2",
+    "tier": 1,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Sterling Silver Ingot",
+    "resultName": "Sterling Silver Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/sterling_silver_screw",
+    "input": "item: gtceu:sterling_silver_rod",
+    "result": "sterling_silver_screw x4",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "punch_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Sterling Silver Rod",
+    "resultName": "Sterling Silver Screw \u00d74"
+  },
+  {
+    "id": "tfc:anvil/jar_lid",
+    "input": "tag: forge:ingots/tin",
+    "result": "tfc:jar_lid x16",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Tin Ingot",
+    "resultName": "Jar Lid \u00d716"
+  },
+  {
+    "id": "tfc:anvil/copper_chain",
+    "input": "tag: forge:ingots/copper",
+    "result": "tfc:metal/chain/copper x16",
+    "tier": 1,
+    "rules": [
+      "hit_any",
+      "hit_any",
+      "draw_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Chain \u00d716"
+  },
+  {
+    "id": "tfc:anvil/copper_chisel_head",
+    "input": "tag: forge:ingots/copper",
+    "result": "tfc:metal/chisel_head/copper",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Chisel Head"
+  },
+  {
+    "id": "tfc:anvil/copper_fish_hook",
+    "input": "tag: forge:sheets/copper",
+    "result": "tfc:metal/fish_hook/copper",
+    "tier": 1,
+    "rules": [
+      "draw_not_last",
+      "bend_any",
+      "hit_any"
+    ],
+    "inputName": "Copper Sheet",
+    "resultName": "Copper Fish Hook"
+  },
+  {
+    "id": "tfc:anvil/copper_javelin_head",
+    "input": "tag: forge:ingots/copper",
+    "result": "tfc:metal/javelin_head/copper",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Javelin Head"
+  },
+  {
+    "id": "tfc:anvil/copper_mace_head",
+    "input": "tag: forge:double_ingots/copper",
+    "result": "tfc:metal/mace_head/copper",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "shrink_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Copper Double Ingot",
+    "resultName": "Copper Mace Head"
+  },
+  {
+    "id": "tfc:anvil/copper_propick_head",
+    "input": "tag: forge:ingots/copper",
+    "result": "tfc:metal/propick_head/copper",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "draw_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Prospector's Pick Head"
+  },
+  {
+    "id": "tfc:anvil/copper_shield",
+    "input": "tag: forge:double_sheets/copper",
+    "result": "tfc:metal/shield/copper",
+    "tier": 1,
+    "rules": [
+      "upset_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Copper Double Sheet",
+    "resultName": "Copper Shield"
+  },
+  {
+    "id": "tfc:anvil/copper_trapdoor",
+    "input": "tag: forge:sheets/copper",
+    "result": "tfc:metal/trapdoor/copper",
+    "tier": 1,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Copper Sheet",
+    "resultName": "Copper Trapdoor"
+  },
+  {
+    "id": "tfc:anvil/copper_tuyere",
+    "input": "tag: forge:double_sheets/copper",
+    "result": "tfc:metal/tuyere/copper",
+    "tier": 1,
+    "rules": [
+      "bend_last",
+      "bend_second_last"
+    ],
+    "inputName": "Copper Double Sheet",
+    "resultName": "Copper Tuyere"
+  },
+  {
+    "id": "tfc:anvil/copper_unfinished_boots",
+    "input": "tag: forge:sheets/copper",
+    "result": "tfc:metal/unfinished_boots/copper",
+    "tier": 1,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Copper Sheet",
+    "resultName": "Copper Unfinished Boots"
+  },
+  {
+    "id": "tfc:anvil/copper_unfinished_chestplate",
+    "input": "tag: forge:double_sheets/copper",
+    "result": "tfc:metal/unfinished_chestplate/copper",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Copper Double Sheet",
+    "resultName": "Copper Unfinished Chestplate"
+  },
+  {
+    "id": "tfc:anvil/copper_unfinished_greaves",
+    "input": "tag: forge:double_sheets/copper",
+    "result": "tfc:metal/unfinished_greaves/copper",
+    "tier": 1,
+    "rules": [
+      "bend_any",
+      "draw_any",
+      "hit_any"
+    ],
+    "inputName": "Copper Double Sheet",
+    "resultName": "Copper Unfinished Greaves"
+  },
+  {
+    "id": "tfc:anvil/copper_unfinished_helmet",
+    "input": "tag: forge:double_sheets/copper",
+    "result": "tfc:metal/unfinished_helmet/copper",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Copper Double Sheet",
+    "resultName": "Copper Unfinished Helmet"
+  },
+  {
+    "id": "tfc:anvil/copper_lamp",
+    "input": "tag: forge:ingots/copper",
+    "result": "tfc:metal/unfinished_lamp/copper",
+    "tier": 1,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Unfinished Lamp"
+  },
+  {
+    "id": "tfchotornot:anvil/tong_part/bismuth",
+    "input": "tag: forge:ingots/bismuth",
+    "result": "tfchotornot:tong_part/bismuth",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Bismuth Ingot",
+    "resultName": "Bismuth Tong Part"
+  },
+  {
+    "id": "tfchotornot:anvil/tong_part/copper",
+    "input": "tag: forge:ingots/copper",
+    "result": "tfchotornot:tong_part/copper",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Tong Part"
+  },
+  {
+    "id": "tfchotornot:anvil/tong_part/gold",
+    "input": "tag: forge:ingots/gold",
+    "result": "tfchotornot:tong_part/gold",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Gold Ingot",
+    "resultName": "Gold Tong Part"
+  },
+  {
+    "id": "tfchotornot:anvil/tong_part/nickel",
+    "input": "tag: forge:ingots/nickel",
+    "result": "tfchotornot:tong_part/nickel",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Nickel Ingot",
+    "resultName": "Nickel Tong Part"
+  },
+  {
+    "id": "tfchotornot:anvil/tong_part/rose_gold",
+    "input": "tag: forge:ingots/rose_gold",
+    "result": "tfchotornot:tong_part/rose_gold",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Rose Gold Ingot",
+    "resultName": "Rose Gold Tong Part"
+  },
+  {
+    "id": "tfchotornot:anvil/tong_part/silver",
+    "input": "tag: forge:ingots/silver",
+    "result": "tfchotornot:tong_part/silver",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Silver Ingot",
+    "resultName": "Silver Tong Part"
+  },
+  {
+    "id": "tfchotornot:anvil/tong_part/sterling_silver",
+    "input": "tag: forge:ingots/sterling_silver",
+    "result": "tfchotornot:tong_part/sterling_silver",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Sterling Silver Ingot",
+    "resultName": "Sterling Silver Tong Part"
+  },
+  {
+    "id": "tfchotornot:anvil/tong_part/tin",
+    "input": "tag: forge:ingots/tin",
+    "result": "tfchotornot:tong_part/tin",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Tin Ingot",
+    "resultName": "Tin Tong Part"
+  },
+  {
+    "id": "tfchotornot:anvil/tong_part/zinc",
+    "input": "tag: forge:ingots/zinc",
+    "result": "tfchotornot:tong_part/zinc",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Zinc Ingot",
+    "resultName": "Zinc Tong Part"
+  },
+  {
+    "id": "tfc:anvil/tin_bolt",
+    "input": "item: gtceu:tin_rod",
+    "result": "tin_bolt x4",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Tin Rod",
+    "resultName": "Tin Bolt \u00d74"
+  },
+  {
+    "id": "tfc:anvil/tin_nugget",
+    "input": "item: gtceu:tin_ingot",
+    "result": "tin_nugget x9",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Tin Ingot",
+    "resultName": "Tin Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/tin_sheet",
+    "input": "item: gtceu:tin_double_ingot",
+    "result": "tin_plate",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Tin Double Ingot",
+    "resultName": "Tin Plate"
+  },
+  {
+    "id": "tfc:anvil/tin_ring",
+    "input": "item: gtceu:tin_rod",
+    "result": "tin_ring x2",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Tin Rod",
+    "resultName": "Tin Ring \u00d72"
+  },
+  {
+    "id": "tfc:anvil/tin_rod",
+    "input": "item: gtceu:tin_ingot",
+    "result": "tin_rod x2",
+    "tier": 1,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Tin Ingot",
+    "resultName": "Tin Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/tin_screw",
+    "input": "item: gtceu:tin_rod",
+    "result": "tin_screw x4",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "punch_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Tin Rod",
+    "resultName": "Tin Screw \u00d74"
+  },
+  {
+    "id": "tfc:anvil/tin_spring",
+    "input": "item: gtceu:long_tin_rod",
+    "result": "tin_spring",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Long Tin Rod",
+    "resultName": "Tin Spring"
+  },
+  {
+    "id": "tfg:anvil/createdeco_zinc_bars",
+    "input": "tag: forge:ingots/zinc",
+    "result": "zinc_bars x4",
+    "tier": 1,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Zinc Ingot",
+    "resultName": "Zinc Bars \u00d74"
+  },
+  {
+    "id": "tfg:anvil/createdeco_zinc_bars_double",
+    "input": "tag: forge:double_ingots/zinc",
+    "result": "zinc_bars x8",
+    "tier": 1,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Zinc Double Ingot",
+    "resultName": "Zinc Bars \u00d78"
+  },
+  {
+    "id": "tfg:anvil/createdeco_zinc_bars_overlay",
+    "input": "tag: forge:ingots/zinc",
+    "result": "zinc_bars_overlay x4",
+    "tier": 1,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Zinc Ingot",
+    "resultName": "Zinc Bars Overlay \u00d74"
+  },
+  {
+    "id": "tfg:anvil/createdeco_zinc_bars_overlay_double",
+    "input": "tag: forge:double_ingots/zinc",
+    "result": "zinc_bars_overlay x8",
+    "tier": 1,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Zinc Double Ingot",
+    "resultName": "Zinc Bars Overlay \u00d78"
+  },
+  {
+    "id": "tfc:anvil/zinc_bolt",
+    "input": "item: gtceu:zinc_rod",
+    "result": "zinc_bolt x4",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Zinc Rod",
+    "resultName": "Zinc Bolt \u00d74"
+  },
+  {
+    "id": "tfg:anvil/createdeco_zinc_door",
+    "input": "tag: forge:double_plates/zinc",
+    "result": "zinc_door",
+    "tier": 1,
+    "rules": [
+      "draw_last",
+      "draw_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Zinc",
+    "resultName": "Zinc Door"
+  },
+  {
+    "id": "tfc:anvil/zinc_nugget",
+    "input": "item: create:zinc_ingot",
+    "result": "zinc_nugget x9",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Zinc Ingot",
+    "resultName": "Zinc Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/zinc_ring",
+    "input": "item: gtceu:zinc_rod",
+    "result": "zinc_ring x2",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Zinc Rod",
+    "resultName": "Zinc Ring \u00d72"
+  },
+  {
+    "id": "tfc:anvil/zinc_rod",
+    "input": "item: create:zinc_ingot",
+    "result": "zinc_rod x2",
+    "tier": 1,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Zinc Ingot",
+    "resultName": "Zinc Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/zinc_screw",
+    "input": "item: gtceu:zinc_rod",
+    "result": "zinc_screw x4",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "punch_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Zinc Rod",
+    "resultName": "Zinc Screw \u00d74"
+  },
+  {
+    "id": "tfc:anvil/zinc_sheet",
+    "input": "item: gtceu:zinc_double_ingot",
+    "result": "zinc_sheet",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Zinc Double Ingot",
+    "resultName": "Zinc Sheet"
+  },
+  {
+    "id": "createdeco:anvil/zinc_trapdoor",
+    "input": "tag: forge:ingots/zinc",
+    "result": "zinc_trapdoor",
+    "tier": 1,
+    "rules": [
+      "shrink_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Zinc Ingot",
+    "resultName": "Zinc Trapdoor"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_axe_head",
+    "input": "item: gtceu:bismuth_bronze_ingot",
+    "result": "bismuth_bronze_axe_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Axe Head"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_bolt",
+    "input": "item: gtceu:bismuth_bronze_rod",
+    "result": "bismuth_bronze_bolt x4",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Bismuth Bronze Rod",
+    "resultName": "Bismuth Bronze Bolt \u00d74"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_knife_butchery_head",
+    "input": "item: gtceu:bismuth_bronze_ingot",
+    "result": "bismuth_bronze_butchery_knife_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Butchery Knife Head"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_file_head",
+    "input": "item: gtceu:bismuth_bronze_ingot",
+    "result": "bismuth_bronze_file_head",
+    "tier": 2,
+    "rules": [
+      "upset_last",
+      "bend_not_last",
+      "punch_not_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze File Head"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_hammer_head",
+    "input": "item: gtceu:bismuth_bronze_ingot",
+    "result": "bismuth_bronze_hammer_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Hammer Head"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_hoe_head",
+    "input": "item: gtceu:bismuth_bronze_ingot",
+    "result": "bismuth_bronze_hoe_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Hoe Head"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_knife_blade",
+    "input": "item: gtceu:bismuth_bronze_ingot",
+    "result": "bismuth_bronze_knife_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Knife Head"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_mining_hammer_head",
+    "input": "item: gtceu:bismuth_bronze_double_ingot",
+    "result": "bismuth_bronze_mining_hammer_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Bismuth Bronze Double Ingot",
+    "resultName": "Bismuth Bronze Mining Hammer Head"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_nugget",
+    "input": "item: gtceu:bismuth_bronze_ingot",
+    "result": "bismuth_bronze_nugget x9",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_pickaxe_head",
+    "input": "item: gtceu:bismuth_bronze_ingot",
+    "result": "bismuth_bronze_pickaxe_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Pickaxe Head"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_sheet",
+    "input": "item: gtceu:bismuth_bronze_double_ingot",
+    "result": "bismuth_bronze_plate",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Bismuth Bronze Double Ingot",
+    "resultName": "Bismuth Bronze Plate"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_ring",
+    "input": "item: gtceu:bismuth_bronze_rod",
+    "result": "bismuth_bronze_ring x2",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Bismuth Bronze Rod",
+    "resultName": "Bismuth Bronze Ring \u00d72"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_rod",
+    "input": "item: gtceu:bismuth_bronze_ingot",
+    "result": "bismuth_bronze_rod x2",
+    "tier": 2,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_saw_blade",
+    "input": "item: gtceu:bismuth_bronze_ingot",
+    "result": "bismuth_bronze_saw_head",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Saw Head"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_screw",
+    "input": "item: gtceu:bismuth_bronze_rod",
+    "result": "bismuth_bronze_screw x4",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "punch_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Bismuth Bronze Rod",
+    "resultName": "Bismuth Bronze Screw \u00d74"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_screwdriver_tip",
+    "input": "item: gtceu:bismuth_bronze_ingot",
+    "result": "bismuth_bronze_screwdriver_tip",
+    "tier": 2,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Screwdriver Tip"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_scythe_blade",
+    "input": "item: gtceu:bismuth_bronze_ingot",
+    "result": "bismuth_bronze_scythe_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Scythe Head"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_shovel_head",
+    "input": "item: gtceu:bismuth_bronze_ingot",
+    "result": "bismuth_bronze_shovel_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Shovel Head"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_spade_head",
+    "input": "item: gtceu:bismuth_bronze_double_ingot",
+    "result": "bismuth_bronze_spade_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Bismuth Bronze Double Ingot",
+    "resultName": "Bismuth Bronze Spade Head"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_sword_blade",
+    "input": "item: gtceu:bismuth_bronze_double_ingot",
+    "result": "bismuth_bronze_sword_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Bismuth Bronze Double Ingot",
+    "resultName": "Bismuth Bronze Sword Head"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_wire_cutter_head",
+    "input": "item: gtceu:bismuth_bronze_double_ingot",
+    "result": "bismuth_bronze_wire_cutter_head",
+    "tier": 2,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Bismuth Bronze Double Ingot",
+    "resultName": "Bismuth Bronze Wire Cutter Head"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_wrench_tip",
+    "input": "item: gtceu:bismuth_bronze_double_ingot",
+    "result": "bismuth_bronze_wrench_tip",
+    "tier": 2,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Bismuth Bronze Double Ingot",
+    "resultName": "Bismuth Bronze Wrench Tip"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_axe_head",
+    "input": "item: gtceu:black_bronze_ingot",
+    "result": "black_bronze_axe_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Axe Head"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_bolt",
+    "input": "item: gtceu:black_bronze_rod",
+    "result": "black_bronze_bolt x4",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Black Bronze Rod",
+    "resultName": "Black Bronze Bolt \u00d74"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_knife_butchery_head",
+    "input": "item: gtceu:black_bronze_ingot",
+    "result": "black_bronze_butchery_knife_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Butchery Knife Head"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_file_head",
+    "input": "item: gtceu:black_bronze_ingot",
+    "result": "black_bronze_file_head",
+    "tier": 2,
+    "rules": [
+      "upset_last",
+      "bend_not_last",
+      "punch_not_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze File Head"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_hammer_head",
+    "input": "item: gtceu:black_bronze_ingot",
+    "result": "black_bronze_hammer_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Hammer Head"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_hoe_head",
+    "input": "item: gtceu:black_bronze_ingot",
+    "result": "black_bronze_hoe_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Hoe Head"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_knife_blade",
+    "input": "item: gtceu:black_bronze_ingot",
+    "result": "black_bronze_knife_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Knife Head"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_mining_hammer_head",
+    "input": "item: gtceu:black_bronze_double_ingot",
+    "result": "black_bronze_mining_hammer_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Black Bronze Double Ingot",
+    "resultName": "Black Bronze Mining Hammer Head"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_nugget",
+    "input": "item: gtceu:black_bronze_ingot",
+    "result": "black_bronze_nugget x9",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_pickaxe_head",
+    "input": "item: gtceu:black_bronze_ingot",
+    "result": "black_bronze_pickaxe_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Pickaxe Head"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_sheet",
+    "input": "item: gtceu:black_bronze_double_ingot",
+    "result": "black_bronze_plate",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Black Bronze Double Ingot",
+    "resultName": "Black Bronze Plate"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_ring",
+    "input": "item: gtceu:black_bronze_rod",
+    "result": "black_bronze_ring x2",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Black Bronze Rod",
+    "resultName": "Black Bronze Ring \u00d72"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_rod",
+    "input": "item: gtceu:black_bronze_ingot",
+    "result": "black_bronze_rod x2",
+    "tier": 2,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_saw_blade",
+    "input": "item: gtceu:black_bronze_ingot",
+    "result": "black_bronze_saw_head",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Saw Head"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_screw",
+    "input": "item: gtceu:black_bronze_rod",
+    "result": "black_bronze_screw x4",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "punch_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Black Bronze Rod",
+    "resultName": "Black Bronze Screw \u00d74"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_screwdriver_tip",
+    "input": "item: gtceu:black_bronze_ingot",
+    "result": "black_bronze_screwdriver_tip",
+    "tier": 2,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Screwdriver Tip"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_scythe_blade",
+    "input": "item: gtceu:black_bronze_ingot",
+    "result": "black_bronze_scythe_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Scythe Head"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_shovel_head",
+    "input": "item: gtceu:black_bronze_ingot",
+    "result": "black_bronze_shovel_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Shovel Head"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_spade_head",
+    "input": "item: gtceu:black_bronze_double_ingot",
+    "result": "black_bronze_spade_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Black Bronze Double Ingot",
+    "resultName": "Black Bronze Spade Head"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_sword_blade",
+    "input": "item: gtceu:black_bronze_double_ingot",
+    "result": "black_bronze_sword_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Black Bronze Double Ingot",
+    "resultName": "Black Bronze Sword Head"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_wire_cutter_head",
+    "input": "item: gtceu:black_bronze_double_ingot",
+    "result": "black_bronze_wire_cutter_head",
+    "tier": 2,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Black Bronze Double Ingot",
+    "resultName": "Black Bronze Wire Cutter Head"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_wrench_tip",
+    "input": "item: gtceu:black_bronze_double_ingot",
+    "result": "black_bronze_wrench_tip",
+    "tier": 2,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Black Bronze Double Ingot",
+    "resultName": "Black Bronze Wrench Tip"
+  },
+  {
+    "id": "tfg:anvil/create_brass_bars",
+    "input": "tag: forge:ingots/brass",
+    "result": "brass_bars x4",
+    "tier": 2,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Brass Ingot",
+    "resultName": "Brass Bars \u00d74"
+  },
+  {
+    "id": "tfg:anvil/create_brass_bars_double",
+    "input": "tag: forge:double_ingots/brass",
+    "result": "brass_bars x8",
+    "tier": 2,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Brass Double Ingot",
+    "resultName": "Brass Bars \u00d78"
+  },
+  {
+    "id": "tfg:anvil/createdeco_brass_bars_overlay",
+    "input": "tag: forge:ingots/brass",
+    "result": "brass_bars_overlay x4",
+    "tier": 2,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Brass Ingot",
+    "resultName": "Brass Bars Overlay \u00d74"
+  },
+  {
+    "id": "tfg:anvil/createdeco_brass_bars_overlay_double",
+    "input": "tag: forge:double_ingots/brass",
+    "result": "brass_bars_overlay x8",
+    "tier": 2,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Brass Double Ingot",
+    "resultName": "Brass Bars Overlay \u00d78"
+  },
+  {
+    "id": "tfc:anvil/brass_bolt",
+    "input": "item: gtceu:brass_rod",
+    "result": "brass_bolt x4",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Brass Rod",
+    "resultName": "Brass Bolt \u00d74"
+  },
+  {
+    "id": "tfg:anvil/createdeco_brass_door",
+    "input": "tag: forge:double_plates/brass",
+    "result": "brass_door",
+    "tier": 2,
+    "rules": [
+      "draw_last",
+      "draw_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Brass",
+    "resultName": "Brass Door"
+  },
+  {
+    "id": "tfc:anvil/brass_nugget",
+    "input": "item: create:brass_ingot",
+    "result": "brass_nugget x9",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Brass Ingot",
+    "resultName": "Brass Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/brass_ring",
+    "input": "item: gtceu:brass_rod",
+    "result": "brass_ring x2",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Brass Rod",
+    "resultName": "Brass Ring \u00d72"
+  },
+  {
+    "id": "tfc:anvil/brass_rod",
+    "input": "item: create:brass_ingot",
+    "result": "brass_rod x2",
+    "tier": 2,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Brass Ingot",
+    "resultName": "Brass Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/brass_screw",
+    "input": "item: gtceu:brass_rod",
+    "result": "brass_screw x4",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "punch_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Brass Rod",
+    "resultName": "Brass Screw \u00d74"
+  },
+  {
+    "id": "tfc:anvil/brass_sheet",
+    "input": "item: gtceu:brass_double_ingot",
+    "result": "brass_sheet",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Brass Double Ingot",
+    "resultName": "Brass Sheet"
+  },
+  {
+    "id": "createdeco:anvil/brass_trapdoor",
+    "input": "tag: forge:ingots/brass",
+    "result": "brass_trapdoor",
+    "tier": 2,
+    "rules": [
+      "shrink_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Brass Ingot",
+    "resultName": "Brass Trapdoor"
+  },
+  {
+    "id": "tfc:anvil/bronze_axe_head",
+    "input": "item: gtceu:bronze_ingot",
+    "result": "bronze_axe_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Axe Head"
+  },
+  {
+    "id": "tfc:anvil/bronze_bolt",
+    "input": "item: gtceu:bronze_rod",
+    "result": "bronze_bolt x4",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Bronze Rod",
+    "resultName": "Bronze Bolt \u00d74"
+  },
+  {
+    "id": "tfc:anvil/bronze_knife_butchery_head",
+    "input": "item: gtceu:bronze_ingot",
+    "result": "bronze_butchery_knife_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Butchery Knife Head"
+  },
+  {
+    "id": "tfc:anvil/bronze_file_head",
+    "input": "item: gtceu:bronze_ingot",
+    "result": "bronze_file_head",
+    "tier": 2,
+    "rules": [
+      "upset_last",
+      "bend_not_last",
+      "punch_not_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze File Head"
+  },
+  {
+    "id": "tfc:anvil/bronze_hammer_head",
+    "input": "item: gtceu:bronze_ingot",
+    "result": "bronze_hammer_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Hammer Head"
+  },
+  {
+    "id": "tfc:anvil/bronze_hoe_head",
+    "input": "item: gtceu:bronze_ingot",
+    "result": "bronze_hoe_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Hoe Head"
+  },
+  {
+    "id": "tfc:anvil/bronze_knife_blade",
+    "input": "item: gtceu:bronze_ingot",
+    "result": "bronze_knife_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Knife Head"
+  },
+  {
+    "id": "tfc:anvil/bronze_mining_hammer_head",
+    "input": "item: gtceu:bronze_double_ingot",
+    "result": "bronze_mining_hammer_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Bronze Double Ingot",
+    "resultName": "Bronze Mining Hammer Head"
+  },
+  {
+    "id": "tfc:anvil/bronze_nugget",
+    "input": "item: gtceu:bronze_ingot",
+    "result": "bronze_nugget x9",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/bronze_pickaxe_head",
+    "input": "item: gtceu:bronze_ingot",
+    "result": "bronze_pickaxe_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Pickaxe Head"
+  },
+  {
+    "id": "tfc:anvil/bronze_sheet",
+    "input": "item: gtceu:bronze_double_ingot",
+    "result": "bronze_plate",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Bronze Double Ingot",
+    "resultName": "Bronze Plate"
+  },
+  {
+    "id": "tfc:anvil/bronze_ring",
+    "input": "item: gtceu:bronze_rod",
+    "result": "bronze_ring x2",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Bronze Rod",
+    "resultName": "Bronze Ring \u00d72"
+  },
+  {
+    "id": "tfc:anvil/bronze_rod",
+    "input": "item: gtceu:bronze_ingot",
+    "result": "bronze_rod x2",
+    "tier": 2,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/bronze_saw_blade",
+    "input": "item: gtceu:bronze_ingot",
+    "result": "bronze_saw_head",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Saw Head"
+  },
+  {
+    "id": "tfc:anvil/bronze_screw",
+    "input": "item: gtceu:bronze_rod",
+    "result": "bronze_screw x4",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "punch_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Bronze Rod",
+    "resultName": "Bronze Screw \u00d74"
+  },
+  {
+    "id": "tfc:anvil/bronze_screwdriver_tip",
+    "input": "item: gtceu:bronze_ingot",
+    "result": "bronze_screwdriver_tip",
+    "tier": 2,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Screwdriver Tip"
+  },
+  {
+    "id": "tfc:anvil/bronze_scythe_blade",
+    "input": "item: gtceu:bronze_ingot",
+    "result": "bronze_scythe_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Scythe Head"
+  },
+  {
+    "id": "tfc:anvil/bronze_shovel_head",
+    "input": "item: gtceu:bronze_ingot",
+    "result": "bronze_shovel_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Shovel Head"
+  },
+  {
+    "id": "tfc:anvil/bronze_spade_head",
+    "input": "item: gtceu:bronze_double_ingot",
+    "result": "bronze_spade_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Bronze Double Ingot",
+    "resultName": "Bronze Spade Head"
+  },
+  {
+    "id": "tfc:anvil/bronze_sword_blade",
+    "input": "item: gtceu:bronze_double_ingot",
+    "result": "bronze_sword_head",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Bronze Double Ingot",
+    "resultName": "Bronze Sword Head"
+  },
+  {
+    "id": "tfc:anvil/bronze_wire_cutter_head",
+    "input": "item: gtceu:bronze_double_ingot",
+    "result": "bronze_wire_cutter_head",
+    "tier": 2,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Bronze Double Ingot",
+    "resultName": "Bronze Wire Cutter Head"
+  },
+  {
+    "id": "tfc:anvil/bronze_wrench_tip",
+    "input": "item: gtceu:bronze_double_ingot",
+    "result": "bronze_wrench_tip",
+    "tier": 2,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Bronze Double Ingot",
+    "resultName": "Bronze Wrench Tip"
+  },
+  {
+    "id": "firmaciv:anvil/cannon_barrel",
+    "input": "tag: forge:double_sheets/wrought_iron",
+    "result": "firmaciv:cannon_barrel",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Wrought Iron Double Sheet",
+    "resultName": "Cannon Barrel"
+  },
+  {
+    "id": "firmaciv:anvil/unfinished_barometer",
+    "input": "tag: forge:sheets/brass",
+    "result": "firmaciv:unfinished_barometer",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Brass Sheet",
+    "resultName": "Unfinished Barometer"
+  },
+  {
+    "id": "firmaciv:anvil/unfinished_nav_clock",
+    "input": "tag: forge:double_sheets/brass",
+    "result": "firmaciv:unfinished_nav_clock",
+    "tier": 2,
+    "rules": [
+      "upset_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Brass Double Sheet",
+    "resultName": "Unfinished Navigator's Timepiece"
+  },
+  {
+    "id": "firmaciv:anvil/unfinished_sextant",
+    "input": "tag: forge:double_ingots/brass",
+    "result": "firmaciv:unfinished_sextant",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Brass Double Ingot",
+    "resultName": "Unfinished Sextant"
+  },
+  {
+    "id": "tfc:anvil/lead_bolt",
+    "input": "item: gtceu:lead_rod",
+    "result": "lead_bolt x4",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Lead Rod",
+    "resultName": "Lead Bolt \u00d74"
+  },
+  {
+    "id": "tfc:anvil/lead_nugget",
+    "input": "item: gtceu:lead_ingot",
+    "result": "lead_nugget x9",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Lead Ingot",
+    "resultName": "Lead Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/lead_ring",
+    "input": "item: gtceu:lead_rod",
+    "result": "lead_ring x2",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Lead Rod",
+    "resultName": "Lead Ring \u00d72"
+  },
+  {
+    "id": "tfc:anvil/lead_rod",
+    "input": "item: gtceu:lead_ingot",
+    "result": "lead_rod x2",
+    "tier": 2,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Lead Ingot",
+    "resultName": "Lead Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/lead_screw",
+    "input": "item: gtceu:lead_rod",
+    "result": "lead_screw x4",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "punch_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Lead Rod",
+    "resultName": "Lead Screw \u00d74"
+  },
+  {
+    "id": "tfc:anvil/lead_sheet",
+    "input": "item: gtceu:lead_double_ingot",
+    "result": "lead_sheet",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Lead Double Ingot",
+    "resultName": "Lead Sheet"
+  },
+  {
+    "id": "tfc:anvil/lead_spring",
+    "input": "item: gtceu:long_lead_rod",
+    "result": "lead_spring",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Long Lead Rod",
+    "resultName": "Lead Spring"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_scraping_knife_blade",
+    "input": "item: gtceu:bismuth_bronze_double_ingot",
+    "result": "metal/scraping_knife_blade/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "draw_not_last",
+      "draw_second_last"
+    ],
+    "inputName": "Bismuth Bronze Double Ingot",
+    "resultName": "Bismuth Bronze Scraping Knife Blade"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_scraping_knife_blade",
+    "input": "item: gtceu:black_bronze_double_ingot",
+    "result": "metal/scraping_knife_blade/black_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "draw_not_last",
+      "draw_second_last"
+    ],
+    "inputName": "Black Bronze Double Ingot",
+    "resultName": "Black Bronze Scraping Knife Blade"
+  },
+  {
+    "id": "tfc:anvil/bronze_scraping_knife_blade",
+    "input": "item: gtceu:bronze_double_ingot",
+    "result": "metal/scraping_knife_blade/bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "draw_not_last",
+      "draw_second_last"
+    ],
+    "inputName": "Bronze Double Ingot",
+    "resultName": "Bronze Scraping Knife Blade"
+  },
+  {
+    "id": "tfg:anvil/alekiships/oarlock/bismuth_bronze",
+    "input": "tag: forge:double_ingots/bismuth_bronze",
+    "result": "oarlock",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Bismuth Bronze Double Ingot",
+    "resultName": "Oarlock"
+  },
+  {
+    "id": "tfg:anvil/alekiships/oarlock/black_bronze",
+    "input": "tag: forge:double_ingots/black_bronze",
+    "result": "oarlock",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Black Bronze Double Ingot",
+    "resultName": "Oarlock"
+  },
+  {
+    "id": "tfg:anvil/alekiships/oarlock/bronze",
+    "input": "tag: forge:double_ingots/bronze",
+    "result": "oarlock",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Bronze Double Ingot",
+    "resultName": "Oarlock"
+  },
+  {
+    "id": "tfc:anvil/potin_bolt",
+    "input": "item: gtceu:potin_rod",
+    "result": "potin_bolt x4",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Potin Rod",
+    "resultName": "Potin Bolt \u00d74"
+  },
+  {
+    "id": "tfc:anvil/potin_nugget",
+    "input": "item: gtceu:potin_ingot",
+    "result": "potin_nugget x9",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Potin Ingot",
+    "resultName": "Potin Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/potin_sheet",
+    "input": "item: gtceu:potin_double_ingot",
+    "result": "potin_plate",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Potin Double Ingot",
+    "resultName": "Potin Plate"
+  },
+  {
+    "id": "tfc:anvil/potin_rod",
+    "input": "item: gtceu:potin_ingot",
+    "result": "potin_rod x2",
+    "tier": 2,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Potin Ingot",
+    "resultName": "Potin Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/potin_screw",
+    "input": "item: gtceu:potin_rod",
+    "result": "potin_screw x4",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "punch_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Potin Rod",
+    "resultName": "Potin Screw \u00d74"
+  },
+  {
+    "id": "tfc:anvil/red_alloy_bolt",
+    "input": "item: gtceu:red_alloy_rod",
+    "result": "red_alloy_bolt x4",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Red Alloy Rod",
+    "resultName": "Red Alloy Bolt \u00d74"
+  },
+  {
+    "id": "tfc:anvil/red_alloy_nugget",
+    "input": "item: gtceu:red_alloy_ingot",
+    "result": "red_alloy_nugget x9",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Red Alloy Ingot",
+    "resultName": "Red Alloy Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/red_alloy_sheet",
+    "input": "item: gtceu:red_alloy_double_ingot",
+    "result": "red_alloy_plate",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Red Alloy Double Ingot",
+    "resultName": "Red Alloy Plate"
+  },
+  {
+    "id": "tfc:anvil/red_alloy_rod",
+    "input": "item: gtceu:red_alloy_ingot",
+    "result": "red_alloy_rod x2",
+    "tier": 2,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Red Alloy Ingot",
+    "resultName": "Red Alloy Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/red_alloy_screw",
+    "input": "item: gtceu:red_alloy_rod",
+    "result": "red_alloy_screw x4",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "punch_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Red Alloy Rod",
+    "resultName": "Red Alloy Screw \u00d74"
+  },
+  {
+    "id": "rnr:anvil/bismuth_bronze_mattock_head",
+    "input": "tag: forge:ingots/bismuth_bronze",
+    "result": "rnr:metal/mattock_head/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "punch_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Mattock Head"
+  },
+  {
+    "id": "rnr:anvil/black_bronze_mattock_head",
+    "input": "tag: forge:ingots/black_bronze",
+    "result": "rnr:metal/mattock_head/black_bronze",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "punch_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Mattock Head"
+  },
+  {
+    "id": "rnr:anvil/bronze_mattock_head",
+    "input": "tag: forge:ingots/bronze",
+    "result": "rnr:metal/mattock_head/bronze",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "punch_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Mattock Head"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_small_gear",
+    "input": "item: gtceu:bismuth_bronze_ingot",
+    "result": "small_bismuth_bronze_gear",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "shrink_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Small Bismuth Bronze Gear"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_small_gear",
+    "input": "item: gtceu:black_bronze_ingot",
+    "result": "small_black_bronze_gear",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "shrink_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Small Black Bronze Gear"
+  },
+  {
+    "id": "tfc:anvil/brass_small_gear",
+    "input": "item: create:brass_ingot",
+    "result": "small_brass_gear",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "shrink_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Brass Ingot",
+    "resultName": "Small Brass Gear"
+  },
+  {
+    "id": "tfc:anvil/bronze_small_gear",
+    "input": "item: gtceu:bronze_ingot",
+    "result": "small_bronze_gear",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "shrink_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Small Bronze Gear"
+  },
+  {
+    "id": "tfc:anvil/lead_small_spring",
+    "input": "item: gtceu:lead_rod",
+    "result": "small_lead_spring",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Lead Rod",
+    "resultName": "Small Lead Spring"
+  },
+  {
+    "id": "tfc:anvil/red_alloy_small_gear",
+    "input": "item: gtceu:red_alloy_ingot",
+    "result": "small_red_alloy_gear",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "shrink_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Red Alloy Ingot",
+    "resultName": "Small Red Alloy Gear"
+  },
+  {
+    "id": "tfc:anvil/red_alloy_small_spring",
+    "input": "item: gtceu:red_alloy_rod",
+    "result": "small_red_alloy_spring",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Red Alloy Rod",
+    "resultName": "Small Red Alloy Spring"
+  },
+  {
+    "id": "tfc:anvil/blowpipe",
+    "input": "tag: forge:rods/brass",
+    "result": "tfc:blowpipe",
+    "tier": 2,
+    "rules": [
+      "draw_last",
+      "draw_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Brass Rod",
+    "resultName": "Blowpipe"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_chain",
+    "input": "tag: forge:ingots/bismuth_bronze",
+    "result": "tfc:metal/chain/bismuth_bronze x16",
+    "tier": 2,
+    "rules": [
+      "hit_any",
+      "hit_any",
+      "draw_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Chain \u00d716"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_chain",
+    "input": "tag: forge:ingots/black_bronze",
+    "result": "tfc:metal/chain/black_bronze x16",
+    "tier": 2,
+    "rules": [
+      "hit_any",
+      "hit_any",
+      "draw_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Chain \u00d716"
+  },
+  {
+    "id": "tfc:anvil/bronze_chain",
+    "input": "tag: forge:ingots/bronze",
+    "result": "tfc:metal/chain/bronze x16",
+    "tier": 2,
+    "rules": [
+      "hit_any",
+      "hit_any",
+      "draw_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Chain \u00d716"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_chisel_head",
+    "input": "tag: forge:ingots/bismuth_bronze",
+    "result": "tfc:metal/chisel_head/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Chisel Head"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_chisel_head",
+    "input": "tag: forge:ingots/black_bronze",
+    "result": "tfc:metal/chisel_head/black_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Chisel Head"
+  },
+  {
+    "id": "tfc:anvil/bronze_chisel_head",
+    "input": "tag: forge:ingots/bronze",
+    "result": "tfc:metal/chisel_head/bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Chisel Head"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_fish_hook",
+    "input": "tag: forge:sheets/bismuth_bronze",
+    "result": "tfc:metal/fish_hook/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "draw_not_last",
+      "bend_any",
+      "hit_any"
+    ],
+    "inputName": "Bismuth Bronze Sheet",
+    "resultName": "Bismuth Bronze Fish Hook"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_fish_hook",
+    "input": "tag: forge:sheets/black_bronze",
+    "result": "tfc:metal/fish_hook/black_bronze",
+    "tier": 2,
+    "rules": [
+      "draw_not_last",
+      "bend_any",
+      "hit_any"
+    ],
+    "inputName": "Black Bronze Sheet",
+    "resultName": "Black Bronze Fish Hook"
+  },
+  {
+    "id": "tfc:anvil/bronze_fish_hook",
+    "input": "tag: forge:sheets/bronze",
+    "result": "tfc:metal/fish_hook/bronze",
+    "tier": 2,
+    "rules": [
+      "draw_not_last",
+      "bend_any",
+      "hit_any"
+    ],
+    "inputName": "Bronze Sheet",
+    "resultName": "Bronze Fish Hook"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_javelin_head",
+    "input": "tag: forge:ingots/bismuth_bronze",
+    "result": "tfc:metal/javelin_head/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Javelin Head"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_javelin_head",
+    "input": "tag: forge:ingots/black_bronze",
+    "result": "tfc:metal/javelin_head/black_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Javelin Head"
+  },
+  {
+    "id": "tfc:anvil/bronze_javelin_head",
+    "input": "tag: forge:ingots/bronze",
+    "result": "tfc:metal/javelin_head/bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Javelin Head"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_mace_head",
+    "input": "tag: forge:double_ingots/bismuth_bronze",
+    "result": "tfc:metal/mace_head/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "shrink_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Bismuth Bronze Double Ingot",
+    "resultName": "Bismuth Bronze Mace Head"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_mace_head",
+    "input": "tag: forge:double_ingots/black_bronze",
+    "result": "tfc:metal/mace_head/black_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "shrink_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Black Bronze Double Ingot",
+    "resultName": "Black Bronze Mace Head"
+  },
+  {
+    "id": "tfc:anvil/bronze_mace_head",
+    "input": "tag: forge:double_ingots/bronze",
+    "result": "tfc:metal/mace_head/bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "shrink_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Bronze Double Ingot",
+    "resultName": "Bronze Mace Head"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_propick_head",
+    "input": "tag: forge:ingots/bismuth_bronze",
+    "result": "tfc:metal/propick_head/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "draw_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Prospector's Pick Head"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_propick_head",
+    "input": "tag: forge:ingots/black_bronze",
+    "result": "tfc:metal/propick_head/black_bronze",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "draw_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Prospector's Pick Head"
+  },
+  {
+    "id": "tfc:anvil/bronze_propick_head",
+    "input": "tag: forge:ingots/bronze",
+    "result": "tfc:metal/propick_head/bronze",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "draw_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Prospector's Pick Head"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_shield",
+    "input": "tag: forge:double_sheets/bismuth_bronze",
+    "result": "tfc:metal/shield/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "upset_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Bismuth Bronze Double Sheet",
+    "resultName": "Bismuth Bronze Shield"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_shield",
+    "input": "tag: forge:double_sheets/black_bronze",
+    "result": "tfc:metal/shield/black_bronze",
+    "tier": 2,
+    "rules": [
+      "upset_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Black Bronze Double Sheet",
+    "resultName": "Black Bronze Shield"
+  },
+  {
+    "id": "tfc:anvil/bronze_shield",
+    "input": "tag: forge:double_sheets/bronze",
+    "result": "tfc:metal/shield/bronze",
+    "tier": 2,
+    "rules": [
+      "upset_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Bronze Double Sheet",
+    "resultName": "Bronze Shield"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_trapdoor",
+    "input": "tag: forge:sheets/bismuth_bronze",
+    "result": "tfc:metal/trapdoor/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Bismuth Bronze Sheet",
+    "resultName": "Bismuth Bronze Trapdoor"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_trapdoor",
+    "input": "tag: forge:sheets/black_bronze",
+    "result": "tfc:metal/trapdoor/black_bronze",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Black Bronze Sheet",
+    "resultName": "Black Bronze Trapdoor"
+  },
+  {
+    "id": "tfc:anvil/bronze_trapdoor",
+    "input": "tag: forge:sheets/bronze",
+    "result": "tfc:metal/trapdoor/bronze",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Bronze Sheet",
+    "resultName": "Bronze Trapdoor"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_tuyere",
+    "input": "tag: forge:double_sheets/bismuth_bronze",
+    "result": "tfc:metal/tuyere/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "bend_second_last"
+    ],
+    "inputName": "Bismuth Bronze Double Sheet",
+    "resultName": "Bismuth Bronze Tuyere"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_tuyere",
+    "input": "tag: forge:double_sheets/black_bronze",
+    "result": "tfc:metal/tuyere/black_bronze",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "bend_second_last"
+    ],
+    "inputName": "Black Bronze Double Sheet",
+    "resultName": "Black Bronze Tuyere"
+  },
+  {
+    "id": "tfc:anvil/bronze_tuyere",
+    "input": "tag: forge:double_sheets/bronze",
+    "result": "tfc:metal/tuyere/bronze",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "bend_second_last"
+    ],
+    "inputName": "Bronze Double Sheet",
+    "resultName": "Bronze Tuyere"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_unfinished_boots",
+    "input": "tag: forge:sheets/bismuth_bronze",
+    "result": "tfc:metal/unfinished_boots/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Bismuth Bronze Sheet",
+    "resultName": "Bismuth Bronze Unfinished Boots"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_unfinished_boots",
+    "input": "tag: forge:sheets/black_bronze",
+    "result": "tfc:metal/unfinished_boots/black_bronze",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Black Bronze Sheet",
+    "resultName": "Black Bronze Unfinished Boots"
+  },
+  {
+    "id": "tfc:anvil/bronze_unfinished_boots",
+    "input": "tag: forge:sheets/bronze",
+    "result": "tfc:metal/unfinished_boots/bronze",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Bronze Sheet",
+    "resultName": "Bronze Unfinished Boots"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_unfinished_chestplate",
+    "input": "tag: forge:double_sheets/bismuth_bronze",
+    "result": "tfc:metal/unfinished_chestplate/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Bismuth Bronze Double Sheet",
+    "resultName": "Bismuth Bronze Unfinished Chestplate"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_unfinished_chestplate",
+    "input": "tag: forge:double_sheets/black_bronze",
+    "result": "tfc:metal/unfinished_chestplate/black_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Black Bronze Double Sheet",
+    "resultName": "Black Bronze Unfinished Chestplate"
+  },
+  {
+    "id": "tfc:anvil/bronze_unfinished_chestplate",
+    "input": "tag: forge:double_sheets/bronze",
+    "result": "tfc:metal/unfinished_chestplate/bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Bronze Double Sheet",
+    "resultName": "Bronze Unfinished Chestplate"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_unfinished_greaves",
+    "input": "tag: forge:double_sheets/bismuth_bronze",
+    "result": "tfc:metal/unfinished_greaves/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "bend_any",
+      "draw_any",
+      "hit_any"
+    ],
+    "inputName": "Bismuth Bronze Double Sheet",
+    "resultName": "Bismuth Bronze Unfinished Greaves"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_unfinished_greaves",
+    "input": "tag: forge:double_sheets/black_bronze",
+    "result": "tfc:metal/unfinished_greaves/black_bronze",
+    "tier": 2,
+    "rules": [
+      "bend_any",
+      "draw_any",
+      "hit_any"
+    ],
+    "inputName": "Black Bronze Double Sheet",
+    "resultName": "Black Bronze Unfinished Greaves"
+  },
+  {
+    "id": "tfc:anvil/bronze_unfinished_greaves",
+    "input": "tag: forge:double_sheets/bronze",
+    "result": "tfc:metal/unfinished_greaves/bronze",
+    "tier": 2,
+    "rules": [
+      "bend_any",
+      "draw_any",
+      "hit_any"
+    ],
+    "inputName": "Bronze Double Sheet",
+    "resultName": "Bronze Unfinished Greaves"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_unfinished_helmet",
+    "input": "tag: forge:double_sheets/bismuth_bronze",
+    "result": "tfc:metal/unfinished_helmet/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Bismuth Bronze Double Sheet",
+    "resultName": "Bismuth Bronze Unfinished Helmet"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_unfinished_helmet",
+    "input": "tag: forge:double_sheets/black_bronze",
+    "result": "tfc:metal/unfinished_helmet/black_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Black Bronze Double Sheet",
+    "resultName": "Black Bronze Unfinished Helmet"
+  },
+  {
+    "id": "tfc:anvil/bronze_unfinished_helmet",
+    "input": "tag: forge:double_sheets/bronze",
+    "result": "tfc:metal/unfinished_helmet/bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Bronze Double Sheet",
+    "resultName": "Bronze Unfinished Helmet"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_lamp",
+    "input": "tag: forge:ingots/bismuth_bronze",
+    "result": "tfc:metal/unfinished_lamp/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Unfinished Lamp"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_lamp",
+    "input": "tag: forge:ingots/black_bronze",
+    "result": "tfc:metal/unfinished_lamp/black_bronze",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Unfinished Lamp"
+  },
+  {
+    "id": "tfc:anvil/bronze_lamp",
+    "input": "tag: forge:ingots/bronze",
+    "result": "tfc:metal/unfinished_lamp/bronze",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Unfinished Lamp"
+  },
+  {
+    "id": "tfc:anvil/refined_iron_bloom",
+    "input": "item: tfc:raw_iron_bloom",
+    "result": "tfc:refined_iron_bloom",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Raw Iron Bloom",
+    "resultName": "Refined Iron Bloom"
+  },
+  {
+    "id": "tfchotornot:anvil/tong_part/bismuth_bronze",
+    "input": "tag: forge:ingots/bismuth_bronze",
+    "result": "tfchotornot:tong_part/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Tong Part"
+  },
+  {
+    "id": "tfchotornot:anvil/tong_part/black_bronze",
+    "input": "tag: forge:ingots/black_bronze",
+    "result": "tfchotornot:tong_part/black_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Tong Part"
+  },
+  {
+    "id": "tfchotornot:anvil/tong_part/brass",
+    "input": "tag: forge:ingots/brass",
+    "result": "tfchotornot:tong_part/brass",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Brass Ingot",
+    "resultName": "Brass Tong Part"
+  },
+  {
+    "id": "tfchotornot:anvil/tong_part/bronze",
+    "input": "tag: forge:ingots/bronze",
+    "result": "tfchotornot:tong_part/bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Tong Part"
+  },
+  {
+    "id": "afc:anvil/tree_tap",
+    "input": "item: tfc:metal/sheet/wrought_iron",
+    "result": "afc:tree_tap",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "upset_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Wrought Iron Sheet",
+    "resultName": "Tree Tap"
+  },
+  {
+    "id": "firmaciv:anvil/cannonball",
+    "input": "tag: forge:double_ingots/wrought_iron",
+    "result": "alekiships:cannonball",
+    "tier": 3,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Wrought Iron Double Ingot",
+    "resultName": "Cannonball"
+  },
+  {
+    "id": "tfg:anvil/alekiships/anchor",
+    "input": "tag: forge:double_plates/wrought_iron",
+    "result": "anchor",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "punch_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Wrought Iron",
+    "resultName": "Anchor"
+  },
+  {
+    "id": "tfg:anvil/create_andesite_bars",
+    "input": "tag: forge:ingots/tin_alloy",
+    "result": "andesite_bars x4",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Tin Alloy",
+    "resultName": "Andesite Bars \u00d74"
+  },
+  {
+    "id": "tfg:anvil/create_andesite_bars_double",
+    "input": "tag: forge:double_ingots/tin_alloy",
+    "result": "andesite_bars x8",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Tin Alloy",
+    "resultName": "Andesite Bars \u00d78"
+  },
+  {
+    "id": "tfg:anvil/createdeco_andesite_bars_overlay",
+    "input": "tag: forge:ingots/tin_alloy",
+    "result": "andesite_bars_overlay x4",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Tin Alloy",
+    "resultName": "Andesite Bars Overlay \u00d74"
+  },
+  {
+    "id": "tfg:anvil/createdeco_andesite_bars_overlay_double",
+    "input": "tag: forge:double_ingots/tin_alloy",
+    "result": "andesite_bars_overlay x8",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Tin Alloy",
+    "resultName": "Andesite Bars Overlay \u00d78"
+  },
+  {
+    "id": "tfg:anvil/createdeco_andesite_door",
+    "input": "tag: forge:double_plates/tin_alloy",
+    "result": "andesite_door",
+    "tier": 3,
+    "rules": [
+      "draw_last",
+      "draw_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Tin Alloy",
+    "resultName": "Andesite Door"
+  },
+  {
+    "id": "createdeco:anvil/andesite_trapdoor",
+    "input": "tag: forge:ingots/tin_alloy",
+    "result": "andesite_trapdoor",
+    "tier": 3,
+    "rules": [
+      "shrink_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Tin Alloy",
+    "resultName": "Andesite Trapdoor"
+  },
+  {
+    "id": "sns:anvil/buckle",
+    "input": "tag: forge:plates/wrought_iron",
+    "result": "buckle",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "hit_second_last",
+      "shrink_any"
+    ],
+    "inputName": "Wrought Iron",
+    "resultName": "Buckle"
+  },
+  {
+    "id": "tfc:anvil/iron_sheet",
+    "input": "item: tfc:metal/double_ingot/cast_iron",
+    "result": "cast_iron_sheet",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Cast Iron Double Ingot",
+    "resultName": "Cast Iron Sheet"
+  },
+  {
+    "id": "tfg:anvil/alekiships/cleat",
+    "input": "tag: forge:double_ingots/wrought_iron",
+    "result": "cleat",
+    "tier": 3,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Wrought Iron Double Ingot",
+    "resultName": "Cleat"
+  },
+  {
+    "id": "tfc:anvil/cobalt_brass_bolt",
+    "input": "item: gtceu:cobalt_brass_rod",
+    "result": "cobalt_brass_bolt x4",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Cobalt Brass Rod",
+    "resultName": "Cobalt Brass Bolt \u00d74"
+  },
+  {
+    "id": "tfc:anvil/cobalt_brass_buzzsaw_blade",
+    "input": "item: gtceu:double_cobalt_brass_plate",
+    "result": "cobalt_brass_buzz_saw_blade",
+    "tier": 3,
+    "rules": [
+      "bend_last",
+      "hit_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Cobalt Brass Double Plate",
+    "resultName": "Cobalt Brass Buzz Saw Blade"
+  },
+  {
+    "id": "tfc:anvil/cobalt_brass_nugget",
+    "input": "item: gtceu:cobalt_brass_ingot",
+    "result": "cobalt_brass_nugget x9",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Cobalt Brass Ingot",
+    "resultName": "Cobalt Brass Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/cobalt_brass_sheet",
+    "input": "item: gtceu:cobalt_brass_double_ingot",
+    "result": "cobalt_brass_plate",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Cobalt Brass Double Ingot",
+    "resultName": "Cobalt Brass Plate"
+  },
+  {
+    "id": "tfc:anvil/cobalt_brass_ring",
+    "input": "item: gtceu:cobalt_brass_rod",
+    "result": "cobalt_brass_ring x2",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Cobalt Brass Rod",
+    "resultName": "Cobalt Brass Ring \u00d72"
+  },
+  {
+    "id": "tfc:anvil/cobalt_brass_rod",
+    "input": "item: gtceu:cobalt_brass_ingot",
+    "result": "cobalt_brass_rod x2",
+    "tier": 3,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Cobalt Brass Ingot",
+    "resultName": "Cobalt Brass Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/cobalt_brass_screw",
+    "input": "item: gtceu:cobalt_brass_rod",
+    "result": "cobalt_brass_screw x4",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "punch_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Cobalt Brass Rod",
+    "resultName": "Cobalt Brass Screw \u00d74"
+  },
+  {
+    "id": "tfc:anvil/cobalt_nugget",
+    "input": "item: gtceu:cobalt_ingot",
+    "result": "cobalt_nugget x9",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Cobalt Ingot",
+    "resultName": "Cobalt Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/cobalt_rod",
+    "input": "item: gtceu:cobalt_ingot",
+    "result": "cobalt_rod x2",
+    "tier": 3,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Cobalt Ingot",
+    "resultName": "Cobalt Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/cobalt_sheet",
+    "input": "item: gtceu:cobalt_double_ingot",
+    "result": "cobalt_sheet",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Cobalt Double Ingot",
+    "resultName": "Cobalt Sheet"
+  },
+  {
+    "id": "tfc:anvil/invar_bolt",
+    "input": "item: gtceu:invar_rod",
+    "result": "invar_bolt x4",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Invar Rod",
+    "resultName": "Invar Bolt \u00d74"
+  },
+  {
+    "id": "tfc:anvil/invar_nugget",
+    "input": "item: gtceu:invar_ingot",
+    "result": "invar_nugget x9",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Invar Ingot",
+    "resultName": "Invar Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/invar_ring",
+    "input": "item: gtceu:invar_rod",
+    "result": "invar_ring x2",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Invar Rod",
+    "resultName": "Invar Ring \u00d72"
+  },
+  {
+    "id": "tfc:anvil/invar_rod",
+    "input": "item: gtceu:invar_ingot",
+    "result": "invar_rod x2",
+    "tier": 3,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Invar Ingot",
+    "resultName": "Invar Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/invar_screw",
+    "input": "item: gtceu:invar_rod",
+    "result": "invar_screw x4",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "punch_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Invar Rod",
+    "resultName": "Invar Screw \u00d74"
+  },
+  {
+    "id": "tfc:anvil/invar_sheet",
+    "input": "item: gtceu:invar_double_ingot",
+    "result": "invar_sheet",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Invar Double Ingot",
+    "resultName": "Invar Sheet"
+  },
+  {
+    "id": "tfg:anvil/createdeco_iron_bars_overlay",
+    "input": "tag: forge:ingots/wrought_iron",
+    "result": "iron_bars_overlay x4",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Iron Bars Overlay \u00d74"
+  },
+  {
+    "id": "tfg:anvil/createdeco_iron_bars_overlay_double",
+    "input": "tag: forge:double_ingots/wrought_iron",
+    "result": "iron_bars_overlay x8",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Wrought Iron Double Ingot",
+    "resultName": "Iron Bars Overlay \u00d78"
+  },
+  {
+    "id": "tfc:anvil/iron_bolt",
+    "input": "item: gtceu:iron_rod",
+    "result": "iron_bolt x4",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Iron Rod",
+    "resultName": "Iron Bolt \u00d74"
+  },
+  {
+    "id": "tfc:anvil/iron_nugget",
+    "input": "item: minecraft:iron_ingot",
+    "result": "iron_nugget x9",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Iron Ingot",
+    "resultName": "Iron Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/iron_ring",
+    "input": "item: gtceu:iron_rod",
+    "result": "iron_ring x2",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Iron Rod",
+    "resultName": "Iron Ring \u00d72"
+  },
+  {
+    "id": "tfc:anvil/iron_rod",
+    "input": "item: minecraft:iron_ingot",
+    "result": "iron_rod x2",
+    "tier": 3,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Iron Ingot",
+    "resultName": "Iron Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/iron_screw",
+    "input": "item: gtceu:iron_rod",
+    "result": "iron_screw x4",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "punch_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Iron Rod",
+    "resultName": "Iron Screw \u00d74"
+  },
+  {
+    "id": "tfc:anvil/iron_spring",
+    "input": "item: gtceu:long_iron_rod",
+    "result": "iron_spring",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Long Iron Rod",
+    "resultName": "Iron Spring"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_scraping_knife_blade",
+    "input": "item: gtceu:wrought_iron_double_ingot",
+    "result": "metal/scraping_knife_blade/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "draw_not_last",
+      "draw_second_last"
+    ],
+    "inputName": "Wrought Iron Double Ingot",
+    "resultName": "Wrought Iron Scraping Knife Blade"
+  },
+  {
+    "id": "tfc:anvil/iron_door",
+    "input": "tag: forge:sheets/wrought_iron",
+    "result": "minecraft:iron_door",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "draw_not_last",
+      "punch_not_last"
+    ],
+    "inputName": "Wrought Iron Sheet",
+    "resultName": "Iron Door"
+  },
+  {
+    "id": "rnr:anvil/wrought_iron_mattock_head",
+    "input": "tag: forge:ingots/wrought_iron",
+    "result": "rnr:metal/mattock_head/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "punch_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Mattock Head"
+  },
+  {
+    "id": "tfc:anvil/iron_small_gear",
+    "input": "item: minecraft:iron_ingot",
+    "result": "small_iron_gear",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "shrink_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Iron Ingot",
+    "resultName": "Small Iron Gear"
+  },
+  {
+    "id": "tfc:anvil/iron_small_spring",
+    "input": "item: gtceu:iron_rod",
+    "result": "small_iron_spring",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Iron Rod",
+    "resultName": "Small Iron Spring"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_small_gear",
+    "input": "item: gtceu:wrought_iron_ingot",
+    "result": "small_wrought_iron_gear",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "shrink_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Small Wrought Iron Gear"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_bars_double",
+    "input": "tag: forge:double_sheets/bismuth_bronze",
+    "result": "tfc:metal/bars/bismuth_bronze x16",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Bismuth Bronze Double Sheet",
+    "resultName": "Bismuth Bronze Bars \u00d716"
+  },
+  {
+    "id": "tfc:anvil/bismuth_bronze_bars",
+    "input": "tag: forge:sheets/bismuth_bronze",
+    "result": "tfc:metal/bars/bismuth_bronze x8",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Bismuth Bronze Sheet",
+    "resultName": "Bismuth Bronze Bars \u00d78"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_bars_double",
+    "input": "tag: forge:double_sheets/black_bronze",
+    "result": "tfc:metal/bars/black_bronze x16",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Black Bronze Double Sheet",
+    "resultName": "Black Bronze Bars \u00d716"
+  },
+  {
+    "id": "tfc:anvil/black_bronze_bars",
+    "input": "tag: forge:sheets/black_bronze",
+    "result": "tfc:metal/bars/black_bronze x8",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Black Bronze Sheet",
+    "resultName": "Black Bronze Bars \u00d78"
+  },
+  {
+    "id": "tfc:anvil/black_steel_bars_double",
+    "input": "tag: forge:double_sheets/black_steel",
+    "result": "tfc:metal/bars/black_steel x16",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Black Steel Double Sheet",
+    "resultName": "Black Steel Bars \u00d716"
+  },
+  {
+    "id": "tfc:anvil/black_steel_bars",
+    "input": "tag: forge:sheets/black_steel",
+    "result": "tfc:metal/bars/black_steel x8",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Black Steel Sheet",
+    "resultName": "Black Steel Bars \u00d78"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_bars_double",
+    "input": "tag: forge:double_sheets/blue_steel",
+    "result": "tfc:metal/bars/blue_steel x16",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Blue Steel Double Sheet",
+    "resultName": "Blue Steel Bars \u00d716"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_bars",
+    "input": "tag: forge:sheets/blue_steel",
+    "result": "tfc:metal/bars/blue_steel x8",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Blue Steel Sheet",
+    "resultName": "Blue Steel Bars \u00d78"
+  },
+  {
+    "id": "tfc:anvil/bronze_bars_double",
+    "input": "tag: forge:double_sheets/bronze",
+    "result": "tfc:metal/bars/bronze x16",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Bronze Double Sheet",
+    "resultName": "Bronze Bars \u00d716"
+  },
+  {
+    "id": "tfc:anvil/bronze_bars",
+    "input": "tag: forge:sheets/bronze",
+    "result": "tfc:metal/bars/bronze x8",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Bronze Sheet",
+    "resultName": "Bronze Bars \u00d78"
+  },
+  {
+    "id": "tfc:anvil/copper_bars_double",
+    "input": "tag: forge:double_sheets/copper",
+    "result": "tfc:metal/bars/copper x16",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Copper Double Sheet",
+    "resultName": "Copper Bars \u00d716"
+  },
+  {
+    "id": "tfc:anvil/copper_bars",
+    "input": "tag: forge:sheets/copper",
+    "result": "tfc:metal/bars/copper x8",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Copper Sheet",
+    "resultName": "Copper Bars \u00d78"
+  },
+  {
+    "id": "tfc:anvil/red_steel_bars_double",
+    "input": "tag: forge:double_sheets/red_steel",
+    "result": "tfc:metal/bars/red_steel x16",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Red Steel Double Sheet",
+    "resultName": "Red Steel Bars \u00d716"
+  },
+  {
+    "id": "tfc:anvil/red_steel_bars",
+    "input": "tag: forge:sheets/red_steel",
+    "result": "tfc:metal/bars/red_steel x8",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Red Steel Sheet",
+    "resultName": "Red Steel Bars \u00d78"
+  },
+  {
+    "id": "tfc:anvil/steel_bars_double",
+    "input": "tag: forge:double_sheets/steel",
+    "result": "tfc:metal/bars/steel x16",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Steel Double Sheet",
+    "resultName": "Steel Bars \u00d716"
+  },
+  {
+    "id": "tfc:anvil/steel_bars",
+    "input": "tag: forge:sheets/steel",
+    "result": "tfc:metal/bars/steel x8",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Steel Sheet",
+    "resultName": "Steel Bars \u00d78"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_bars_double",
+    "input": "tag: forge:double_sheets/wrought_iron",
+    "result": "tfc:metal/bars/wrought_iron x16",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Wrought Iron Double Sheet",
+    "resultName": "Wrought Iron Bars \u00d716"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_bars",
+    "input": "tag: forge:sheets/wrought_iron",
+    "result": "tfc:metal/bars/wrought_iron x8",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Wrought Iron Sheet",
+    "resultName": "Wrought Iron Bars \u00d78"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_chain",
+    "input": "tag: forge:ingots/wrought_iron",
+    "result": "tfc:metal/chain/wrought_iron x16",
+    "tier": 3,
+    "rules": [
+      "hit_any",
+      "hit_any",
+      "draw_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Chain \u00d716"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_chisel_head",
+    "input": "tag: forge:ingots/wrought_iron",
+    "result": "tfc:metal/chisel_head/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "hit_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Chisel Head"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_fish_hook",
+    "input": "tag: forge:sheets/wrought_iron",
+    "result": "tfc:metal/fish_hook/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "draw_not_last",
+      "bend_any",
+      "hit_any"
+    ],
+    "inputName": "Wrought Iron Sheet",
+    "resultName": "Wrought Iron Fish Hook"
+  },
+  {
+    "id": "tfc:anvil/high_carbon_steel_ingot",
+    "input": "item: tfc:metal/ingot/pig_iron",
+    "result": "tfc:metal/ingot/high_carbon_steel",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Pig Iron Ingot",
+    "resultName": "High Carbon Steel Ingot"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_javelin_head",
+    "input": "tag: forge:ingots/wrought_iron",
+    "result": "tfc:metal/javelin_head/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Javelin Head"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_mace_head",
+    "input": "tag: forge:double_ingots/wrought_iron",
+    "result": "tfc:metal/mace_head/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "shrink_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Wrought Iron Double Ingot",
+    "resultName": "Wrought Iron Mace Head"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_propick_head",
+    "input": "tag: forge:ingots/wrought_iron",
+    "result": "tfc:metal/propick_head/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "draw_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Prospector's Pick Head"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_shield",
+    "input": "tag: forge:double_sheets/wrought_iron",
+    "result": "tfc:metal/shield/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Wrought Iron Double Sheet",
+    "resultName": "Wrought Iron Shield"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_trapdoor",
+    "input": "tag: forge:sheets/wrought_iron",
+    "result": "tfc:metal/trapdoor/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Wrought Iron Sheet",
+    "resultName": "Wrought Iron Trapdoor"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_tuyere",
+    "input": "tag: forge:double_sheets/wrought_iron",
+    "result": "tfc:metal/tuyere/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "bend_last",
+      "bend_second_last"
+    ],
+    "inputName": "Wrought Iron Double Sheet",
+    "resultName": "Wrought Iron Tuyere"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_unfinished_boots",
+    "input": "tag: forge:sheets/wrought_iron",
+    "result": "tfc:metal/unfinished_boots/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Wrought Iron Sheet",
+    "resultName": "Wrought Iron Unfinished Boots"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_unfinished_chestplate",
+    "input": "tag: forge:double_sheets/wrought_iron",
+    "result": "tfc:metal/unfinished_chestplate/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Wrought Iron Double Sheet",
+    "resultName": "Wrought Iron Unfinished Chestplate"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_unfinished_greaves",
+    "input": "tag: forge:double_sheets/wrought_iron",
+    "result": "tfc:metal/unfinished_greaves/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "bend_any",
+      "draw_any",
+      "hit_any"
+    ],
+    "inputName": "Wrought Iron Double Sheet",
+    "resultName": "Wrought Iron Unfinished Greaves"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_unfinished_helmet",
+    "input": "tag: forge:double_sheets/wrought_iron",
+    "result": "tfc:metal/unfinished_helmet/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Wrought Iron Double Sheet",
+    "resultName": "Wrought Iron Unfinished Helmet"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_lamp",
+    "input": "tag: forge:ingots/wrought_iron",
+    "result": "tfc:metal/unfinished_lamp/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Unfinished Lamp"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_grill",
+    "input": "tag: forge:double_sheets/wrought_iron",
+    "result": "tfc:wrought_iron_grill",
+    "tier": 3,
+    "rules": [
+      "draw_any",
+      "punch_last",
+      "punch_not_last"
+    ],
+    "inputName": "Wrought Iron Double Sheet",
+    "resultName": "Wrought Iron Grill"
+  },
+  {
+    "id": "tfchotornot:anvil/tong_part/wrought_iron",
+    "input": "tag: forge:ingots/wrought_iron",
+    "result": "tfchotornot:tong_part/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Tong Part"
+  },
+  {
+    "id": "tfc:anvil/tin_alloy_bolt",
+    "input": "item: gtceu:tin_alloy_rod",
+    "result": "tin_alloy_bolt x4",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Tin Alloy Rod",
+    "resultName": "Tin Alloy Bolt \u00d74"
+  },
+  {
+    "id": "tfc:anvil/tin_alloy_nugget",
+    "input": "item: gtceu:tin_alloy_ingot",
+    "result": "tin_alloy_nugget x9",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Tin Alloy Ingot",
+    "resultName": "Tin Alloy Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/tin_alloy_sheet",
+    "input": "item: gtceu:tin_alloy_double_ingot",
+    "result": "tin_alloy_plate",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Tin Alloy Double Ingot",
+    "resultName": "Tin Alloy Plate"
+  },
+  {
+    "id": "tfc:anvil/tin_alloy_ring",
+    "input": "item: gtceu:tin_alloy_rod",
+    "result": "tin_alloy_ring x2",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Tin Alloy Rod",
+    "resultName": "Tin Alloy Ring \u00d72"
+  },
+  {
+    "id": "tfc:anvil/tin_alloy_rod",
+    "input": "item: gtceu:tin_alloy_ingot",
+    "result": "tin_alloy_rod x2",
+    "tier": 3,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Tin Alloy Ingot",
+    "resultName": "Tin Alloy Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/tin_alloy_screw",
+    "input": "item: gtceu:tin_alloy_rod",
+    "result": "tin_alloy_screw x4",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "punch_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Tin Alloy Rod",
+    "resultName": "Tin Alloy Screw \u00d74"
+  },
+  {
+    "id": "waterflasks:anvil/unfinished_iron_flask",
+    "input": "tag: forge:sheets/wrought_iron",
+    "result": "waterflasks:unfinished_iron_flask",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Wrought Iron Sheet",
+    "resultName": "Unfinished Iron Flask"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_axe_head",
+    "input": "item: gtceu:wrought_iron_ingot",
+    "result": "wrought_iron_axe_head",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Axe Head"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_bolt",
+    "input": "item: gtceu:wrought_iron_rod",
+    "result": "wrought_iron_bolt x4",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Wrought Iron Rod",
+    "resultName": "Wrought Iron Bolt \u00d74"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_knife_butchery_head",
+    "input": "item: gtceu:wrought_iron_ingot",
+    "result": "wrought_iron_butchery_knife_head",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Butchery Knife Head"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_buzzsaw_blade",
+    "input": "item: gtceu:double_wrought_iron_plate",
+    "result": "wrought_iron_buzz_saw_blade",
+    "tier": 3,
+    "rules": [
+      "bend_last",
+      "hit_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Wrought Iron Double Plate",
+    "resultName": "Wrought Iron Buzz Saw Blade"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_file_head",
+    "input": "item: gtceu:wrought_iron_ingot",
+    "result": "wrought_iron_file_head",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "bend_not_last",
+      "punch_not_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron File Head"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_hammer_head",
+    "input": "item: gtceu:wrought_iron_ingot",
+    "result": "wrought_iron_hammer_head",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Hammer Head"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_hoe_head",
+    "input": "item: gtceu:wrought_iron_ingot",
+    "result": "wrought_iron_hoe_head",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "hit_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Hoe Head"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_from_bloom",
+    "input": "item: tfc:refined_iron_bloom",
+    "result": "wrought_iron_ingot",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Refined Iron Bloom",
+    "resultName": "Wrought Iron Ingot"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_knife_blade",
+    "input": "item: gtceu:wrought_iron_ingot",
+    "result": "wrought_iron_knife_head",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Knife Head"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_mining_hammer_head",
+    "input": "item: gtceu:wrought_iron_double_ingot",
+    "result": "wrought_iron_mining_hammer_head",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Wrought Iron Double Ingot",
+    "resultName": "Wrought Iron Mining Hammer Head"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_nugget",
+    "input": "item: gtceu:wrought_iron_ingot",
+    "result": "wrought_iron_nugget x9",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_pickaxe_head",
+    "input": "item: gtceu:wrought_iron_ingot",
+    "result": "wrought_iron_pickaxe_head",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Pickaxe Head"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_sheet",
+    "input": "item: gtceu:wrought_iron_double_ingot",
+    "result": "wrought_iron_plate",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Wrought Iron Double Ingot",
+    "resultName": "Wrought Iron Plate"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_ring",
+    "input": "item: gtceu:wrought_iron_rod",
+    "result": "wrought_iron_ring x2",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Wrought Iron Rod",
+    "resultName": "Wrought Iron Ring \u00d72"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_rod",
+    "input": "item: gtceu:wrought_iron_ingot",
+    "result": "wrought_iron_rod x2",
+    "tier": 3,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_saw_blade",
+    "input": "item: gtceu:wrought_iron_ingot",
+    "result": "wrought_iron_saw_head",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "hit_second_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Saw Head"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_screw",
+    "input": "item: gtceu:wrought_iron_rod",
+    "result": "wrought_iron_screw x4",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "punch_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Wrought Iron Rod",
+    "resultName": "Wrought Iron Screw \u00d74"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_screwdriver_tip",
+    "input": "item: gtceu:wrought_iron_ingot",
+    "result": "wrought_iron_screwdriver_tip",
+    "tier": 3,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Screwdriver Tip"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_scythe_blade",
+    "input": "item: gtceu:wrought_iron_ingot",
+    "result": "wrought_iron_scythe_head",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Scythe Head"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_shovel_head",
+    "input": "item: gtceu:wrought_iron_ingot",
+    "result": "wrought_iron_shovel_head",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Shovel Head"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_spade_head",
+    "input": "item: gtceu:wrought_iron_double_ingot",
+    "result": "wrought_iron_spade_head",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Wrought Iron Double Ingot",
+    "resultName": "Wrought Iron Spade Head"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_spring",
+    "input": "item: gtceu:long_wrought_iron_rod",
+    "result": "wrought_iron_spring",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Long Wrought Iron Rod",
+    "resultName": "Wrought Iron Spring"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_sword_blade",
+    "input": "item: gtceu:wrought_iron_double_ingot",
+    "result": "wrought_iron_sword_head",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Wrought Iron Double Ingot",
+    "resultName": "Wrought Iron Sword Head"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_wire_cutter_head",
+    "input": "item: gtceu:wrought_iron_double_ingot",
+    "result": "wrought_iron_wire_cutter_head",
+    "tier": 3,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Wrought Iron Double Ingot",
+    "resultName": "Wrought Iron Wire Cutter Head"
+  },
+  {
+    "id": "tfc:anvil/wrought_iron_wrench_tip",
+    "input": "item: gtceu:wrought_iron_double_ingot",
+    "result": "wrought_iron_wrench_tip",
+    "tier": 3,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Wrought Iron Double Ingot",
+    "resultName": "Wrought Iron Wrench Tip"
+  },
+  {
+    "id": "sns:anvil/buckle2",
+    "input": "tag: forge:plates/steel",
+    "result": "buckle x2",
+    "tier": 4,
+    "rules": [
+      "upset_last",
+      "hit_second_last",
+      "shrink_any"
+    ],
+    "inputName": "Steel",
+    "resultName": "Buckle \u00d72"
+  },
+  {
+    "id": "firmalife:anvil/stainless_steel_jar_lid",
+    "input": "tag: forge:ingots/stainless_steel",
+    "result": "firmalife:stainless_steel_jar_lid x16",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Stainless Steel",
+    "resultName": "Stainless Steel Jar Lid \u00d716"
+  },
+  {
+    "id": "tfg:anvil/createdeco_industrial_iron_bars",
+    "input": "tag: forge:ingots/steel",
+    "result": "industrial_iron_bars x4",
+    "tier": 4,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Industrial Iron Bars \u00d74"
+  },
+  {
+    "id": "tfg:anvil/createdeco_industrial_iron_bars_double",
+    "input": "tag: forge:double_ingots/steel",
+    "result": "industrial_iron_bars x8",
+    "tier": 4,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Steel Double Ingot",
+    "resultName": "Industrial Iron Bars \u00d78"
+  },
+  {
+    "id": "tfg:anvil/createdeco_industrial_iron_bars_overlay",
+    "input": "tag: forge:ingots/steel",
+    "result": "industrial_iron_bars_overlay x4",
+    "tier": 4,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Industrial Iron Bars Overlay \u00d74"
+  },
+  {
+    "id": "tfg:anvil/createdeco_industrial_iron_bars_overlay_double",
+    "input": "tag: forge:double_ingots/steel",
+    "result": "industrial_iron_bars_overlay x8",
+    "tier": 4,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Steel Double Ingot",
+    "resultName": "Industrial Iron Bars Overlay \u00d78"
+  },
+  {
+    "id": "tfg:anvil/createdeco_industrial_iron_door",
+    "input": "tag: forge:double_plates/steel",
+    "result": "industrial_iron_door",
+    "tier": 4,
+    "rules": [
+      "draw_last",
+      "draw_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Steel",
+    "resultName": "Industrial Iron Door"
+  },
+  {
+    "id": "tfc:anvil/steel_scraping_knife_blade",
+    "input": "item: gtceu:steel_double_ingot",
+    "result": "metal/scraping_knife_blade/steel",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "draw_not_last",
+      "draw_second_last"
+    ],
+    "inputName": "Steel Double Ingot",
+    "resultName": "Steel Scraping Knife Blade"
+  },
+  {
+    "id": "rnr:anvil/steel_mattock_head",
+    "input": "tag: forge:ingots/steel",
+    "result": "rnr:metal/mattock_head/steel",
+    "tier": 4,
+    "rules": [
+      "punch_last",
+      "punch_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Mattock Head"
+  },
+  {
+    "id": "tfc:anvil/steel_small_gear",
+    "input": "item: gtceu:steel_ingot",
+    "result": "small_steel_gear",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "shrink_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Small Steel Gear"
+  },
+  {
+    "id": "tfc:anvil/steel_small_spring",
+    "input": "item: gtceu:steel_rod",
+    "result": "small_steel_spring",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Steel Rod",
+    "resultName": "Small Steel Spring"
+  },
+  {
+    "id": "sns:anvil/metal/horseshoe/steel",
+    "input": "tag: forge:rods/steel",
+    "result": "sns:metal/horseshoe/steel",
+    "tier": 4,
+    "rules": [
+      "bend_third_last",
+      "bend_second_last",
+      "upset_last"
+    ],
+    "inputName": "Steel Rod",
+    "resultName": "Steel Horseshoe"
+  },
+  {
+    "id": "tfc:anvil/steel_axe_head",
+    "input": "item: gtceu:steel_ingot",
+    "result": "steel_axe_head",
+    "tier": 4,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Axe Head"
+  },
+  {
+    "id": "tfc:anvil/steel_bolt",
+    "input": "item: gtceu:steel_rod",
+    "result": "steel_bolt x4",
+    "tier": 4,
+    "rules": [
+      "punch_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Steel Rod",
+    "resultName": "Steel Bolt \u00d74"
+  },
+  {
+    "id": "tfc:anvil/steel_knife_butchery_head",
+    "input": "item: gtceu:steel_ingot",
+    "result": "steel_butchery_knife_head",
+    "tier": 4,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Butchery Knife Head"
+  },
+  {
+    "id": "tfc:anvil/steel_file_head",
+    "input": "item: gtceu:steel_ingot",
+    "result": "steel_file_head",
+    "tier": 4,
+    "rules": [
+      "upset_last",
+      "bend_not_last",
+      "punch_not_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel File Head"
+  },
+  {
+    "id": "tfc:anvil/steel_hammer_head",
+    "input": "item: gtceu:steel_ingot",
+    "result": "steel_hammer_head",
+    "tier": 4,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Hammer Head"
+  },
+  {
+    "id": "tfc:anvil/steel_hoe_head",
+    "input": "item: gtceu:steel_ingot",
+    "result": "steel_hoe_head",
+    "tier": 4,
+    "rules": [
+      "punch_last",
+      "hit_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Hoe Head"
+  },
+  {
+    "id": "tfc:anvil/steel_ingot",
+    "input": "item: tfc:metal/ingot/high_carbon_steel",
+    "result": "steel_ingot",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "High Carbon Steel Ingot",
+    "resultName": "Steel Ingot"
+  },
+  {
+    "id": "tfc:anvil/steel_knife_blade",
+    "input": "item: gtceu:steel_ingot",
+    "result": "steel_knife_head",
+    "tier": 4,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Knife Head"
+  },
+  {
+    "id": "tfc:anvil/steel_mining_hammer_head",
+    "input": "item: gtceu:steel_double_ingot",
+    "result": "steel_mining_hammer_head",
+    "tier": 4,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Steel Double Ingot",
+    "resultName": "Steel Mining Hammer Head"
+  },
+  {
+    "id": "tfc:anvil/steel_nugget",
+    "input": "item: gtceu:steel_ingot",
+    "result": "steel_nugget x9",
+    "tier": 4,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/steel_pickaxe_head",
+    "input": "item: gtceu:steel_ingot",
+    "result": "steel_pickaxe_head",
+    "tier": 4,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Pickaxe Head"
+  },
+  {
+    "id": "tfc:anvil/steel_sheet",
+    "input": "item: gtceu:steel_double_ingot",
+    "result": "steel_plate",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Steel Double Ingot",
+    "resultName": "Steel Plate"
+  },
+  {
+    "id": "tfc:anvil/steel_ring",
+    "input": "item: gtceu:steel_rod",
+    "result": "steel_ring x2",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Steel Rod",
+    "resultName": "Steel Ring \u00d72"
+  },
+  {
+    "id": "tfc:anvil/steel_rod",
+    "input": "item: gtceu:steel_ingot",
+    "result": "steel_rod x2",
+    "tier": 4,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/steel_saw_blade",
+    "input": "item: gtceu:steel_ingot",
+    "result": "steel_saw_head",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "hit_second_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Saw Head"
+  },
+  {
+    "id": "tfc:anvil/steel_screw",
+    "input": "item: gtceu:steel_rod",
+    "result": "steel_screw x4",
+    "tier": 4,
+    "rules": [
+      "punch_last",
+      "punch_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Steel Rod",
+    "resultName": "Steel Screw \u00d74"
+  },
+  {
+    "id": "tfc:anvil/steel_screwdriver_tip",
+    "input": "item: gtceu:steel_ingot",
+    "result": "steel_screwdriver_tip",
+    "tier": 4,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Screwdriver Tip"
+  },
+  {
+    "id": "tfc:anvil/steel_scythe_blade",
+    "input": "item: gtceu:steel_ingot",
+    "result": "steel_scythe_head",
+    "tier": 4,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Scythe Head"
+  },
+  {
+    "id": "tfc:anvil/steel_shovel_head",
+    "input": "item: gtceu:steel_ingot",
+    "result": "steel_shovel_head",
+    "tier": 4,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Shovel Head"
+  },
+  {
+    "id": "tfc:anvil/steel_spade_head",
+    "input": "item: gtceu:steel_double_ingot",
+    "result": "steel_spade_head",
+    "tier": 4,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Steel Double Ingot",
+    "resultName": "Steel Spade Head"
+  },
+  {
+    "id": "tfc:anvil/steel_spring",
+    "input": "item: gtceu:long_steel_rod",
+    "result": "steel_spring",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Long Steel Rod",
+    "resultName": "Steel Spring"
+  },
+  {
+    "id": "tfg:anvil/steel_support",
+    "input": "tag: forge:double_ingots/steel",
+    "result": "steel_support",
+    "tier": 4,
+    "rules": [
+      "upset_last",
+      "shrink_any"
+    ],
+    "inputName": "Steel Double Ingot",
+    "resultName": "Steel Support"
+  },
+  {
+    "id": "tfc:anvil/steel_sword_blade",
+    "input": "item: gtceu:steel_double_ingot",
+    "result": "steel_sword_head",
+    "tier": 4,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Steel Double Ingot",
+    "resultName": "Steel Sword Head"
+  },
+  {
+    "id": "tfc:anvil/steel_wire_cutter_head",
+    "input": "item: gtceu:steel_double_ingot",
+    "result": "steel_wire_cutter_head",
+    "tier": 4,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Steel Double Ingot",
+    "resultName": "Steel Wire Cutter Head"
+  },
+  {
+    "id": "tfc:anvil/steel_wrench_tip",
+    "input": "item: gtceu:steel_double_ingot",
+    "result": "steel_wrench_tip",
+    "tier": 4,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Steel Double Ingot",
+    "resultName": "Steel Wrench Tip"
+  },
+  {
+    "id": "tfc:anvil/steel_chain",
+    "input": "tag: forge:ingots/steel",
+    "result": "tfc:metal/chain/steel x16",
+    "tier": 4,
+    "rules": [
+      "hit_any",
+      "hit_any",
+      "draw_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Chain \u00d716"
+  },
+  {
+    "id": "tfc:anvil/steel_chisel_head",
+    "input": "tag: forge:ingots/steel",
+    "result": "tfc:metal/chisel_head/steel",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "hit_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Chisel Head"
+  },
+  {
+    "id": "tfc:anvil/steel_fish_hook",
+    "input": "tag: forge:sheets/steel",
+    "result": "tfc:metal/fish_hook/steel",
+    "tier": 4,
+    "rules": [
+      "draw_not_last",
+      "bend_any",
+      "hit_any"
+    ],
+    "inputName": "Steel Sheet",
+    "resultName": "Steel Fish Hook"
+  },
+  {
+    "id": "tfc:anvil/black_steel_ingot",
+    "input": "item: tfc:metal/ingot/high_carbon_black_steel",
+    "result": "tfc:metal/ingot/black_steel",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "High Carbon Black Steel Ingot",
+    "resultName": "Black Steel Ingot"
+  },
+  {
+    "id": "tfc:anvil/steel_javelin_head",
+    "input": "tag: forge:ingots/steel",
+    "result": "tfc:metal/javelin_head/steel",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Javelin Head"
+  },
+  {
+    "id": "tfc:anvil/steel_mace_head",
+    "input": "tag: forge:double_ingots/steel",
+    "result": "tfc:metal/mace_head/steel",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "shrink_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Steel Double Ingot",
+    "resultName": "Steel Mace Head"
+  },
+  {
+    "id": "tfc:anvil/steel_propick_head",
+    "input": "tag: forge:ingots/steel",
+    "result": "tfc:metal/propick_head/steel",
+    "tier": 4,
+    "rules": [
+      "punch_last",
+      "draw_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Prospector's Pick Head"
+  },
+  {
+    "id": "tfc:anvil/steel_shield",
+    "input": "tag: forge:double_sheets/steel",
+    "result": "tfc:metal/shield/steel",
+    "tier": 4,
+    "rules": [
+      "upset_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Steel Double Sheet",
+    "resultName": "Steel Shield"
+  },
+  {
+    "id": "tfc:anvil/steel_trapdoor",
+    "input": "tag: forge:sheets/steel",
+    "result": "tfc:metal/trapdoor/steel",
+    "tier": 4,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Steel Sheet",
+    "resultName": "Steel Trapdoor"
+  },
+  {
+    "id": "tfc:anvil/steel_tuyere",
+    "input": "tag: forge:double_sheets/steel",
+    "result": "tfc:metal/tuyere/steel",
+    "tier": 4,
+    "rules": [
+      "bend_last",
+      "bend_second_last"
+    ],
+    "inputName": "Steel Double Sheet",
+    "resultName": "Steel Tuyere"
+  },
+  {
+    "id": "tfc:anvil/steel_unfinished_boots",
+    "input": "tag: forge:sheets/steel",
+    "result": "tfc:metal/unfinished_boots/steel",
+    "tier": 4,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Steel Sheet",
+    "resultName": "Steel Unfinished Boots"
+  },
+  {
+    "id": "tfc:anvil/steel_unfinished_chestplate",
+    "input": "tag: forge:double_sheets/steel",
+    "result": "tfc:metal/unfinished_chestplate/steel",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Steel Double Sheet",
+    "resultName": "Steel Unfinished Chestplate"
+  },
+  {
+    "id": "tfc:anvil/steel_unfinished_greaves",
+    "input": "tag: forge:double_sheets/steel",
+    "result": "tfc:metal/unfinished_greaves/steel",
+    "tier": 4,
+    "rules": [
+      "bend_any",
+      "draw_any",
+      "hit_any"
+    ],
+    "inputName": "Steel Double Sheet",
+    "resultName": "Steel Unfinished Greaves"
+  },
+  {
+    "id": "tfc:anvil/steel_unfinished_helmet",
+    "input": "tag: forge:double_sheets/steel",
+    "result": "tfc:metal/unfinished_helmet/steel",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Steel Double Sheet",
+    "resultName": "Steel Unfinished Helmet"
+  },
+  {
+    "id": "tfc:anvil/steel_lamp",
+    "input": "tag: forge:ingots/steel",
+    "result": "tfc:metal/unfinished_lamp/steel",
+    "tier": 4,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Unfinished Lamp"
+  },
+  {
+    "id": "tfchotornot:anvil/tong_part/steel",
+    "input": "tag: forge:ingots/steel",
+    "result": "tfchotornot:tong_part/steel",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Tong Part"
+  },
+  {
+    "id": "tfc:anvil/black_steel_axe_head",
+    "input": "item: tfc:metal/ingot/black_steel",
+    "result": "black_steel_axe_head",
+    "tier": 5,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Axe Head"
+  },
+  {
+    "id": "tfc:anvil/black_steel_bolt",
+    "input": "item: gtceu:black_steel_rod",
+    "result": "black_steel_bolt x4",
+    "tier": 5,
+    "rules": [
+      "punch_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Black Steel Rod",
+    "resultName": "Black Steel Bolt \u00d74"
+  },
+  {
+    "id": "tfc:anvil/black_steel_knife_butchery_head",
+    "input": "item: tfc:metal/ingot/black_steel",
+    "result": "black_steel_butchery_knife_head",
+    "tier": 5,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Butchery Knife Head"
+  },
+  {
+    "id": "tfc:anvil/black_steel_file_head",
+    "input": "item: tfc:metal/ingot/black_steel",
+    "result": "black_steel_file_head",
+    "tier": 5,
+    "rules": [
+      "upset_last",
+      "bend_not_last",
+      "punch_not_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel File Head"
+  },
+  {
+    "id": "tfc:anvil/black_steel_hammer_head",
+    "input": "item: tfc:metal/ingot/black_steel",
+    "result": "black_steel_hammer_head",
+    "tier": 5,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Hammer Head"
+  },
+  {
+    "id": "tfc:anvil/black_steel_hoe_head",
+    "input": "item: tfc:metal/ingot/black_steel",
+    "result": "black_steel_hoe_head",
+    "tier": 5,
+    "rules": [
+      "punch_last",
+      "hit_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Hoe Head"
+  },
+  {
+    "id": "tfc:anvil/black_steel_knife_blade",
+    "input": "item: tfc:metal/ingot/black_steel",
+    "result": "black_steel_knife_head",
+    "tier": 5,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Knife Head"
+  },
+  {
+    "id": "tfc:anvil/black_steel_mining_hammer_head",
+    "input": "item: tfc:metal/double_ingot/black_steel",
+    "result": "black_steel_mining_hammer_head",
+    "tier": 5,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Black Steel Double Ingot",
+    "resultName": "Black Steel Mining Hammer Head"
+  },
+  {
+    "id": "tfc:anvil/black_steel_nugget",
+    "input": "item: tfc:metal/ingot/black_steel",
+    "result": "black_steel_nugget x9",
+    "tier": 5,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/black_steel_pickaxe_head",
+    "input": "item: tfc:metal/ingot/black_steel",
+    "result": "black_steel_pickaxe_head",
+    "tier": 5,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Pickaxe Head"
+  },
+  {
+    "id": "tfc:anvil/black_steel_sheet",
+    "input": "item: tfc:metal/double_ingot/black_steel",
+    "result": "black_steel_plate",
+    "tier": 5,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Black Steel Double Ingot",
+    "resultName": "Black Steel Plate"
+  },
+  {
+    "id": "tfc:anvil/black_steel_ring",
+    "input": "item: gtceu:black_steel_rod",
+    "result": "black_steel_ring x2",
+    "tier": 5,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Black Steel Rod",
+    "resultName": "Black Steel Ring \u00d72"
+  },
+  {
+    "id": "tfc:anvil/black_steel_rod",
+    "input": "item: tfc:metal/ingot/black_steel",
+    "result": "black_steel_rod x2",
+    "tier": 5,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/black_steel_saw_blade",
+    "input": "item: tfc:metal/ingot/black_steel",
+    "result": "black_steel_saw_head",
+    "tier": 5,
+    "rules": [
+      "hit_last",
+      "hit_second_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Saw Head"
+  },
+  {
+    "id": "tfc:anvil/black_steel_screw",
+    "input": "item: gtceu:black_steel_rod",
+    "result": "black_steel_screw x4",
+    "tier": 5,
+    "rules": [
+      "punch_last",
+      "punch_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Black Steel Rod",
+    "resultName": "Black Steel Screw \u00d74"
+  },
+  {
+    "id": "tfc:anvil/black_steel_screwdriver_tip",
+    "input": "item: tfc:metal/ingot/black_steel",
+    "result": "black_steel_screwdriver_tip",
+    "tier": 5,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Screwdriver Tip"
+  },
+  {
+    "id": "tfc:anvil/black_steel_scythe_blade",
+    "input": "item: tfc:metal/ingot/black_steel",
+    "result": "black_steel_scythe_head",
+    "tier": 5,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Scythe Head"
+  },
+  {
+    "id": "tfc:anvil/black_steel_shovel_head",
+    "input": "item: tfc:metal/ingot/black_steel",
+    "result": "black_steel_shovel_head",
+    "tier": 5,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Shovel Head"
+  },
+  {
+    "id": "tfc:anvil/black_steel_spade_head",
+    "input": "item: tfc:metal/double_ingot/black_steel",
+    "result": "black_steel_spade_head",
+    "tier": 5,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Black Steel Double Ingot",
+    "resultName": "Black Steel Spade Head"
+  },
+  {
+    "id": "tfc:anvil/black_steel_sword_blade",
+    "input": "item: tfc:metal/double_ingot/black_steel",
+    "result": "black_steel_sword_head",
+    "tier": 5,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Black Steel Double Ingot",
+    "resultName": "Black Steel Sword Head"
+  },
+  {
+    "id": "tfc:anvil/black_steel_wire_cutter_head",
+    "input": "item: tfc:metal/double_ingot/black_steel",
+    "result": "black_steel_wire_cutter_head",
+    "tier": 5,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Black Steel Double Ingot",
+    "resultName": "Black Steel Wire Cutter Head"
+  },
+  {
+    "id": "tfc:anvil/black_steel_wrench_tip",
+    "input": "item: tfc:metal/double_ingot/black_steel",
+    "result": "black_steel_wrench_tip",
+    "tier": 5,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Black Steel Double Ingot",
+    "resultName": "Black Steel Wrench Tip"
+  },
+  {
+    "id": "tfc:anvil/black_steel_scraping_knife_blade",
+    "input": "item: tfc:metal/double_ingot/black_steel",
+    "result": "metal/scraping_knife_blade/black_steel",
+    "tier": 5,
+    "rules": [
+      "hit_last",
+      "draw_not_last",
+      "draw_second_last"
+    ],
+    "inputName": "Black Steel Double Ingot",
+    "resultName": "Black Steel Scraping Knife Blade"
+  },
+  {
+    "id": "rnr:anvil/black_steel_mattock_head",
+    "input": "tag: forge:ingots/black_steel",
+    "result": "rnr:metal/mattock_head/black_steel",
+    "tier": 5,
+    "rules": [
+      "punch_last",
+      "punch_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Mattock Head"
+  },
+  {
+    "id": "sns:anvil/metal/horseshoe/black_steel",
+    "input": "tag: forge:rods/black_steel",
+    "result": "sns:metal/horseshoe/black_steel",
+    "tier": 5,
+    "rules": [
+      "bend_third_last",
+      "bend_second_last",
+      "upset_last"
+    ],
+    "inputName": "Black Steel Rod",
+    "resultName": "Black Steel Horseshoe"
+  },
+  {
+    "id": "tfc:anvil/black_steel_chain",
+    "input": "tag: forge:ingots/black_steel",
+    "result": "tfc:metal/chain/black_steel x16",
+    "tier": 5,
+    "rules": [
+      "hit_any",
+      "hit_any",
+      "draw_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Chain \u00d716"
+  },
+  {
+    "id": "tfc:anvil/black_steel_chisel_head",
+    "input": "tag: forge:ingots/black_steel",
+    "result": "tfc:metal/chisel_head/black_steel",
+    "tier": 5,
+    "rules": [
+      "hit_last",
+      "hit_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Chisel Head"
+  },
+  {
+    "id": "tfc:anvil/black_steel_fish_hook",
+    "input": "tag: forge:sheets/black_steel",
+    "result": "tfc:metal/fish_hook/black_steel",
+    "tier": 5,
+    "rules": [
+      "draw_not_last",
+      "bend_any",
+      "hit_any"
+    ],
+    "inputName": "Black Steel Sheet",
+    "resultName": "Black Steel Fish Hook"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_ingot",
+    "input": "item: tfc:metal/ingot/high_carbon_blue_steel",
+    "result": "tfc:metal/ingot/blue_steel",
+    "tier": 5,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "High Carbon Blue Steel Ingot",
+    "resultName": "Blue Steel Ingot"
+  },
+  {
+    "id": "tfc:anvil/red_steel_ingot",
+    "input": "item: tfc:metal/ingot/high_carbon_red_steel",
+    "result": "tfc:metal/ingot/red_steel",
+    "tier": 5,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "High Carbon Red Steel Ingot",
+    "resultName": "Red Steel Ingot"
+  },
+  {
+    "id": "tfc:anvil/black_steel_javelin_head",
+    "input": "tag: forge:ingots/black_steel",
+    "result": "tfc:metal/javelin_head/black_steel",
+    "tier": 5,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Javelin Head"
+  },
+  {
+    "id": "tfc:anvil/black_steel_mace_head",
+    "input": "tag: forge:double_ingots/black_steel",
+    "result": "tfc:metal/mace_head/black_steel",
+    "tier": 5,
+    "rules": [
+      "hit_last",
+      "shrink_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Black Steel Double Ingot",
+    "resultName": "Black Steel Mace Head"
+  },
+  {
+    "id": "tfc:anvil/black_steel_propick_head",
+    "input": "tag: forge:ingots/black_steel",
+    "result": "tfc:metal/propick_head/black_steel",
+    "tier": 5,
+    "rules": [
+      "punch_last",
+      "draw_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Prospector's Pick Head"
+  },
+  {
+    "id": "tfc:anvil/black_steel_shield",
+    "input": "tag: forge:double_sheets/black_steel",
+    "result": "tfc:metal/shield/black_steel",
+    "tier": 5,
+    "rules": [
+      "upset_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Black Steel Double Sheet",
+    "resultName": "Black Steel Shield"
+  },
+  {
+    "id": "tfc:anvil/black_steel_trapdoor",
+    "input": "tag: forge:sheets/black_steel",
+    "result": "tfc:metal/trapdoor/black_steel",
+    "tier": 5,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Black Steel Sheet",
+    "resultName": "Black Steel Trapdoor"
+  },
+  {
+    "id": "tfc:anvil/black_steel_tuyere",
+    "input": "tag: forge:double_sheets/black_steel",
+    "result": "tfc:metal/tuyere/black_steel",
+    "tier": 5,
+    "rules": [
+      "bend_last",
+      "bend_second_last"
+    ],
+    "inputName": "Black Steel Double Sheet",
+    "resultName": "Black Steel Tuyere"
+  },
+  {
+    "id": "tfc:anvil/black_steel_unfinished_boots",
+    "input": "tag: forge:sheets/black_steel",
+    "result": "tfc:metal/unfinished_boots/black_steel",
+    "tier": 5,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Black Steel Sheet",
+    "resultName": "Black Steel Unfinished Boots"
+  },
+  {
+    "id": "tfc:anvil/black_steel_unfinished_chestplate",
+    "input": "tag: forge:double_sheets/black_steel",
+    "result": "tfc:metal/unfinished_chestplate/black_steel",
+    "tier": 5,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Black Steel Double Sheet",
+    "resultName": "Black Steel Unfinished Chestplate"
+  },
+  {
+    "id": "tfc:anvil/black_steel_unfinished_greaves",
+    "input": "tag: forge:double_sheets/black_steel",
+    "result": "tfc:metal/unfinished_greaves/black_steel",
+    "tier": 5,
+    "rules": [
+      "bend_any",
+      "draw_any",
+      "hit_any"
+    ],
+    "inputName": "Black Steel Double Sheet",
+    "resultName": "Black Steel Unfinished Greaves"
+  },
+  {
+    "id": "tfc:anvil/black_steel_unfinished_helmet",
+    "input": "tag: forge:double_sheets/black_steel",
+    "result": "tfc:metal/unfinished_helmet/black_steel",
+    "tier": 5,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Black Steel Double Sheet",
+    "resultName": "Black Steel Unfinished Helmet"
+  },
+  {
+    "id": "tfc:anvil/black_steel_lamp",
+    "input": "tag: forge:ingots/black_steel",
+    "result": "tfc:metal/unfinished_lamp/black_steel",
+    "tier": 5,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Unfinished Lamp"
+  },
+  {
+    "id": "tfchotornot:anvil/tong_part/black_steel",
+    "input": "tag: forge:ingots/black_steel",
+    "result": "tfchotornot:tong_part/black_steel",
+    "tier": 5,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Tong Part"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_axe_head",
+    "input": "item: tfc:metal/ingot/blue_steel",
+    "result": "blue_steel_axe_head",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Axe Head"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_bolt",
+    "input": "item: gtceu:blue_steel_rod",
+    "result": "blue_steel_bolt x4",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Blue Steel Rod",
+    "resultName": "Blue Steel Bolt \u00d74"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_knife_butchery_head",
+    "input": "item: tfc:metal/ingot/blue_steel",
+    "result": "blue_steel_butchery_knife_head",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Butchery Knife Head"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_buzzsaw_blade",
+    "input": "item: gtceu:double_blue_steel_plate",
+    "result": "blue_steel_buzz_saw_blade",
+    "tier": 6,
+    "rules": [
+      "bend_last",
+      "hit_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Blue Steel Double Plate",
+    "resultName": "Blue Steel Buzz Saw Blade"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_file_head",
+    "input": "item: tfc:metal/ingot/blue_steel",
+    "result": "blue_steel_file_head",
+    "tier": 6,
+    "rules": [
+      "upset_last",
+      "bend_not_last",
+      "punch_not_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel File Head"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_hammer_head",
+    "input": "item: tfc:metal/ingot/blue_steel",
+    "result": "blue_steel_hammer_head",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Hammer Head"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_hoe_head",
+    "input": "item: tfc:metal/ingot/blue_steel",
+    "result": "blue_steel_hoe_head",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "hit_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Hoe Head"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_knife_blade",
+    "input": "item: tfc:metal/ingot/blue_steel",
+    "result": "blue_steel_knife_head",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Knife Head"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_mining_hammer_head",
+    "input": "item: tfc:metal/double_ingot/blue_steel",
+    "result": "blue_steel_mining_hammer_head",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Blue Steel Double Ingot",
+    "resultName": "Blue Steel Mining Hammer Head"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_nugget",
+    "input": "item: tfc:metal/ingot/blue_steel",
+    "result": "blue_steel_nugget x9",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_pickaxe_head",
+    "input": "item: tfc:metal/ingot/blue_steel",
+    "result": "blue_steel_pickaxe_head",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Pickaxe Head"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_sheet",
+    "input": "item: tfc:metal/double_ingot/blue_steel",
+    "result": "blue_steel_plate",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Blue Steel Double Ingot",
+    "resultName": "Blue Steel Plate"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_rod",
+    "input": "item: tfc:metal/ingot/blue_steel",
+    "result": "blue_steel_rod x2",
+    "tier": 6,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_saw_blade",
+    "input": "item: tfc:metal/ingot/blue_steel",
+    "result": "blue_steel_saw_head",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "hit_second_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Saw Head"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_screw",
+    "input": "item: gtceu:blue_steel_rod",
+    "result": "blue_steel_screw x4",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "punch_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Blue Steel Rod",
+    "resultName": "Blue Steel Screw \u00d74"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_screwdriver_tip",
+    "input": "item: tfc:metal/ingot/blue_steel",
+    "result": "blue_steel_screwdriver_tip",
+    "tier": 6,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Screwdriver Tip"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_scythe_blade",
+    "input": "item: tfc:metal/ingot/blue_steel",
+    "result": "blue_steel_scythe_head",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Scythe Head"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_shovel_head",
+    "input": "item: tfc:metal/ingot/blue_steel",
+    "result": "blue_steel_shovel_head",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Shovel Head"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_spade_head",
+    "input": "item: tfc:metal/double_ingot/blue_steel",
+    "result": "blue_steel_spade_head",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Blue Steel Double Ingot",
+    "resultName": "Blue Steel Spade Head"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_spring",
+    "input": "item: gtceu:long_blue_steel_rod",
+    "result": "blue_steel_spring",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Long Blue Steel Rod",
+    "resultName": "Blue Steel Spring"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_sword_blade",
+    "input": "item: tfc:metal/double_ingot/blue_steel",
+    "result": "blue_steel_sword_head",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Blue Steel Double Ingot",
+    "resultName": "Blue Steel Sword Head"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_wire_cutter_head",
+    "input": "item: tfc:metal/double_ingot/blue_steel",
+    "result": "blue_steel_wire_cutter_head",
+    "tier": 6,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Blue Steel Double Ingot",
+    "resultName": "Blue Steel Wire Cutter Head"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_wrench_tip",
+    "input": "item: tfc:metal/double_ingot/blue_steel",
+    "result": "blue_steel_wrench_tip",
+    "tier": 6,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Blue Steel Double Ingot",
+    "resultName": "Blue Steel Wrench Tip"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_scraping_knife_blade",
+    "input": "item: tfc:metal/double_ingot/blue_steel",
+    "result": "metal/scraping_knife_blade/blue_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "draw_not_last",
+      "draw_second_last"
+    ],
+    "inputName": "Blue Steel Double Ingot",
+    "resultName": "Blue Steel Scraping Knife Blade"
+  },
+  {
+    "id": "tfc:anvil/red_steel_scraping_knife_blade",
+    "input": "item: tfc:metal/double_ingot/red_steel",
+    "result": "metal/scraping_knife_blade/red_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "draw_not_last",
+      "draw_second_last"
+    ],
+    "inputName": "Red Steel Double Ingot",
+    "resultName": "Red Steel Scraping Knife Blade"
+  },
+  {
+    "id": "tfc:anvil/red_steel_axe_head",
+    "input": "item: tfc:metal/ingot/red_steel",
+    "result": "red_steel_axe_head",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Axe Head"
+  },
+  {
+    "id": "tfc:anvil/red_steel_bolt",
+    "input": "item: gtceu:red_steel_rod",
+    "result": "red_steel_bolt x4",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Red Steel Rod",
+    "resultName": "Red Steel Bolt \u00d74"
+  },
+  {
+    "id": "tfc:anvil/red_steel_knife_butchery_head",
+    "input": "item: tfc:metal/ingot/red_steel",
+    "result": "red_steel_butchery_knife_head",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Butchery Knife Head"
+  },
+  {
+    "id": "tfc:anvil/red_steel_buzzsaw_blade",
+    "input": "item: gtceu:double_red_steel_plate",
+    "result": "red_steel_buzz_saw_blade",
+    "tier": 6,
+    "rules": [
+      "bend_last",
+      "hit_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Red Steel Double Plate",
+    "resultName": "Red Steel Buzz Saw Blade"
+  },
+  {
+    "id": "tfc:anvil/red_steel_file_head",
+    "input": "item: tfc:metal/ingot/red_steel",
+    "result": "red_steel_file_head",
+    "tier": 6,
+    "rules": [
+      "upset_last",
+      "bend_not_last",
+      "punch_not_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel File Head"
+  },
+  {
+    "id": "tfc:anvil/red_steel_hammer_head",
+    "input": "item: tfc:metal/ingot/red_steel",
+    "result": "red_steel_hammer_head",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Hammer Head"
+  },
+  {
+    "id": "tfc:anvil/red_steel_hoe_head",
+    "input": "item: tfc:metal/ingot/red_steel",
+    "result": "red_steel_hoe_head",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "hit_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Hoe Head"
+  },
+  {
+    "id": "tfc:anvil/red_steel_knife_blade",
+    "input": "item: tfc:metal/ingot/red_steel",
+    "result": "red_steel_knife_head",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Knife Head"
+  },
+  {
+    "id": "tfc:anvil/red_steel_mining_hammer_head",
+    "input": "item: tfc:metal/double_ingot/red_steel",
+    "result": "red_steel_mining_hammer_head",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Red Steel Double Ingot",
+    "resultName": "Red Steel Mining Hammer Head"
+  },
+  {
+    "id": "tfc:anvil/red_steel_nugget",
+    "input": "item: tfc:metal/ingot/red_steel",
+    "result": "red_steel_nugget x9",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/red_steel_pickaxe_head",
+    "input": "item: tfc:metal/ingot/red_steel",
+    "result": "red_steel_pickaxe_head",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Pickaxe Head"
+  },
+  {
+    "id": "tfc:anvil/red_steel_sheet",
+    "input": "item: tfc:metal/double_ingot/red_steel",
+    "result": "red_steel_plate",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Red Steel Double Ingot",
+    "resultName": "Red Steel Plate"
+  },
+  {
+    "id": "tfc:anvil/red_steel_rod",
+    "input": "item: tfc:metal/ingot/red_steel",
+    "result": "red_steel_rod x2",
+    "tier": 6,
+    "rules": [
+      "draw_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Rod \u00d72"
+  },
+  {
+    "id": "tfc:anvil/red_steel_saw_blade",
+    "input": "item: tfc:metal/ingot/red_steel",
+    "result": "red_steel_saw_head",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "hit_second_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Saw Head"
+  },
+  {
+    "id": "tfc:anvil/red_steel_screw",
+    "input": "item: gtceu:red_steel_rod",
+    "result": "red_steel_screw x4",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "punch_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Red Steel Rod",
+    "resultName": "Red Steel Screw \u00d74"
+  },
+  {
+    "id": "tfc:anvil/red_steel_screwdriver_tip",
+    "input": "item: tfc:metal/ingot/red_steel",
+    "result": "red_steel_screwdriver_tip",
+    "tier": 6,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Screwdriver Tip"
+  },
+  {
+    "id": "tfc:anvil/red_steel_scythe_blade",
+    "input": "item: tfc:metal/ingot/red_steel",
+    "result": "red_steel_scythe_head",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Scythe Head"
+  },
+  {
+    "id": "tfc:anvil/red_steel_shovel_head",
+    "input": "item: tfc:metal/ingot/red_steel",
+    "result": "red_steel_shovel_head",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Shovel Head"
+  },
+  {
+    "id": "tfc:anvil/red_steel_spade_head",
+    "input": "item: tfc:metal/double_ingot/red_steel",
+    "result": "red_steel_spade_head",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Red Steel Double Ingot",
+    "resultName": "Red Steel Spade Head"
+  },
+  {
+    "id": "tfc:anvil/red_steel_sword_blade",
+    "input": "item: tfc:metal/double_ingot/red_steel",
+    "result": "red_steel_sword_head",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Red Steel Double Ingot",
+    "resultName": "Red Steel Sword Head"
+  },
+  {
+    "id": "tfc:anvil/red_steel_wire_cutter_head",
+    "input": "item: tfc:metal/double_ingot/red_steel",
+    "result": "red_steel_wire_cutter_head",
+    "tier": 6,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Red Steel Double Ingot",
+    "resultName": "Red Steel Wire Cutter Head"
+  },
+  {
+    "id": "tfc:anvil/red_steel_wrench_tip",
+    "input": "item: tfc:metal/double_ingot/red_steel",
+    "result": "red_steel_wrench_tip",
+    "tier": 6,
+    "rules": [
+      "draw_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Red Steel Double Ingot",
+    "resultName": "Red Steel Wrench Tip"
+  },
+  {
+    "id": "rnr:anvil/blue_steel_mattock_head",
+    "input": "tag: forge:ingots/blue_steel",
+    "result": "rnr:metal/mattock_head/blue_steel",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "punch_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Mattock Head"
+  },
+  {
+    "id": "rnr:anvil/red_steel_mattock_head",
+    "input": "tag: forge:ingots/red_steel",
+    "result": "rnr:metal/mattock_head/red_steel",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "punch_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Mattock Head"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_small_gear",
+    "input": "item: tfc:metal/ingot/blue_steel",
+    "result": "small_blue_steel_gear",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "shrink_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Small Blue Steel Gear"
+  },
+  {
+    "id": "sns:anvil/metal/horseshoe/blue_steel",
+    "input": "tag: forge:rods/blue_steel",
+    "result": "sns:metal/horseshoe/blue_steel",
+    "tier": 6,
+    "rules": [
+      "bend_third_last",
+      "bend_second_last",
+      "upset_last"
+    ],
+    "inputName": "Blue Steel Rod",
+    "resultName": "Blue Steel Horseshoe"
+  },
+  {
+    "id": "sns:anvil/metal/horseshoe/red_steel",
+    "input": "tag: forge:rods/red_steel",
+    "result": "sns:metal/horseshoe/red_steel",
+    "tier": 6,
+    "rules": [
+      "bend_third_last",
+      "bend_second_last",
+      "upset_last"
+    ],
+    "inputName": "Red Steel Rod",
+    "resultName": "Red Steel Horseshoe"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_bucket",
+    "input": "tag: forge:sheets/blue_steel",
+    "result": "tfc:metal/bucket/blue_steel",
+    "tier": 6,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Blue Steel Sheet",
+    "resultName": "Blue Steel Bucket"
+  },
+  {
+    "id": "tfc:anvil/red_steel_bucket",
+    "input": "tag: forge:sheets/red_steel",
+    "result": "tfc:metal/bucket/red_steel",
+    "tier": 6,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Red Steel Sheet",
+    "resultName": "Red Steel Bucket"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_chain",
+    "input": "tag: forge:ingots/blue_steel",
+    "result": "tfc:metal/chain/blue_steel x16",
+    "tier": 6,
+    "rules": [
+      "hit_any",
+      "hit_any",
+      "draw_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Chain \u00d716"
+  },
+  {
+    "id": "tfc:anvil/red_steel_chain",
+    "input": "tag: forge:ingots/red_steel",
+    "result": "tfc:metal/chain/red_steel x16",
+    "tier": 6,
+    "rules": [
+      "hit_any",
+      "hit_any",
+      "draw_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Chain \u00d716"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_chisel_head",
+    "input": "tag: forge:ingots/blue_steel",
+    "result": "tfc:metal/chisel_head/blue_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "hit_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Chisel Head"
+  },
+  {
+    "id": "tfc:anvil/red_steel_chisel_head",
+    "input": "tag: forge:ingots/red_steel",
+    "result": "tfc:metal/chisel_head/red_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "hit_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Chisel Head"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_fish_hook",
+    "input": "tag: forge:sheets/blue_steel",
+    "result": "tfc:metal/fish_hook/blue_steel",
+    "tier": 6,
+    "rules": [
+      "draw_not_last",
+      "bend_any",
+      "hit_any"
+    ],
+    "inputName": "Blue Steel Sheet",
+    "resultName": "Blue Steel Fish Hook"
+  },
+  {
+    "id": "tfc:anvil/red_steel_fish_hook",
+    "input": "tag: forge:sheets/red_steel",
+    "result": "tfc:metal/fish_hook/red_steel",
+    "tier": 6,
+    "rules": [
+      "draw_not_last",
+      "bend_any",
+      "hit_any"
+    ],
+    "inputName": "Red Steel Sheet",
+    "resultName": "Red Steel Fish Hook"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_javelin_head",
+    "input": "tag: forge:ingots/blue_steel",
+    "result": "tfc:metal/javelin_head/blue_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Javelin Head"
+  },
+  {
+    "id": "tfc:anvil/red_steel_javelin_head",
+    "input": "tag: forge:ingots/red_steel",
+    "result": "tfc:metal/javelin_head/red_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Javelin Head"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_mace_head",
+    "input": "tag: forge:double_ingots/blue_steel",
+    "result": "tfc:metal/mace_head/blue_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "shrink_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Blue Steel Double Ingot",
+    "resultName": "Blue Steel Mace Head"
+  },
+  {
+    "id": "tfc:anvil/red_steel_mace_head",
+    "input": "tag: forge:double_ingots/red_steel",
+    "result": "tfc:metal/mace_head/red_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "shrink_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Red Steel Double Ingot",
+    "resultName": "Red Steel Mace Head"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_propick_head",
+    "input": "tag: forge:ingots/blue_steel",
+    "result": "tfc:metal/propick_head/blue_steel",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "draw_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Prospector's Pick Head"
+  },
+  {
+    "id": "tfc:anvil/red_steel_propick_head",
+    "input": "tag: forge:ingots/red_steel",
+    "result": "tfc:metal/propick_head/red_steel",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "draw_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Prospector's Pick Head"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_shield",
+    "input": "tag: forge:double_sheets/blue_steel",
+    "result": "tfc:metal/shield/blue_steel",
+    "tier": 6,
+    "rules": [
+      "upset_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Blue Steel Double Sheet",
+    "resultName": "Blue Steel Shield"
+  },
+  {
+    "id": "tfc:anvil/red_steel_shield",
+    "input": "tag: forge:double_sheets/red_steel",
+    "result": "tfc:metal/shield/red_steel",
+    "tier": 6,
+    "rules": [
+      "upset_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Red Steel Double Sheet",
+    "resultName": "Red Steel Shield"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_trapdoor",
+    "input": "tag: forge:sheets/blue_steel",
+    "result": "tfc:metal/trapdoor/blue_steel",
+    "tier": 6,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Blue Steel Sheet",
+    "resultName": "Blue Steel Trapdoor"
+  },
+  {
+    "id": "tfc:anvil/red_steel_trapdoor",
+    "input": "tag: forge:sheets/red_steel",
+    "result": "tfc:metal/trapdoor/red_steel",
+    "tier": 6,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Red Steel Sheet",
+    "resultName": "Red Steel Trapdoor"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_tuyere",
+    "input": "tag: forge:double_sheets/blue_steel",
+    "result": "tfc:metal/tuyere/blue_steel",
+    "tier": 6,
+    "rules": [
+      "bend_last",
+      "bend_second_last"
+    ],
+    "inputName": "Blue Steel Double Sheet",
+    "resultName": "Blue Steel Tuyere"
+  },
+  {
+    "id": "tfc:anvil/red_steel_tuyere",
+    "input": "tag: forge:double_sheets/red_steel",
+    "result": "tfc:metal/tuyere/red_steel",
+    "tier": 6,
+    "rules": [
+      "bend_last",
+      "bend_second_last"
+    ],
+    "inputName": "Red Steel Double Sheet",
+    "resultName": "Red Steel Tuyere"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_unfinished_boots",
+    "input": "tag: forge:sheets/blue_steel",
+    "result": "tfc:metal/unfinished_boots/blue_steel",
+    "tier": 6,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Blue Steel Sheet",
+    "resultName": "Blue Steel Unfinished Boots"
+  },
+  {
+    "id": "tfc:anvil/red_steel_unfinished_boots",
+    "input": "tag: forge:sheets/red_steel",
+    "result": "tfc:metal/unfinished_boots/red_steel",
+    "tier": 6,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Red Steel Sheet",
+    "resultName": "Red Steel Unfinished Boots"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_unfinished_chestplate",
+    "input": "tag: forge:double_sheets/blue_steel",
+    "result": "tfc:metal/unfinished_chestplate/blue_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Blue Steel Double Sheet",
+    "resultName": "Blue Steel Unfinished Chestplate"
+  },
+  {
+    "id": "tfc:anvil/red_steel_unfinished_chestplate",
+    "input": "tag: forge:double_sheets/red_steel",
+    "result": "tfc:metal/unfinished_chestplate/red_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Red Steel Double Sheet",
+    "resultName": "Red Steel Unfinished Chestplate"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_unfinished_greaves",
+    "input": "tag: forge:double_sheets/blue_steel",
+    "result": "tfc:metal/unfinished_greaves/blue_steel",
+    "tier": 6,
+    "rules": [
+      "bend_any",
+      "draw_any",
+      "hit_any"
+    ],
+    "inputName": "Blue Steel Double Sheet",
+    "resultName": "Blue Steel Unfinished Greaves"
+  },
+  {
+    "id": "tfc:anvil/red_steel_unfinished_greaves",
+    "input": "tag: forge:double_sheets/red_steel",
+    "result": "tfc:metal/unfinished_greaves/red_steel",
+    "tier": 6,
+    "rules": [
+      "bend_any",
+      "draw_any",
+      "hit_any"
+    ],
+    "inputName": "Red Steel Double Sheet",
+    "resultName": "Red Steel Unfinished Greaves"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_unfinished_helmet",
+    "input": "tag: forge:double_sheets/blue_steel",
+    "result": "tfc:metal/unfinished_helmet/blue_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Blue Steel Double Sheet",
+    "resultName": "Blue Steel Unfinished Helmet"
+  },
+  {
+    "id": "tfc:anvil/red_steel_unfinished_helmet",
+    "input": "tag: forge:double_sheets/red_steel",
+    "result": "tfc:metal/unfinished_helmet/red_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Red Steel Double Sheet",
+    "resultName": "Red Steel Unfinished Helmet"
+  },
+  {
+    "id": "tfc:anvil/blue_steel_lamp",
+    "input": "tag: forge:ingots/blue_steel",
+    "result": "tfc:metal/unfinished_lamp/blue_steel",
+    "tier": 6,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Unfinished Lamp"
+  },
+  {
+    "id": "tfc:anvil/red_steel_lamp",
+    "input": "tag: forge:ingots/red_steel",
+    "result": "tfc:metal/unfinished_lamp/red_steel",
+    "tier": 6,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Unfinished Lamp"
+  },
+  {
+    "id": "tfchotornot:anvil/tong_part/blue_steel",
+    "input": "tag: forge:ingots/blue_steel",
+    "result": "tfchotornot:tong_part/blue_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Tong Part"
+  },
+  {
+    "id": "tfchotornot:anvil/tong_part/red_steel",
+    "input": "tag: forge:ingots/red_steel",
+    "result": "tfchotornot:tong_part/red_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Tong Part"
+  },
+  {
+    "id": "waterflasks:anvil/unfinished_red_steel_flask",
+    "input": "tag: forge:sheets/red_steel",
+    "result": "waterflasks:unfinished_red_steel_flask",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Red Steel Sheet",
+    "resultName": "Unfinished Red Steel Flask"
+  },
+  {
+    "id": "tfc:anvil/weak_blue_steel_nugget",
+    "input": "item: tfc:metal/ingot/weak_blue_steel",
+    "result": "weak_blue_steel_nugget x9",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Weak Blue Steel Ingot",
+    "resultName": "Weak Blue Steel Nugget \u00d79"
+  },
+  {
+    "id": "tfc:anvil/weak_red_steel_nugget",
+    "input": "item: tfc:metal/ingot/weak_red_steel",
+    "result": "weak_red_steel_nugget x9",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Weak Red Steel Ingot",
+    "resultName": "Weak Red Steel Nugget \u00d79"
+  }
+]

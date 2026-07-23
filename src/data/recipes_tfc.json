@@ -1,0 +1,3579 @@
+[
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\jar_lid.json",
+    "input": "tag: forge:ingots/tin",
+    "result": "tfc:jar_lid x16",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Tin Ingot",
+    "resultName": "Jar Lid \u00d716"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_axe_head.json",
+    "input": "tag: forge:ingots/copper",
+    "result": "tfc:metal/axe_head/copper",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Axe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_chain.json",
+    "input": "tag: forge:ingots/copper",
+    "result": "tfc:metal/chain/copper x16",
+    "tier": 1,
+    "rules": [
+      "hit_any",
+      "hit_any",
+      "draw_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Chain \u00d716"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_chisel_head.json",
+    "input": "tag: forge:ingots/copper",
+    "result": "tfc:metal/chisel_head/copper",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Chisel Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_fish_hook.json",
+    "input": "tag: forge:sheets/copper",
+    "result": "tfc:metal/fish_hook/copper",
+    "tier": 1,
+    "rules": [
+      "draw_not_last",
+      "bend_any",
+      "hit_any"
+    ],
+    "inputName": "Copper Sheet",
+    "resultName": "Copper Fish Hook"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_hammer_head.json",
+    "input": "tag: forge:ingots/copper",
+    "result": "tfc:metal/hammer_head/copper",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Hammer Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_hoe_head.json",
+    "input": "tag: forge:ingots/copper",
+    "result": "tfc:metal/hoe_head/copper",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "hit_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Hoe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_javelin_head.json",
+    "input": "tag: forge:ingots/copper",
+    "result": "tfc:metal/javelin_head/copper",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Javelin Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_knife_blade.json",
+    "input": "tag: forge:ingots/copper",
+    "result": "tfc:metal/knife_blade/copper",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Knife Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_mace_head.json",
+    "input": "tag: forge:double_ingots/copper",
+    "result": "tfc:metal/mace_head/copper",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "shrink_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Copper Double Ingot",
+    "resultName": "Copper Mace Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_pickaxe_head.json",
+    "input": "tag: forge:ingots/copper",
+    "result": "tfc:metal/pickaxe_head/copper",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Pickaxe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_propick_head.json",
+    "input": "tag: forge:ingots/copper",
+    "result": "tfc:metal/propick_head/copper",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "draw_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Prospector's Pick Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_rod.json",
+    "input": "tag: forge:ingots/bismuth",
+    "result": "tfc:metal/rod/bismuth x2",
+    "tier": 1,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Bismuth Ingot",
+    "resultName": "Bismuth Rod \u00d72"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\cast_iron_rod.json",
+    "input": "tag: forge:ingots/cast_iron",
+    "result": "tfc:metal/rod/cast_iron x2",
+    "tier": 1,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Cast Iron Ingot",
+    "resultName": "Cast Iron Rod \u00d72"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_rod.json",
+    "input": "tag: forge:ingots/copper",
+    "result": "tfc:metal/rod/copper x2",
+    "tier": 1,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Rod \u00d72"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\gold_rod.json",
+    "input": "tag: forge:ingots/gold",
+    "result": "tfc:metal/rod/gold x2",
+    "tier": 1,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Gold Ingot",
+    "resultName": "Gold Rod \u00d72"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\nickel_rod.json",
+    "input": "tag: forge:ingots/nickel",
+    "result": "tfc:metal/rod/nickel x2",
+    "tier": 1,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Nickel Ingot",
+    "resultName": "Nickel Rod \u00d72"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\rose_gold_rod.json",
+    "input": "tag: forge:ingots/rose_gold",
+    "result": "tfc:metal/rod/rose_gold x2",
+    "tier": 1,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Rose Gold Ingot",
+    "resultName": "Rose Gold Rod \u00d72"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\silver_rod.json",
+    "input": "tag: forge:ingots/silver",
+    "result": "tfc:metal/rod/silver x2",
+    "tier": 1,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Silver Ingot",
+    "resultName": "Silver Rod \u00d72"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\sterling_silver_rod.json",
+    "input": "tag: forge:ingots/sterling_silver",
+    "result": "tfc:metal/rod/sterling_silver x2",
+    "tier": 1,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Sterling Silver Ingot",
+    "resultName": "Sterling Silver Rod \u00d72"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\tin_rod.json",
+    "input": "tag: forge:ingots/tin",
+    "result": "tfc:metal/rod/tin x2",
+    "tier": 1,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Tin Ingot",
+    "resultName": "Tin Rod \u00d72"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\zinc_rod.json",
+    "input": "tag: forge:ingots/zinc",
+    "result": "tfc:metal/rod/zinc x2",
+    "tier": 1,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Zinc Ingot",
+    "resultName": "Zinc Rod \u00d72"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_saw_blade.json",
+    "input": "tag: forge:ingots/copper",
+    "result": "tfc:metal/saw_blade/copper",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Saw Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_scythe_blade.json",
+    "input": "tag: forge:ingots/copper",
+    "result": "tfc:metal/scythe_blade/copper",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Scythe Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_sheet.json",
+    "input": "tag: forge:double_ingots/bismuth",
+    "result": "tfc:metal/sheet/bismuth",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Bismuth Double Ingot",
+    "resultName": "Bismuth Sheet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\cast_iron_sheet.json",
+    "input": "tag: forge:double_ingots/cast_iron",
+    "result": "tfc:metal/sheet/cast_iron",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Cast Iron Double Ingot",
+    "resultName": "Cast Iron Sheet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_sheet.json",
+    "input": "tag: forge:double_ingots/copper",
+    "result": "tfc:metal/sheet/copper",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Copper Double Ingot",
+    "resultName": "Copper Sheet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\gold_sheet.json",
+    "input": "tag: forge:double_ingots/gold",
+    "result": "tfc:metal/sheet/gold",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Gold Double Ingot",
+    "resultName": "Gold Sheet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\nickel_sheet.json",
+    "input": "tag: forge:double_ingots/nickel",
+    "result": "tfc:metal/sheet/nickel",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Nickel Double Ingot",
+    "resultName": "Nickel Sheet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\rose_gold_sheet.json",
+    "input": "tag: forge:double_ingots/rose_gold",
+    "result": "tfc:metal/sheet/rose_gold",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Rose Gold Double Ingot",
+    "resultName": "Rose Gold Sheet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\silver_sheet.json",
+    "input": "tag: forge:double_ingots/silver",
+    "result": "tfc:metal/sheet/silver",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Silver Double Ingot",
+    "resultName": "Silver Sheet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\sterling_silver_sheet.json",
+    "input": "tag: forge:double_ingots/sterling_silver",
+    "result": "tfc:metal/sheet/sterling_silver",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Sterling Silver Double Ingot",
+    "resultName": "Sterling Silver Sheet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\tin_sheet.json",
+    "input": "tag: forge:double_ingots/tin",
+    "result": "tfc:metal/sheet/tin",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Tin Double Ingot",
+    "resultName": "Tin Sheet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\zinc_sheet.json",
+    "input": "tag: forge:double_ingots/zinc",
+    "result": "tfc:metal/sheet/zinc",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Zinc Double Ingot",
+    "resultName": "Zinc Sheet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_shield.json",
+    "input": "tag: forge:double_sheets/copper",
+    "result": "tfc:metal/shield/copper",
+    "tier": 1,
+    "rules": [
+      "upset_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Copper Double Sheet",
+    "resultName": "Copper Shield"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_shovel_head.json",
+    "input": "tag: forge:ingots/copper",
+    "result": "tfc:metal/shovel_head/copper",
+    "tier": 1,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Shovel Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_sword_blade.json",
+    "input": "tag: forge:double_ingots/copper",
+    "result": "tfc:metal/sword_blade/copper",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Copper Double Ingot",
+    "resultName": "Copper Sword Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_trapdoor.json",
+    "input": "tag: forge:sheets/copper",
+    "result": "tfc:metal/trapdoor/copper",
+    "tier": 1,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Copper Sheet",
+    "resultName": "Copper Trapdoor"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_tuyere.json",
+    "input": "tag: forge:double_sheets/copper",
+    "result": "tfc:metal/tuyere/copper",
+    "tier": 1,
+    "rules": [
+      "bend_last",
+      "bend_second_last"
+    ],
+    "inputName": "Copper Double Sheet",
+    "resultName": "Copper Tuyere"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_unfinished_boots.json",
+    "input": "tag: forge:sheets/copper",
+    "result": "tfc:metal/unfinished_boots/copper",
+    "tier": 1,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Copper Sheet",
+    "resultName": "Copper Unfinished Boots"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_unfinished_chestplate.json",
+    "input": "tag: forge:double_sheets/copper",
+    "result": "tfc:metal/unfinished_chestplate/copper",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Copper Double Sheet",
+    "resultName": "Copper Unfinished Chestplate"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_unfinished_greaves.json",
+    "input": "tag: forge:double_sheets/copper",
+    "result": "tfc:metal/unfinished_greaves/copper",
+    "tier": 1,
+    "rules": [
+      "bend_any",
+      "draw_any",
+      "hit_any"
+    ],
+    "inputName": "Copper Double Sheet",
+    "resultName": "Copper Unfinished Greaves"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_unfinished_helmet.json",
+    "input": "tag: forge:double_sheets/copper",
+    "result": "tfc:metal/unfinished_helmet/copper",
+    "tier": 1,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Copper Double Sheet",
+    "resultName": "Copper Unfinished Helmet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_lamp.json",
+    "input": "tag: forge:ingots/copper",
+    "result": "tfc:metal/unfinished_lamp/copper",
+    "tier": 1,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Copper Ingot",
+    "resultName": "Copper Unfinished Lamp"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blowpipe.json",
+    "input": "tag: forge:rods/brass",
+    "result": "tfc:blowpipe",
+    "tier": 2,
+    "rules": [
+      "draw_last",
+      "draw_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Brass Rod",
+    "resultName": "Blowpipe"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\brass_mechanisms.json",
+    "input": "tag: forge:ingots/brass",
+    "result": "tfc:brass_mechanisms x2",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Brass Ingot",
+    "resultName": "Brass Mechanisms \u00d72"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_axe_head.json",
+    "input": "tag: forge:ingots/bismuth_bronze",
+    "result": "tfc:metal/axe_head/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Axe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_axe_head.json",
+    "input": "tag: forge:ingots/black_bronze",
+    "result": "tfc:metal/axe_head/black_bronze",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Axe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_axe_head.json",
+    "input": "tag: forge:ingots/bronze",
+    "result": "tfc:metal/axe_head/bronze",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Axe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_chain.json",
+    "input": "tag: forge:ingots/bismuth_bronze",
+    "result": "tfc:metal/chain/bismuth_bronze x16",
+    "tier": 2,
+    "rules": [
+      "hit_any",
+      "hit_any",
+      "draw_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Chain \u00d716"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_chain.json",
+    "input": "tag: forge:ingots/black_bronze",
+    "result": "tfc:metal/chain/black_bronze x16",
+    "tier": 2,
+    "rules": [
+      "hit_any",
+      "hit_any",
+      "draw_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Chain \u00d716"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_chain.json",
+    "input": "tag: forge:ingots/bronze",
+    "result": "tfc:metal/chain/bronze x16",
+    "tier": 2,
+    "rules": [
+      "hit_any",
+      "hit_any",
+      "draw_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Chain \u00d716"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_chisel_head.json",
+    "input": "tag: forge:ingots/bismuth_bronze",
+    "result": "tfc:metal/chisel_head/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Chisel Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_chisel_head.json",
+    "input": "tag: forge:ingots/black_bronze",
+    "result": "tfc:metal/chisel_head/black_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Chisel Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_chisel_head.json",
+    "input": "tag: forge:ingots/bronze",
+    "result": "tfc:metal/chisel_head/bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Chisel Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_fish_hook.json",
+    "input": "tag: forge:sheets/bismuth_bronze",
+    "result": "tfc:metal/fish_hook/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "draw_not_last",
+      "bend_any",
+      "hit_any"
+    ],
+    "inputName": "Bismuth Bronze Sheet",
+    "resultName": "Bismuth Bronze Fish Hook"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_fish_hook.json",
+    "input": "tag: forge:sheets/black_bronze",
+    "result": "tfc:metal/fish_hook/black_bronze",
+    "tier": 2,
+    "rules": [
+      "draw_not_last",
+      "bend_any",
+      "hit_any"
+    ],
+    "inputName": "Black Bronze Sheet",
+    "resultName": "Black Bronze Fish Hook"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_fish_hook.json",
+    "input": "tag: forge:sheets/bronze",
+    "result": "tfc:metal/fish_hook/bronze",
+    "tier": 2,
+    "rules": [
+      "draw_not_last",
+      "bend_any",
+      "hit_any"
+    ],
+    "inputName": "Bronze Sheet",
+    "resultName": "Bronze Fish Hook"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_hammer_head.json",
+    "input": "tag: forge:ingots/bismuth_bronze",
+    "result": "tfc:metal/hammer_head/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Hammer Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_hammer_head.json",
+    "input": "tag: forge:ingots/black_bronze",
+    "result": "tfc:metal/hammer_head/black_bronze",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Hammer Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_hammer_head.json",
+    "input": "tag: forge:ingots/bronze",
+    "result": "tfc:metal/hammer_head/bronze",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Hammer Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_hoe_head.json",
+    "input": "tag: forge:ingots/bismuth_bronze",
+    "result": "tfc:metal/hoe_head/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Hoe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_hoe_head.json",
+    "input": "tag: forge:ingots/black_bronze",
+    "result": "tfc:metal/hoe_head/black_bronze",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Hoe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_hoe_head.json",
+    "input": "tag: forge:ingots/bronze",
+    "result": "tfc:metal/hoe_head/bronze",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Hoe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_from_bloom.json",
+    "input": "item: tfc:refined_iron_bloom",
+    "result": "tfc:metal/ingot/wrought_iron",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Refined Iron Bloom",
+    "resultName": "Wrought Iron Ingot"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_javelin_head.json",
+    "input": "tag: forge:ingots/bismuth_bronze",
+    "result": "tfc:metal/javelin_head/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Javelin Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_javelin_head.json",
+    "input": "tag: forge:ingots/black_bronze",
+    "result": "tfc:metal/javelin_head/black_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Javelin Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_javelin_head.json",
+    "input": "tag: forge:ingots/bronze",
+    "result": "tfc:metal/javelin_head/bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Javelin Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_knife_blade.json",
+    "input": "tag: forge:ingots/bismuth_bronze",
+    "result": "tfc:metal/knife_blade/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Knife Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_knife_blade.json",
+    "input": "tag: forge:ingots/black_bronze",
+    "result": "tfc:metal/knife_blade/black_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Knife Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_knife_blade.json",
+    "input": "tag: forge:ingots/bronze",
+    "result": "tfc:metal/knife_blade/bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Knife Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_mace_head.json",
+    "input": "tag: forge:double_ingots/bismuth_bronze",
+    "result": "tfc:metal/mace_head/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "shrink_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Bismuth Bronze Double Ingot",
+    "resultName": "Bismuth Bronze Mace Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_mace_head.json",
+    "input": "tag: forge:double_ingots/black_bronze",
+    "result": "tfc:metal/mace_head/black_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "shrink_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Black Bronze Double Ingot",
+    "resultName": "Black Bronze Mace Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_mace_head.json",
+    "input": "tag: forge:double_ingots/bronze",
+    "result": "tfc:metal/mace_head/bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "shrink_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Bronze Double Ingot",
+    "resultName": "Bronze Mace Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_pickaxe_head.json",
+    "input": "tag: forge:ingots/bismuth_bronze",
+    "result": "tfc:metal/pickaxe_head/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Pickaxe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_pickaxe_head.json",
+    "input": "tag: forge:ingots/black_bronze",
+    "result": "tfc:metal/pickaxe_head/black_bronze",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Pickaxe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_pickaxe_head.json",
+    "input": "tag: forge:ingots/bronze",
+    "result": "tfc:metal/pickaxe_head/bronze",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Pickaxe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_propick_head.json",
+    "input": "tag: forge:ingots/bismuth_bronze",
+    "result": "tfc:metal/propick_head/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "draw_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Prospector's Pick Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_propick_head.json",
+    "input": "tag: forge:ingots/black_bronze",
+    "result": "tfc:metal/propick_head/black_bronze",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "draw_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Prospector's Pick Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_propick_head.json",
+    "input": "tag: forge:ingots/bronze",
+    "result": "tfc:metal/propick_head/bronze",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "draw_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Prospector's Pick Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_rod.json",
+    "input": "tag: forge:ingots/bismuth_bronze",
+    "result": "tfc:metal/rod/bismuth_bronze x2",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Rod \u00d72"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_rod.json",
+    "input": "tag: forge:ingots/black_bronze",
+    "result": "tfc:metal/rod/black_bronze x2",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Rod \u00d72"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\brass_rod.json",
+    "input": "tag: forge:ingots/brass",
+    "result": "tfc:metal/rod/brass x2",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Brass Ingot",
+    "resultName": "Brass Rod \u00d72"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_rod.json",
+    "input": "tag: forge:ingots/bronze",
+    "result": "tfc:metal/rod/bronze x2",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Rod \u00d72"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_saw_blade.json",
+    "input": "tag: forge:ingots/bismuth_bronze",
+    "result": "tfc:metal/saw_blade/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Saw Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_saw_blade.json",
+    "input": "tag: forge:ingots/black_bronze",
+    "result": "tfc:metal/saw_blade/black_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Saw Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_saw_blade.json",
+    "input": "tag: forge:ingots/bronze",
+    "result": "tfc:metal/saw_blade/bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Saw Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_scythe_blade.json",
+    "input": "tag: forge:ingots/bismuth_bronze",
+    "result": "tfc:metal/scythe_blade/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Scythe Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_scythe_blade.json",
+    "input": "tag: forge:ingots/black_bronze",
+    "result": "tfc:metal/scythe_blade/black_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Scythe Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_scythe_blade.json",
+    "input": "tag: forge:ingots/bronze",
+    "result": "tfc:metal/scythe_blade/bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Scythe Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_sheet.json",
+    "input": "tag: forge:double_ingots/bismuth_bronze",
+    "result": "tfc:metal/sheet/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Bismuth Bronze Double Ingot",
+    "resultName": "Bismuth Bronze Sheet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_sheet.json",
+    "input": "tag: forge:double_ingots/black_bronze",
+    "result": "tfc:metal/sheet/black_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Black Bronze Double Ingot",
+    "resultName": "Black Bronze Sheet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\brass_sheet.json",
+    "input": "tag: forge:double_ingots/brass",
+    "result": "tfc:metal/sheet/brass",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Brass Double Ingot",
+    "resultName": "Brass Sheet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_sheet.json",
+    "input": "tag: forge:double_ingots/bronze",
+    "result": "tfc:metal/sheet/bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Bronze Double Ingot",
+    "resultName": "Bronze Sheet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_shield.json",
+    "input": "tag: forge:double_sheets/bismuth_bronze",
+    "result": "tfc:metal/shield/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "upset_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Bismuth Bronze Double Sheet",
+    "resultName": "Bismuth Bronze Shield"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_shield.json",
+    "input": "tag: forge:double_sheets/black_bronze",
+    "result": "tfc:metal/shield/black_bronze",
+    "tier": 2,
+    "rules": [
+      "upset_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Black Bronze Double Sheet",
+    "resultName": "Black Bronze Shield"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_shield.json",
+    "input": "tag: forge:double_sheets/bronze",
+    "result": "tfc:metal/shield/bronze",
+    "tier": 2,
+    "rules": [
+      "upset_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Bronze Double Sheet",
+    "resultName": "Bronze Shield"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_shovel_head.json",
+    "input": "tag: forge:ingots/bismuth_bronze",
+    "result": "tfc:metal/shovel_head/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Shovel Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_shovel_head.json",
+    "input": "tag: forge:ingots/black_bronze",
+    "result": "tfc:metal/shovel_head/black_bronze",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Shovel Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_shovel_head.json",
+    "input": "tag: forge:ingots/bronze",
+    "result": "tfc:metal/shovel_head/bronze",
+    "tier": 2,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Shovel Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_sword_blade.json",
+    "input": "tag: forge:double_ingots/bismuth_bronze",
+    "result": "tfc:metal/sword_blade/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Bismuth Bronze Double Ingot",
+    "resultName": "Bismuth Bronze Sword Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_sword_blade.json",
+    "input": "tag: forge:double_ingots/black_bronze",
+    "result": "tfc:metal/sword_blade/black_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Black Bronze Double Ingot",
+    "resultName": "Black Bronze Sword Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_sword_blade.json",
+    "input": "tag: forge:double_ingots/bronze",
+    "result": "tfc:metal/sword_blade/bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Bronze Double Ingot",
+    "resultName": "Bronze Sword Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_trapdoor.json",
+    "input": "tag: forge:sheets/bismuth_bronze",
+    "result": "tfc:metal/trapdoor/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Bismuth Bronze Sheet",
+    "resultName": "Bismuth Bronze Trapdoor"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_trapdoor.json",
+    "input": "tag: forge:sheets/black_bronze",
+    "result": "tfc:metal/trapdoor/black_bronze",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Black Bronze Sheet",
+    "resultName": "Black Bronze Trapdoor"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_trapdoor.json",
+    "input": "tag: forge:sheets/bronze",
+    "result": "tfc:metal/trapdoor/bronze",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Bronze Sheet",
+    "resultName": "Bronze Trapdoor"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_tuyere.json",
+    "input": "tag: forge:double_sheets/bismuth_bronze",
+    "result": "tfc:metal/tuyere/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "bend_second_last"
+    ],
+    "inputName": "Bismuth Bronze Double Sheet",
+    "resultName": "Bismuth Bronze Tuyere"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_tuyere.json",
+    "input": "tag: forge:double_sheets/black_bronze",
+    "result": "tfc:metal/tuyere/black_bronze",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "bend_second_last"
+    ],
+    "inputName": "Black Bronze Double Sheet",
+    "resultName": "Black Bronze Tuyere"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_tuyere.json",
+    "input": "tag: forge:double_sheets/bronze",
+    "result": "tfc:metal/tuyere/bronze",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "bend_second_last"
+    ],
+    "inputName": "Bronze Double Sheet",
+    "resultName": "Bronze Tuyere"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_unfinished_boots.json",
+    "input": "tag: forge:sheets/bismuth_bronze",
+    "result": "tfc:metal/unfinished_boots/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Bismuth Bronze Sheet",
+    "resultName": "Bismuth Bronze Unfinished Boots"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_unfinished_boots.json",
+    "input": "tag: forge:sheets/black_bronze",
+    "result": "tfc:metal/unfinished_boots/black_bronze",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Black Bronze Sheet",
+    "resultName": "Black Bronze Unfinished Boots"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_unfinished_boots.json",
+    "input": "tag: forge:sheets/bronze",
+    "result": "tfc:metal/unfinished_boots/bronze",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Bronze Sheet",
+    "resultName": "Bronze Unfinished Boots"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_unfinished_chestplate.json",
+    "input": "tag: forge:double_sheets/bismuth_bronze",
+    "result": "tfc:metal/unfinished_chestplate/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Bismuth Bronze Double Sheet",
+    "resultName": "Bismuth Bronze Unfinished Chestplate"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_unfinished_chestplate.json",
+    "input": "tag: forge:double_sheets/black_bronze",
+    "result": "tfc:metal/unfinished_chestplate/black_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Black Bronze Double Sheet",
+    "resultName": "Black Bronze Unfinished Chestplate"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_unfinished_chestplate.json",
+    "input": "tag: forge:double_sheets/bronze",
+    "result": "tfc:metal/unfinished_chestplate/bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Bronze Double Sheet",
+    "resultName": "Bronze Unfinished Chestplate"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_unfinished_greaves.json",
+    "input": "tag: forge:double_sheets/bismuth_bronze",
+    "result": "tfc:metal/unfinished_greaves/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "bend_any",
+      "draw_any",
+      "hit_any"
+    ],
+    "inputName": "Bismuth Bronze Double Sheet",
+    "resultName": "Bismuth Bronze Unfinished Greaves"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_unfinished_greaves.json",
+    "input": "tag: forge:double_sheets/black_bronze",
+    "result": "tfc:metal/unfinished_greaves/black_bronze",
+    "tier": 2,
+    "rules": [
+      "bend_any",
+      "draw_any",
+      "hit_any"
+    ],
+    "inputName": "Black Bronze Double Sheet",
+    "resultName": "Black Bronze Unfinished Greaves"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_unfinished_greaves.json",
+    "input": "tag: forge:double_sheets/bronze",
+    "result": "tfc:metal/unfinished_greaves/bronze",
+    "tier": 2,
+    "rules": [
+      "bend_any",
+      "draw_any",
+      "hit_any"
+    ],
+    "inputName": "Bronze Double Sheet",
+    "resultName": "Bronze Unfinished Greaves"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_unfinished_helmet.json",
+    "input": "tag: forge:double_sheets/bismuth_bronze",
+    "result": "tfc:metal/unfinished_helmet/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Bismuth Bronze Double Sheet",
+    "resultName": "Bismuth Bronze Unfinished Helmet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_unfinished_helmet.json",
+    "input": "tag: forge:double_sheets/black_bronze",
+    "result": "tfc:metal/unfinished_helmet/black_bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Black Bronze Double Sheet",
+    "resultName": "Black Bronze Unfinished Helmet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_unfinished_helmet.json",
+    "input": "tag: forge:double_sheets/bronze",
+    "result": "tfc:metal/unfinished_helmet/bronze",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Bronze Double Sheet",
+    "resultName": "Bronze Unfinished Helmet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_lamp.json",
+    "input": "tag: forge:ingots/bismuth_bronze",
+    "result": "tfc:metal/unfinished_lamp/bismuth_bronze",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Bismuth Bronze Ingot",
+    "resultName": "Bismuth Bronze Unfinished Lamp"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_lamp.json",
+    "input": "tag: forge:ingots/black_bronze",
+    "result": "tfc:metal/unfinished_lamp/black_bronze",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Black Bronze Ingot",
+    "resultName": "Black Bronze Unfinished Lamp"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_lamp.json",
+    "input": "tag: forge:ingots/bronze",
+    "result": "tfc:metal/unfinished_lamp/bronze",
+    "tier": 2,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Bronze Ingot",
+    "resultName": "Bronze Unfinished Lamp"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\refined_iron_bloom.json",
+    "input": "item: tfc:raw_iron_bloom",
+    "result": "tfc:refined_iron_bloom",
+    "tier": 2,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Raw Iron Bloom",
+    "resultName": "Refined Iron Bloom"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\iron_door.json",
+    "input": "tag: forge:sheets/wrought_iron",
+    "result": "minecraft:iron_door",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "draw_not_last",
+      "punch_not_last"
+    ],
+    "inputName": "Wrought Iron Sheet",
+    "resultName": "Iron Door"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_axe_head.json",
+    "input": "tag: forge:ingots/wrought_iron",
+    "result": "tfc:metal/axe_head/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Axe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_bars_double.json",
+    "input": "tag: forge:double_sheets/bismuth_bronze",
+    "result": "tfc:metal/bars/bismuth_bronze x16",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Bismuth Bronze Double Sheet",
+    "resultName": "Bismuth Bronze Bars \u00d716"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bismuth_bronze_bars.json",
+    "input": "tag: forge:sheets/bismuth_bronze",
+    "result": "tfc:metal/bars/bismuth_bronze x8",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Bismuth Bronze Sheet",
+    "resultName": "Bismuth Bronze Bars \u00d78"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_bars_double.json",
+    "input": "tag: forge:double_sheets/black_bronze",
+    "result": "tfc:metal/bars/black_bronze x16",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Black Bronze Double Sheet",
+    "resultName": "Black Bronze Bars \u00d716"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_bronze_bars.json",
+    "input": "tag: forge:sheets/black_bronze",
+    "result": "tfc:metal/bars/black_bronze x8",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Black Bronze Sheet",
+    "resultName": "Black Bronze Bars \u00d78"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_bars_double.json",
+    "input": "tag: forge:double_sheets/black_steel",
+    "result": "tfc:metal/bars/black_steel x16",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Black Steel Double Sheet",
+    "resultName": "Black Steel Bars \u00d716"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_bars.json",
+    "input": "tag: forge:sheets/black_steel",
+    "result": "tfc:metal/bars/black_steel x8",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Black Steel Sheet",
+    "resultName": "Black Steel Bars \u00d78"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_bars_double.json",
+    "input": "tag: forge:double_sheets/blue_steel",
+    "result": "tfc:metal/bars/blue_steel x16",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Blue Steel Double Sheet",
+    "resultName": "Blue Steel Bars \u00d716"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_bars.json",
+    "input": "tag: forge:sheets/blue_steel",
+    "result": "tfc:metal/bars/blue_steel x8",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Blue Steel Sheet",
+    "resultName": "Blue Steel Bars \u00d78"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_bars_double.json",
+    "input": "tag: forge:double_sheets/bronze",
+    "result": "tfc:metal/bars/bronze x16",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Bronze Double Sheet",
+    "resultName": "Bronze Bars \u00d716"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\bronze_bars.json",
+    "input": "tag: forge:sheets/bronze",
+    "result": "tfc:metal/bars/bronze x8",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Bronze Sheet",
+    "resultName": "Bronze Bars \u00d78"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_bars_double.json",
+    "input": "tag: forge:double_sheets/copper",
+    "result": "tfc:metal/bars/copper x16",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Copper Double Sheet",
+    "resultName": "Copper Bars \u00d716"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\copper_bars.json",
+    "input": "tag: forge:sheets/copper",
+    "result": "tfc:metal/bars/copper x8",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Copper Sheet",
+    "resultName": "Copper Bars \u00d78"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_bars_double.json",
+    "input": "tag: forge:double_sheets/red_steel",
+    "result": "tfc:metal/bars/red_steel x16",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Red Steel Double Sheet",
+    "resultName": "Red Steel Bars \u00d716"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_bars.json",
+    "input": "tag: forge:sheets/red_steel",
+    "result": "tfc:metal/bars/red_steel x8",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Red Steel Sheet",
+    "resultName": "Red Steel Bars \u00d78"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_bars_double.json",
+    "input": "tag: forge:double_sheets/steel",
+    "result": "tfc:metal/bars/steel x16",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Steel Double Sheet",
+    "resultName": "Steel Bars \u00d716"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_bars.json",
+    "input": "tag: forge:sheets/steel",
+    "result": "tfc:metal/bars/steel x8",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Steel Sheet",
+    "resultName": "Steel Bars \u00d78"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_bars_double.json",
+    "input": "tag: forge:double_sheets/wrought_iron",
+    "result": "tfc:metal/bars/wrought_iron x16",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Wrought Iron Double Sheet",
+    "resultName": "Wrought Iron Bars \u00d716"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_bars.json",
+    "input": "tag: forge:sheets/wrought_iron",
+    "result": "tfc:metal/bars/wrought_iron x8",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "punch_second_last",
+      "punch_third_last"
+    ],
+    "inputName": "Wrought Iron Sheet",
+    "resultName": "Wrought Iron Bars \u00d78"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_chain.json",
+    "input": "tag: forge:ingots/wrought_iron",
+    "result": "tfc:metal/chain/wrought_iron x16",
+    "tier": 3,
+    "rules": [
+      "hit_any",
+      "hit_any",
+      "draw_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Chain \u00d716"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_chisel_head.json",
+    "input": "tag: forge:ingots/wrought_iron",
+    "result": "tfc:metal/chisel_head/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "hit_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Chisel Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_fish_hook.json",
+    "input": "tag: forge:sheets/wrought_iron",
+    "result": "tfc:metal/fish_hook/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "draw_not_last",
+      "bend_any",
+      "hit_any"
+    ],
+    "inputName": "Wrought Iron Sheet",
+    "resultName": "Wrought Iron Fish Hook"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_hammer_head.json",
+    "input": "tag: forge:ingots/wrought_iron",
+    "result": "tfc:metal/hammer_head/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Hammer Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_hoe_head.json",
+    "input": "tag: forge:ingots/wrought_iron",
+    "result": "tfc:metal/hoe_head/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "hit_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Hoe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\high_carbon_steel_ingot.json",
+    "input": "item: tfc:metal/ingot/pig_iron",
+    "result": "tfc:metal/ingot/high_carbon_steel",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Pig Iron Ingot",
+    "resultName": "High Carbon Steel Ingot"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_ingot.json",
+    "input": "item: tfc:metal/ingot/high_carbon_steel",
+    "result": "tfc:metal/ingot/steel",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "High Carbon Steel Ingot",
+    "resultName": "Steel Ingot"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_javelin_head.json",
+    "input": "tag: forge:ingots/wrought_iron",
+    "result": "tfc:metal/javelin_head/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Javelin Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_knife_blade.json",
+    "input": "tag: forge:ingots/wrought_iron",
+    "result": "tfc:metal/knife_blade/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Knife Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_mace_head.json",
+    "input": "tag: forge:double_ingots/wrought_iron",
+    "result": "tfc:metal/mace_head/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "shrink_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Wrought Iron Double Ingot",
+    "resultName": "Wrought Iron Mace Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_pickaxe_head.json",
+    "input": "tag: forge:ingots/wrought_iron",
+    "result": "tfc:metal/pickaxe_head/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Pickaxe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_propick_head.json",
+    "input": "tag: forge:ingots/wrought_iron",
+    "result": "tfc:metal/propick_head/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "draw_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Prospector's Pick Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_rod.json",
+    "input": "tag: forge:ingots/wrought_iron",
+    "result": "tfc:metal/rod/wrought_iron x2",
+    "tier": 3,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Rod \u00d72"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_saw_blade.json",
+    "input": "tag: forge:ingots/wrought_iron",
+    "result": "tfc:metal/saw_blade/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "hit_second_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Saw Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_scythe_blade.json",
+    "input": "tag: forge:ingots/wrought_iron",
+    "result": "tfc:metal/scythe_blade/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Scythe Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_sheet.json",
+    "input": "tag: forge:double_ingots/wrought_iron",
+    "result": "tfc:metal/sheet/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Wrought Iron Double Ingot",
+    "resultName": "Wrought Iron Sheet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_shield.json",
+    "input": "tag: forge:double_sheets/wrought_iron",
+    "result": "tfc:metal/shield/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "upset_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Wrought Iron Double Sheet",
+    "resultName": "Wrought Iron Shield"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_shovel_head.json",
+    "input": "tag: forge:ingots/wrought_iron",
+    "result": "tfc:metal/shovel_head/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Shovel Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_sword_blade.json",
+    "input": "tag: forge:double_ingots/wrought_iron",
+    "result": "tfc:metal/sword_blade/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Wrought Iron Double Ingot",
+    "resultName": "Wrought Iron Sword Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_trapdoor.json",
+    "input": "tag: forge:sheets/wrought_iron",
+    "result": "tfc:metal/trapdoor/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Wrought Iron Sheet",
+    "resultName": "Wrought Iron Trapdoor"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_tuyere.json",
+    "input": "tag: forge:double_sheets/wrought_iron",
+    "result": "tfc:metal/tuyere/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "bend_last",
+      "bend_second_last"
+    ],
+    "inputName": "Wrought Iron Double Sheet",
+    "resultName": "Wrought Iron Tuyere"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_unfinished_boots.json",
+    "input": "tag: forge:sheets/wrought_iron",
+    "result": "tfc:metal/unfinished_boots/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Wrought Iron Sheet",
+    "resultName": "Wrought Iron Unfinished Boots"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_unfinished_chestplate.json",
+    "input": "tag: forge:double_sheets/wrought_iron",
+    "result": "tfc:metal/unfinished_chestplate/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Wrought Iron Double Sheet",
+    "resultName": "Wrought Iron Unfinished Chestplate"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_unfinished_greaves.json",
+    "input": "tag: forge:double_sheets/wrought_iron",
+    "result": "tfc:metal/unfinished_greaves/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "bend_any",
+      "draw_any",
+      "hit_any"
+    ],
+    "inputName": "Wrought Iron Double Sheet",
+    "resultName": "Wrought Iron Unfinished Greaves"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_unfinished_helmet.json",
+    "input": "tag: forge:double_sheets/wrought_iron",
+    "result": "tfc:metal/unfinished_helmet/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Wrought Iron Double Sheet",
+    "resultName": "Wrought Iron Unfinished Helmet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_lamp.json",
+    "input": "tag: forge:ingots/wrought_iron",
+    "result": "tfc:metal/unfinished_lamp/wrought_iron",
+    "tier": 3,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Wrought Iron Ingot",
+    "resultName": "Wrought Iron Unfinished Lamp"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\wrought_iron_grill.json",
+    "input": "tag: forge:double_sheets/wrought_iron",
+    "result": "tfc:wrought_iron_grill",
+    "tier": 3,
+    "rules": [
+      "draw_any",
+      "punch_last",
+      "punch_not_last"
+    ],
+    "inputName": "Wrought Iron Double Sheet",
+    "resultName": "Wrought Iron Grill"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_axe_head.json",
+    "input": "tag: forge:ingots/steel",
+    "result": "tfc:metal/axe_head/steel",
+    "tier": 4,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Axe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_chain.json",
+    "input": "tag: forge:ingots/steel",
+    "result": "tfc:metal/chain/steel x16",
+    "tier": 4,
+    "rules": [
+      "hit_any",
+      "hit_any",
+      "draw_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Chain \u00d716"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_chisel_head.json",
+    "input": "tag: forge:ingots/steel",
+    "result": "tfc:metal/chisel_head/steel",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "hit_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Chisel Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_fish_hook.json",
+    "input": "tag: forge:sheets/steel",
+    "result": "tfc:metal/fish_hook/steel",
+    "tier": 4,
+    "rules": [
+      "draw_not_last",
+      "bend_any",
+      "hit_any"
+    ],
+    "inputName": "Steel Sheet",
+    "resultName": "Steel Fish Hook"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_hammer_head.json",
+    "input": "tag: forge:ingots/steel",
+    "result": "tfc:metal/hammer_head/steel",
+    "tier": 4,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Hammer Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_hoe_head.json",
+    "input": "tag: forge:ingots/steel",
+    "result": "tfc:metal/hoe_head/steel",
+    "tier": 4,
+    "rules": [
+      "punch_last",
+      "hit_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Hoe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_ingot.json",
+    "input": "item: tfc:metal/ingot/high_carbon_black_steel",
+    "result": "tfc:metal/ingot/black_steel",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "High Carbon Black Steel Ingot",
+    "resultName": "Black Steel Ingot"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_javelin_head.json",
+    "input": "tag: forge:ingots/steel",
+    "result": "tfc:metal/javelin_head/steel",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Javelin Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_knife_blade.json",
+    "input": "tag: forge:ingots/steel",
+    "result": "tfc:metal/knife_blade/steel",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Knife Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_mace_head.json",
+    "input": "tag: forge:double_ingots/steel",
+    "result": "tfc:metal/mace_head/steel",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "shrink_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Steel Double Ingot",
+    "resultName": "Steel Mace Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_pickaxe_head.json",
+    "input": "tag: forge:ingots/steel",
+    "result": "tfc:metal/pickaxe_head/steel",
+    "tier": 4,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Pickaxe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_propick_head.json",
+    "input": "tag: forge:ingots/steel",
+    "result": "tfc:metal/propick_head/steel",
+    "tier": 4,
+    "rules": [
+      "punch_last",
+      "draw_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Prospector's Pick Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_rod.json",
+    "input": "tag: forge:ingots/steel",
+    "result": "tfc:metal/rod/steel x2",
+    "tier": 4,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Rod \u00d72"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_saw_blade.json",
+    "input": "tag: forge:ingots/steel",
+    "result": "tfc:metal/saw_blade/steel",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "hit_second_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Saw Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_scythe_blade.json",
+    "input": "tag: forge:ingots/steel",
+    "result": "tfc:metal/scythe_blade/steel",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Scythe Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_sheet.json",
+    "input": "tag: forge:double_ingots/steel",
+    "result": "tfc:metal/sheet/steel",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Steel Double Ingot",
+    "resultName": "Steel Sheet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_shield.json",
+    "input": "tag: forge:double_sheets/steel",
+    "result": "tfc:metal/shield/steel",
+    "tier": 4,
+    "rules": [
+      "upset_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Steel Double Sheet",
+    "resultName": "Steel Shield"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_shovel_head.json",
+    "input": "tag: forge:ingots/steel",
+    "result": "tfc:metal/shovel_head/steel",
+    "tier": 4,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Shovel Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_sword_blade.json",
+    "input": "tag: forge:double_ingots/steel",
+    "result": "tfc:metal/sword_blade/steel",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Steel Double Ingot",
+    "resultName": "Steel Sword Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_trapdoor.json",
+    "input": "tag: forge:sheets/steel",
+    "result": "tfc:metal/trapdoor/steel",
+    "tier": 4,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Steel Sheet",
+    "resultName": "Steel Trapdoor"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_tuyere.json",
+    "input": "tag: forge:double_sheets/steel",
+    "result": "tfc:metal/tuyere/steel",
+    "tier": 4,
+    "rules": [
+      "bend_last",
+      "bend_second_last"
+    ],
+    "inputName": "Steel Double Sheet",
+    "resultName": "Steel Tuyere"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_unfinished_boots.json",
+    "input": "tag: forge:sheets/steel",
+    "result": "tfc:metal/unfinished_boots/steel",
+    "tier": 4,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Steel Sheet",
+    "resultName": "Steel Unfinished Boots"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_unfinished_chestplate.json",
+    "input": "tag: forge:double_sheets/steel",
+    "result": "tfc:metal/unfinished_chestplate/steel",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Steel Double Sheet",
+    "resultName": "Steel Unfinished Chestplate"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_unfinished_greaves.json",
+    "input": "tag: forge:double_sheets/steel",
+    "result": "tfc:metal/unfinished_greaves/steel",
+    "tier": 4,
+    "rules": [
+      "bend_any",
+      "draw_any",
+      "hit_any"
+    ],
+    "inputName": "Steel Double Sheet",
+    "resultName": "Steel Unfinished Greaves"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_unfinished_helmet.json",
+    "input": "tag: forge:double_sheets/steel",
+    "result": "tfc:metal/unfinished_helmet/steel",
+    "tier": 4,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Steel Double Sheet",
+    "resultName": "Steel Unfinished Helmet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_lamp.json",
+    "input": "tag: forge:ingots/steel",
+    "result": "tfc:metal/unfinished_lamp/steel",
+    "tier": 4,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Steel Ingot",
+    "resultName": "Steel Unfinished Lamp"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\steel_pump.json",
+    "input": "tag: forge:sheets/steel",
+    "result": "tfc:steel_pipe x8",
+    "tier": 4,
+    "rules": [
+      "draw_last",
+      "bend_not_last"
+    ],
+    "inputName": "Steel Sheet",
+    "resultName": "Steel Pipe \u00d78"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_axe_head.json",
+    "input": "tag: forge:ingots/black_steel",
+    "result": "tfc:metal/axe_head/black_steel",
+    "tier": 5,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Axe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_chain.json",
+    "input": "tag: forge:ingots/black_steel",
+    "result": "tfc:metal/chain/black_steel x16",
+    "tier": 5,
+    "rules": [
+      "hit_any",
+      "hit_any",
+      "draw_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Chain \u00d716"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_chisel_head.json",
+    "input": "tag: forge:ingots/black_steel",
+    "result": "tfc:metal/chisel_head/black_steel",
+    "tier": 5,
+    "rules": [
+      "hit_last",
+      "hit_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Chisel Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_fish_hook.json",
+    "input": "tag: forge:sheets/black_steel",
+    "result": "tfc:metal/fish_hook/black_steel",
+    "tier": 5,
+    "rules": [
+      "draw_not_last",
+      "bend_any",
+      "hit_any"
+    ],
+    "inputName": "Black Steel Sheet",
+    "resultName": "Black Steel Fish Hook"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_hammer_head.json",
+    "input": "tag: forge:ingots/black_steel",
+    "result": "tfc:metal/hammer_head/black_steel",
+    "tier": 5,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Hammer Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_hoe_head.json",
+    "input": "tag: forge:ingots/black_steel",
+    "result": "tfc:metal/hoe_head/black_steel",
+    "tier": 5,
+    "rules": [
+      "punch_last",
+      "hit_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Hoe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_ingot.json",
+    "input": "item: tfc:metal/ingot/high_carbon_blue_steel",
+    "result": "tfc:metal/ingot/blue_steel",
+    "tier": 5,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "High Carbon Blue Steel Ingot",
+    "resultName": "Blue Steel Ingot"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_ingot.json",
+    "input": "item: tfc:metal/ingot/high_carbon_red_steel",
+    "result": "tfc:metal/ingot/red_steel",
+    "tier": 5,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "High Carbon Red Steel Ingot",
+    "resultName": "Red Steel Ingot"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_javelin_head.json",
+    "input": "tag: forge:ingots/black_steel",
+    "result": "tfc:metal/javelin_head/black_steel",
+    "tier": 5,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Javelin Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_knife_blade.json",
+    "input": "tag: forge:ingots/black_steel",
+    "result": "tfc:metal/knife_blade/black_steel",
+    "tier": 5,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Knife Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_mace_head.json",
+    "input": "tag: forge:double_ingots/black_steel",
+    "result": "tfc:metal/mace_head/black_steel",
+    "tier": 5,
+    "rules": [
+      "hit_last",
+      "shrink_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Black Steel Double Ingot",
+    "resultName": "Black Steel Mace Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_pickaxe_head.json",
+    "input": "tag: forge:ingots/black_steel",
+    "result": "tfc:metal/pickaxe_head/black_steel",
+    "tier": 5,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Pickaxe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_propick_head.json",
+    "input": "tag: forge:ingots/black_steel",
+    "result": "tfc:metal/propick_head/black_steel",
+    "tier": 5,
+    "rules": [
+      "punch_last",
+      "draw_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Prospector's Pick Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_rod.json",
+    "input": "tag: forge:ingots/black_steel",
+    "result": "tfc:metal/rod/black_steel x2",
+    "tier": 5,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Rod \u00d72"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_saw_blade.json",
+    "input": "tag: forge:ingots/black_steel",
+    "result": "tfc:metal/saw_blade/black_steel",
+    "tier": 5,
+    "rules": [
+      "hit_last",
+      "hit_second_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Saw Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_scythe_blade.json",
+    "input": "tag: forge:ingots/black_steel",
+    "result": "tfc:metal/scythe_blade/black_steel",
+    "tier": 5,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Scythe Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_sheet.json",
+    "input": "tag: forge:double_ingots/black_steel",
+    "result": "tfc:metal/sheet/black_steel",
+    "tier": 5,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Black Steel Double Ingot",
+    "resultName": "Black Steel Sheet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_shield.json",
+    "input": "tag: forge:double_sheets/black_steel",
+    "result": "tfc:metal/shield/black_steel",
+    "tier": 5,
+    "rules": [
+      "upset_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Black Steel Double Sheet",
+    "resultName": "Black Steel Shield"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_shovel_head.json",
+    "input": "tag: forge:ingots/black_steel",
+    "result": "tfc:metal/shovel_head/black_steel",
+    "tier": 5,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Shovel Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_sword_blade.json",
+    "input": "tag: forge:double_ingots/black_steel",
+    "result": "tfc:metal/sword_blade/black_steel",
+    "tier": 5,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Black Steel Double Ingot",
+    "resultName": "Black Steel Sword Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_trapdoor.json",
+    "input": "tag: forge:sheets/black_steel",
+    "result": "tfc:metal/trapdoor/black_steel",
+    "tier": 5,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Black Steel Sheet",
+    "resultName": "Black Steel Trapdoor"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_tuyere.json",
+    "input": "tag: forge:double_sheets/black_steel",
+    "result": "tfc:metal/tuyere/black_steel",
+    "tier": 5,
+    "rules": [
+      "bend_last",
+      "bend_second_last"
+    ],
+    "inputName": "Black Steel Double Sheet",
+    "resultName": "Black Steel Tuyere"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_unfinished_boots.json",
+    "input": "tag: forge:sheets/black_steel",
+    "result": "tfc:metal/unfinished_boots/black_steel",
+    "tier": 5,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Black Steel Sheet",
+    "resultName": "Black Steel Unfinished Boots"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_unfinished_chestplate.json",
+    "input": "tag: forge:double_sheets/black_steel",
+    "result": "tfc:metal/unfinished_chestplate/black_steel",
+    "tier": 5,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Black Steel Double Sheet",
+    "resultName": "Black Steel Unfinished Chestplate"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_unfinished_greaves.json",
+    "input": "tag: forge:double_sheets/black_steel",
+    "result": "tfc:metal/unfinished_greaves/black_steel",
+    "tier": 5,
+    "rules": [
+      "bend_any",
+      "draw_any",
+      "hit_any"
+    ],
+    "inputName": "Black Steel Double Sheet",
+    "resultName": "Black Steel Unfinished Greaves"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_unfinished_helmet.json",
+    "input": "tag: forge:double_sheets/black_steel",
+    "result": "tfc:metal/unfinished_helmet/black_steel",
+    "tier": 5,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Black Steel Double Sheet",
+    "resultName": "Black Steel Unfinished Helmet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\black_steel_lamp.json",
+    "input": "tag: forge:ingots/black_steel",
+    "result": "tfc:metal/unfinished_lamp/black_steel",
+    "tier": 5,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Black Steel Ingot",
+    "resultName": "Black Steel Unfinished Lamp"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_axe_head.json",
+    "input": "tag: forge:ingots/blue_steel",
+    "result": "tfc:metal/axe_head/blue_steel",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Axe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_axe_head.json",
+    "input": "tag: forge:ingots/red_steel",
+    "result": "tfc:metal/axe_head/red_steel",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Axe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_bucket.json",
+    "input": "tag: forge:sheets/blue_steel",
+    "result": "tfc:metal/bucket/blue_steel",
+    "tier": 6,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Blue Steel Sheet",
+    "resultName": "Blue Steel Bucket"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_bucket.json",
+    "input": "tag: forge:sheets/red_steel",
+    "result": "tfc:metal/bucket/red_steel",
+    "tier": 6,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Red Steel Sheet",
+    "resultName": "Red Steel Bucket"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_chain.json",
+    "input": "tag: forge:ingots/blue_steel",
+    "result": "tfc:metal/chain/blue_steel x16",
+    "tier": 6,
+    "rules": [
+      "hit_any",
+      "hit_any",
+      "draw_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Chain \u00d716"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_chain.json",
+    "input": "tag: forge:ingots/red_steel",
+    "result": "tfc:metal/chain/red_steel x16",
+    "tier": 6,
+    "rules": [
+      "hit_any",
+      "hit_any",
+      "draw_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Chain \u00d716"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_chisel_head.json",
+    "input": "tag: forge:ingots/blue_steel",
+    "result": "tfc:metal/chisel_head/blue_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "hit_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Chisel Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_chisel_head.json",
+    "input": "tag: forge:ingots/red_steel",
+    "result": "tfc:metal/chisel_head/red_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "hit_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Chisel Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_fish_hook.json",
+    "input": "tag: forge:sheets/blue_steel",
+    "result": "tfc:metal/fish_hook/blue_steel",
+    "tier": 6,
+    "rules": [
+      "draw_not_last",
+      "bend_any",
+      "hit_any"
+    ],
+    "inputName": "Blue Steel Sheet",
+    "resultName": "Blue Steel Fish Hook"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_fish_hook.json",
+    "input": "tag: forge:sheets/red_steel",
+    "result": "tfc:metal/fish_hook/red_steel",
+    "tier": 6,
+    "rules": [
+      "draw_not_last",
+      "bend_any",
+      "hit_any"
+    ],
+    "inputName": "Red Steel Sheet",
+    "resultName": "Red Steel Fish Hook"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_hammer_head.json",
+    "input": "tag: forge:ingots/blue_steel",
+    "result": "tfc:metal/hammer_head/blue_steel",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Hammer Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_hammer_head.json",
+    "input": "tag: forge:ingots/red_steel",
+    "result": "tfc:metal/hammer_head/red_steel",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "shrink_not_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Hammer Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_hoe_head.json",
+    "input": "tag: forge:ingots/blue_steel",
+    "result": "tfc:metal/hoe_head/blue_steel",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "hit_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Hoe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_hoe_head.json",
+    "input": "tag: forge:ingots/red_steel",
+    "result": "tfc:metal/hoe_head/red_steel",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "hit_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Hoe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_javelin_head.json",
+    "input": "tag: forge:ingots/blue_steel",
+    "result": "tfc:metal/javelin_head/blue_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Javelin Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_javelin_head.json",
+    "input": "tag: forge:ingots/red_steel",
+    "result": "tfc:metal/javelin_head/red_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Javelin Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_knife_blade.json",
+    "input": "tag: forge:ingots/blue_steel",
+    "result": "tfc:metal/knife_blade/blue_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Knife Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_knife_blade.json",
+    "input": "tag: forge:ingots/red_steel",
+    "result": "tfc:metal/knife_blade/red_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Knife Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_mace_head.json",
+    "input": "tag: forge:double_ingots/blue_steel",
+    "result": "tfc:metal/mace_head/blue_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "shrink_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Blue Steel Double Ingot",
+    "resultName": "Blue Steel Mace Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_mace_head.json",
+    "input": "tag: forge:double_ingots/red_steel",
+    "result": "tfc:metal/mace_head/red_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "shrink_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Red Steel Double Ingot",
+    "resultName": "Red Steel Mace Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_pickaxe_head.json",
+    "input": "tag: forge:ingots/blue_steel",
+    "result": "tfc:metal/pickaxe_head/blue_steel",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Pickaxe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_pickaxe_head.json",
+    "input": "tag: forge:ingots/red_steel",
+    "result": "tfc:metal/pickaxe_head/red_steel",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "bend_not_last",
+      "draw_not_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Pickaxe Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_propick_head.json",
+    "input": "tag: forge:ingots/blue_steel",
+    "result": "tfc:metal/propick_head/blue_steel",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "draw_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Prospector's Pick Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_propick_head.json",
+    "input": "tag: forge:ingots/red_steel",
+    "result": "tfc:metal/propick_head/red_steel",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "draw_not_last",
+      "bend_not_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Prospector's Pick Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_rod.json",
+    "input": "tag: forge:ingots/blue_steel",
+    "result": "tfc:metal/rod/blue_steel x2",
+    "tier": 6,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Rod \u00d72"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_rod.json",
+    "input": "tag: forge:ingots/red_steel",
+    "result": "tfc:metal/rod/red_steel x2",
+    "tier": 6,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Rod \u00d72"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_saw_blade.json",
+    "input": "tag: forge:ingots/blue_steel",
+    "result": "tfc:metal/saw_blade/blue_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "hit_second_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Saw Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_saw_blade.json",
+    "input": "tag: forge:ingots/red_steel",
+    "result": "tfc:metal/saw_blade/red_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "hit_second_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Saw Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_scythe_blade.json",
+    "input": "tag: forge:ingots/blue_steel",
+    "result": "tfc:metal/scythe_blade/blue_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Scythe Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_scythe_blade.json",
+    "input": "tag: forge:ingots/red_steel",
+    "result": "tfc:metal/scythe_blade/red_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "draw_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Scythe Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_sheet.json",
+    "input": "tag: forge:double_ingots/blue_steel",
+    "result": "tfc:metal/sheet/blue_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Blue Steel Double Ingot",
+    "resultName": "Blue Steel Sheet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_sheet.json",
+    "input": "tag: forge:double_ingots/red_steel",
+    "result": "tfc:metal/sheet/red_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "hit_third_last"
+    ],
+    "inputName": "Red Steel Double Ingot",
+    "resultName": "Red Steel Sheet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_shield.json",
+    "input": "tag: forge:double_sheets/blue_steel",
+    "result": "tfc:metal/shield/blue_steel",
+    "tier": 6,
+    "rules": [
+      "upset_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Blue Steel Double Sheet",
+    "resultName": "Blue Steel Shield"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_shield.json",
+    "input": "tag: forge:double_sheets/red_steel",
+    "result": "tfc:metal/shield/red_steel",
+    "tier": 6,
+    "rules": [
+      "upset_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Red Steel Double Sheet",
+    "resultName": "Red Steel Shield"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_shovel_head.json",
+    "input": "tag: forge:ingots/blue_steel",
+    "result": "tfc:metal/shovel_head/blue_steel",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Shovel Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_shovel_head.json",
+    "input": "tag: forge:ingots/red_steel",
+    "result": "tfc:metal/shovel_head/red_steel",
+    "tier": 6,
+    "rules": [
+      "punch_last",
+      "hit_not_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Shovel Head"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_sword_blade.json",
+    "input": "tag: forge:double_ingots/blue_steel",
+    "result": "tfc:metal/sword_blade/blue_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Blue Steel Double Ingot",
+    "resultName": "Blue Steel Sword Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_sword_blade.json",
+    "input": "tag: forge:double_ingots/red_steel",
+    "result": "tfc:metal/sword_blade/red_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Red Steel Double Ingot",
+    "resultName": "Red Steel Sword Blade"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_trapdoor.json",
+    "input": "tag: forge:sheets/blue_steel",
+    "result": "tfc:metal/trapdoor/blue_steel",
+    "tier": 6,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Blue Steel Sheet",
+    "resultName": "Blue Steel Trapdoor"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_trapdoor.json",
+    "input": "tag: forge:sheets/red_steel",
+    "result": "tfc:metal/trapdoor/red_steel",
+    "tier": 6,
+    "rules": [
+      "bend_last",
+      "draw_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Red Steel Sheet",
+    "resultName": "Red Steel Trapdoor"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_tuyere.json",
+    "input": "tag: forge:double_sheets/blue_steel",
+    "result": "tfc:metal/tuyere/blue_steel",
+    "tier": 6,
+    "rules": [
+      "bend_last",
+      "bend_second_last"
+    ],
+    "inputName": "Blue Steel Double Sheet",
+    "resultName": "Blue Steel Tuyere"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_tuyere.json",
+    "input": "tag: forge:double_sheets/red_steel",
+    "result": "tfc:metal/tuyere/red_steel",
+    "tier": 6,
+    "rules": [
+      "bend_last",
+      "bend_second_last"
+    ],
+    "inputName": "Red Steel Double Sheet",
+    "resultName": "Red Steel Tuyere"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_unfinished_boots.json",
+    "input": "tag: forge:sheets/blue_steel",
+    "result": "tfc:metal/unfinished_boots/blue_steel",
+    "tier": 6,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Blue Steel Sheet",
+    "resultName": "Blue Steel Unfinished Boots"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_unfinished_boots.json",
+    "input": "tag: forge:sheets/red_steel",
+    "result": "tfc:metal/unfinished_boots/red_steel",
+    "tier": 6,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "shrink_third_last"
+    ],
+    "inputName": "Red Steel Sheet",
+    "resultName": "Red Steel Unfinished Boots"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_unfinished_chestplate.json",
+    "input": "tag: forge:double_sheets/blue_steel",
+    "result": "tfc:metal/unfinished_chestplate/blue_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Blue Steel Double Sheet",
+    "resultName": "Blue Steel Unfinished Chestplate"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_unfinished_chestplate.json",
+    "input": "tag: forge:double_sheets/red_steel",
+    "result": "tfc:metal/unfinished_chestplate/red_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "hit_second_last",
+      "upset_third_last"
+    ],
+    "inputName": "Red Steel Double Sheet",
+    "resultName": "Red Steel Unfinished Chestplate"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_unfinished_greaves.json",
+    "input": "tag: forge:double_sheets/blue_steel",
+    "result": "tfc:metal/unfinished_greaves/blue_steel",
+    "tier": 6,
+    "rules": [
+      "bend_any",
+      "draw_any",
+      "hit_any"
+    ],
+    "inputName": "Blue Steel Double Sheet",
+    "resultName": "Blue Steel Unfinished Greaves"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_unfinished_greaves.json",
+    "input": "tag: forge:double_sheets/red_steel",
+    "result": "tfc:metal/unfinished_greaves/red_steel",
+    "tier": 6,
+    "rules": [
+      "bend_any",
+      "draw_any",
+      "hit_any"
+    ],
+    "inputName": "Red Steel Double Sheet",
+    "resultName": "Red Steel Unfinished Greaves"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_unfinished_helmet.json",
+    "input": "tag: forge:double_sheets/blue_steel",
+    "result": "tfc:metal/unfinished_helmet/blue_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Blue Steel Double Sheet",
+    "resultName": "Blue Steel Unfinished Helmet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_unfinished_helmet.json",
+    "input": "tag: forge:double_sheets/red_steel",
+    "result": "tfc:metal/unfinished_helmet/red_steel",
+    "tier": 6,
+    "rules": [
+      "hit_last",
+      "bend_second_last",
+      "bend_third_last"
+    ],
+    "inputName": "Red Steel Double Sheet",
+    "resultName": "Red Steel Unfinished Helmet"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\blue_steel_lamp.json",
+    "input": "tag: forge:ingots/blue_steel",
+    "result": "tfc:metal/unfinished_lamp/blue_steel",
+    "tier": 6,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Blue Steel Ingot",
+    "resultName": "Blue Steel Unfinished Lamp"
+  },
+  {
+    "id": "f:\\projects\\tfc-anvil-helper\\TerraFirmaCraft-Forge-1.20.1-3.2.22\\data\\tfc\\recipes\\anvil\\red_steel_lamp.json",
+    "input": "tag: forge:ingots/red_steel",
+    "result": "tfc:metal/unfinished_lamp/red_steel",
+    "tier": 6,
+    "rules": [
+      "bend_last",
+      "bend_second_last",
+      "draw_third_last"
+    ],
+    "inputName": "Red Steel Ingot",
+    "resultName": "Red Steel Unfinished Lamp"
+  }
+]

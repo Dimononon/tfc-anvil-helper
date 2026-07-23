@@ -1,0 +1,2738 @@
+{
+  "item: tfc:metal/ingot/high_carbon_black_steel": {
+    "x": 0,
+    "y": 0,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "item: tfc:metal/ingot/high_carbon_blue_steel": {
+    "x": 64,
+    "y": 0,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "item: tfc:metal/ingot/high_carbon_red_steel": {
+    "x": 128,
+    "y": 0,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "item: tfc:metal/ingot/high_carbon_steel": {
+    "x": 192,
+    "y": 0,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "item: tfc:metal/ingot/pig_iron": {
+    "x": 256,
+    "y": 0,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "item: tfc:raw_iron_bloom": {
+    "x": 320,
+    "y": 0,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "item: tfc:refined_iron_bloom": {
+    "x": 384,
+    "y": 0,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "minecraft:iron_door": {
+    "x": 448,
+    "y": 0,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_ingots/bismuth": {
+    "x": 512,
+    "y": 0,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_ingots/bismuth_bronze": {
+    "x": 576,
+    "y": 0,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_ingots/black_bronze": {
+    "x": 640,
+    "y": 0,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_ingots/black_steel": {
+    "x": 704,
+    "y": 0,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_ingots/blue_steel": {
+    "x": 768,
+    "y": 0,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_ingots/brass": {
+    "x": 832,
+    "y": 0,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_ingots/bronze": {
+    "x": 896,
+    "y": 0,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_ingots/cast_iron": {
+    "x": 960,
+    "y": 0,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_ingots/copper": {
+    "x": 1024,
+    "y": 0,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_ingots/gold": {
+    "x": 1088,
+    "y": 0,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_ingots/nickel": {
+    "x": 0,
+    "y": 64,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_ingots/red_steel": {
+    "x": 64,
+    "y": 64,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_ingots/rose_gold": {
+    "x": 128,
+    "y": 64,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_ingots/silver": {
+    "x": 192,
+    "y": 64,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_ingots/steel": {
+    "x": 256,
+    "y": 64,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_ingots/sterling_silver": {
+    "x": 320,
+    "y": 64,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_ingots/tin": {
+    "x": 384,
+    "y": 64,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_ingots/wrought_iron": {
+    "x": 448,
+    "y": 64,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_ingots/zinc": {
+    "x": 512,
+    "y": 64,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_sheets/bismuth_bronze": {
+    "x": 576,
+    "y": 64,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_sheets/black_bronze": {
+    "x": 640,
+    "y": 64,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_sheets/black_steel": {
+    "x": 704,
+    "y": 64,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_sheets/blue_steel": {
+    "x": 768,
+    "y": 64,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_sheets/bronze": {
+    "x": 832,
+    "y": 64,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_sheets/copper": {
+    "x": 896,
+    "y": 64,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_sheets/red_steel": {
+    "x": 960,
+    "y": 64,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_sheets/steel": {
+    "x": 1024,
+    "y": 64,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:double_sheets/wrought_iron": {
+    "x": 1088,
+    "y": 64,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:ingots/bismuth": {
+    "x": 0,
+    "y": 128,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:ingots/bismuth_bronze": {
+    "x": 64,
+    "y": 128,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:ingots/black_bronze": {
+    "x": 128,
+    "y": 128,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:ingots/black_steel": {
+    "x": 192,
+    "y": 128,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:ingots/blue_steel": {
+    "x": 256,
+    "y": 128,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:ingots/brass": {
+    "x": 320,
+    "y": 128,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:ingots/bronze": {
+    "x": 384,
+    "y": 128,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:ingots/cast_iron": {
+    "x": 448,
+    "y": 128,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:ingots/copper": {
+    "x": 512,
+    "y": 128,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:ingots/gold": {
+    "x": 576,
+    "y": 128,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:ingots/nickel": {
+    "x": 640,
+    "y": 128,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:ingots/red_steel": {
+    "x": 704,
+    "y": 128,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:ingots/rose_gold": {
+    "x": 768,
+    "y": 128,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:ingots/silver": {
+    "x": 832,
+    "y": 128,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:ingots/steel": {
+    "x": 896,
+    "y": 128,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:ingots/sterling_silver": {
+    "x": 960,
+    "y": 128,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:ingots/tin": {
+    "x": 1024,
+    "y": 128,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:ingots/wrought_iron": {
+    "x": 1088,
+    "y": 128,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:ingots/zinc": {
+    "x": 0,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:rods/brass": {
+    "x": 64,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:sheets/bismuth_bronze": {
+    "x": 128,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:sheets/black_bronze": {
+    "x": 192,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:sheets/black_steel": {
+    "x": 256,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:sheets/blue_steel": {
+    "x": 320,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:sheets/bronze": {
+    "x": 384,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:sheets/copper": {
+    "x": 448,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:sheets/red_steel": {
+    "x": 512,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:sheets/steel": {
+    "x": 576,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tag: forge:sheets/wrought_iron": {
+    "x": 640,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:blowpipe": {
+    "x": 704,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:brass_mechanisms x2": {
+    "x": 768,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:jar_lid x16": {
+    "x": 832,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/axe_head/bismuth_bronze": {
+    "x": 896,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/axe_head/black_bronze": {
+    "x": 960,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/axe_head/black_steel": {
+    "x": 1024,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/axe_head/blue_steel": {
+    "x": 1088,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/axe_head/bronze": {
+    "x": 0,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/axe_head/copper": {
+    "x": 64,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/axe_head/red_steel": {
+    "x": 128,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/axe_head/steel": {
+    "x": 192,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/axe_head/wrought_iron": {
+    "x": 256,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/bars/bismuth_bronze x16": {
+    "x": 320,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/bars/bismuth_bronze x8": {
+    "x": 320,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/bars/black_bronze x16": {
+    "x": 384,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/bars/black_bronze x8": {
+    "x": 384,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/bars/black_steel x16": {
+    "x": 448,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/bars/black_steel x8": {
+    "x": 448,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/bars/blue_steel x16": {
+    "x": 512,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/bars/blue_steel x8": {
+    "x": 512,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/bars/bronze x16": {
+    "x": 576,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/bars/bronze x8": {
+    "x": 576,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/bars/copper x16": {
+    "x": 640,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/bars/copper x8": {
+    "x": 640,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/bars/red_steel x16": {
+    "x": 704,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/bars/red_steel x8": {
+    "x": 704,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/bars/steel x16": {
+    "x": 768,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/bars/steel x8": {
+    "x": 768,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/bars/wrought_iron x16": {
+    "x": 832,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/bars/wrought_iron x8": {
+    "x": 832,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/bucket/blue_steel": {
+    "x": 896,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/bucket/red_steel": {
+    "x": 960,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/chain/bismuth_bronze x16": {
+    "x": 1024,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/chain/black_bronze x16": {
+    "x": 1088,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/chain/black_steel x16": {
+    "x": 0,
+    "y": 320,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/chain/blue_steel x16": {
+    "x": 64,
+    "y": 320,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/chain/bronze x16": {
+    "x": 128,
+    "y": 320,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/chain/copper x16": {
+    "x": 192,
+    "y": 320,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/chain/red_steel x16": {
+    "x": 256,
+    "y": 320,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/chain/steel x16": {
+    "x": 320,
+    "y": 320,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/chain/wrought_iron x16": {
+    "x": 384,
+    "y": 320,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/chisel_head/bismuth_bronze": {
+    "x": 448,
+    "y": 320,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/chisel_head/black_bronze": {
+    "x": 512,
+    "y": 320,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/chisel_head/black_steel": {
+    "x": 576,
+    "y": 320,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/chisel_head/blue_steel": {
+    "x": 640,
+    "y": 320,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/chisel_head/bronze": {
+    "x": 704,
+    "y": 320,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/chisel_head/copper": {
+    "x": 768,
+    "y": 320,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/chisel_head/red_steel": {
+    "x": 832,
+    "y": 320,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/chisel_head/steel": {
+    "x": 896,
+    "y": 320,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/chisel_head/wrought_iron": {
+    "x": 960,
+    "y": 320,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/fish_hook/bismuth_bronze": {
+    "x": 1024,
+    "y": 320,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/fish_hook/black_bronze": {
+    "x": 1088,
+    "y": 320,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/fish_hook/black_steel": {
+    "x": 0,
+    "y": 384,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/fish_hook/blue_steel": {
+    "x": 64,
+    "y": 384,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/fish_hook/bronze": {
+    "x": 128,
+    "y": 384,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/fish_hook/copper": {
+    "x": 192,
+    "y": 384,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/fish_hook/red_steel": {
+    "x": 256,
+    "y": 384,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/fish_hook/steel": {
+    "x": 320,
+    "y": 384,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/fish_hook/wrought_iron": {
+    "x": 384,
+    "y": 384,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/hammer_head/bismuth_bronze": {
+    "x": 448,
+    "y": 384,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/hammer_head/black_bronze": {
+    "x": 512,
+    "y": 384,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/hammer_head/black_steel": {
+    "x": 576,
+    "y": 384,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/hammer_head/blue_steel": {
+    "x": 640,
+    "y": 384,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/hammer_head/bronze": {
+    "x": 704,
+    "y": 384,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/hammer_head/copper": {
+    "x": 768,
+    "y": 384,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/hammer_head/red_steel": {
+    "x": 832,
+    "y": 384,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/hammer_head/steel": {
+    "x": 896,
+    "y": 384,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/hammer_head/wrought_iron": {
+    "x": 960,
+    "y": 384,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/hoe_head/bismuth_bronze": {
+    "x": 1024,
+    "y": 384,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/hoe_head/black_bronze": {
+    "x": 1088,
+    "y": 384,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/hoe_head/black_steel": {
+    "x": 0,
+    "y": 448,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/hoe_head/blue_steel": {
+    "x": 64,
+    "y": 448,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/hoe_head/bronze": {
+    "x": 128,
+    "y": 448,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/hoe_head/copper": {
+    "x": 192,
+    "y": 448,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/hoe_head/red_steel": {
+    "x": 256,
+    "y": 448,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/hoe_head/steel": {
+    "x": 320,
+    "y": 448,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/hoe_head/wrought_iron": {
+    "x": 384,
+    "y": 448,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/ingot/black_steel": {
+    "x": 192,
+    "y": 128,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/ingot/blue_steel": {
+    "x": 256,
+    "y": 128,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/ingot/high_carbon_steel": {
+    "x": 192,
+    "y": 0,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/ingot/red_steel": {
+    "x": 704,
+    "y": 128,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/ingot/steel": {
+    "x": 896,
+    "y": 128,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/ingot/wrought_iron": {
+    "x": 1088,
+    "y": 128,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/javelin_head/bismuth_bronze": {
+    "x": 448,
+    "y": 448,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/javelin_head/black_bronze": {
+    "x": 512,
+    "y": 448,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/javelin_head/black_steel": {
+    "x": 576,
+    "y": 448,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/javelin_head/blue_steel": {
+    "x": 640,
+    "y": 448,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/javelin_head/bronze": {
+    "x": 704,
+    "y": 448,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/javelin_head/copper": {
+    "x": 768,
+    "y": 448,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/javelin_head/red_steel": {
+    "x": 832,
+    "y": 448,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/javelin_head/steel": {
+    "x": 896,
+    "y": 448,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/javelin_head/wrought_iron": {
+    "x": 960,
+    "y": 448,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/knife_blade/bismuth_bronze": {
+    "x": 1024,
+    "y": 448,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/knife_blade/black_bronze": {
+    "x": 1088,
+    "y": 448,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/knife_blade/black_steel": {
+    "x": 0,
+    "y": 512,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/knife_blade/blue_steel": {
+    "x": 64,
+    "y": 512,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/knife_blade/bronze": {
+    "x": 128,
+    "y": 512,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/knife_blade/copper": {
+    "x": 192,
+    "y": 512,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/knife_blade/red_steel": {
+    "x": 256,
+    "y": 512,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/knife_blade/steel": {
+    "x": 320,
+    "y": 512,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/knife_blade/wrought_iron": {
+    "x": 384,
+    "y": 512,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/mace_head/bismuth_bronze": {
+    "x": 448,
+    "y": 512,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/mace_head/black_bronze": {
+    "x": 512,
+    "y": 512,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/mace_head/black_steel": {
+    "x": 576,
+    "y": 512,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/mace_head/blue_steel": {
+    "x": 640,
+    "y": 512,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/mace_head/bronze": {
+    "x": 704,
+    "y": 512,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/mace_head/copper": {
+    "x": 768,
+    "y": 512,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/mace_head/red_steel": {
+    "x": 832,
+    "y": 512,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/mace_head/steel": {
+    "x": 896,
+    "y": 512,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/mace_head/wrought_iron": {
+    "x": 960,
+    "y": 512,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/pickaxe_head/bismuth_bronze": {
+    "x": 1024,
+    "y": 512,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/pickaxe_head/black_bronze": {
+    "x": 1088,
+    "y": 512,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/pickaxe_head/black_steel": {
+    "x": 0,
+    "y": 576,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/pickaxe_head/blue_steel": {
+    "x": 64,
+    "y": 576,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/pickaxe_head/bronze": {
+    "x": 128,
+    "y": 576,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/pickaxe_head/copper": {
+    "x": 192,
+    "y": 576,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/pickaxe_head/red_steel": {
+    "x": 256,
+    "y": 576,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/pickaxe_head/steel": {
+    "x": 320,
+    "y": 576,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/pickaxe_head/wrought_iron": {
+    "x": 384,
+    "y": 576,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/propick_head/bismuth_bronze": {
+    "x": 448,
+    "y": 576,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/propick_head/black_bronze": {
+    "x": 512,
+    "y": 576,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/propick_head/black_steel": {
+    "x": 576,
+    "y": 576,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/propick_head/blue_steel": {
+    "x": 640,
+    "y": 576,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/propick_head/bronze": {
+    "x": 704,
+    "y": 576,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/propick_head/copper": {
+    "x": 768,
+    "y": 576,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/propick_head/red_steel": {
+    "x": 832,
+    "y": 576,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/propick_head/steel": {
+    "x": 896,
+    "y": 576,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/propick_head/wrought_iron": {
+    "x": 960,
+    "y": 576,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/rod/bismuth x2": {
+    "x": 1024,
+    "y": 576,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/rod/bismuth_bronze x2": {
+    "x": 1088,
+    "y": 576,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/rod/black_bronze x2": {
+    "x": 0,
+    "y": 640,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/rod/black_steel x2": {
+    "x": 64,
+    "y": 640,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/rod/blue_steel x2": {
+    "x": 128,
+    "y": 640,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/rod/brass x2": {
+    "x": 64,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/rod/bronze x2": {
+    "x": 192,
+    "y": 640,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/rod/cast_iron x2": {
+    "x": 256,
+    "y": 640,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/rod/copper x2": {
+    "x": 320,
+    "y": 640,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/rod/gold x2": {
+    "x": 384,
+    "y": 640,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/rod/nickel x2": {
+    "x": 448,
+    "y": 640,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/rod/red_steel x2": {
+    "x": 512,
+    "y": 640,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/rod/rose_gold x2": {
+    "x": 576,
+    "y": 640,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/rod/silver x2": {
+    "x": 640,
+    "y": 640,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/rod/steel x2": {
+    "x": 704,
+    "y": 640,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/rod/sterling_silver x2": {
+    "x": 768,
+    "y": 640,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/rod/tin x2": {
+    "x": 832,
+    "y": 640,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/rod/wrought_iron x2": {
+    "x": 896,
+    "y": 640,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/rod/zinc x2": {
+    "x": 960,
+    "y": 640,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/saw_blade/bismuth_bronze": {
+    "x": 1024,
+    "y": 640,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/saw_blade/black_bronze": {
+    "x": 1088,
+    "y": 640,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/saw_blade/black_steel": {
+    "x": 0,
+    "y": 704,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/saw_blade/blue_steel": {
+    "x": 64,
+    "y": 704,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/saw_blade/bronze": {
+    "x": 128,
+    "y": 704,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/saw_blade/copper": {
+    "x": 192,
+    "y": 704,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/saw_blade/red_steel": {
+    "x": 256,
+    "y": 704,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/saw_blade/steel": {
+    "x": 320,
+    "y": 704,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/saw_blade/wrought_iron": {
+    "x": 384,
+    "y": 704,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/scythe_blade/bismuth_bronze": {
+    "x": 448,
+    "y": 704,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/scythe_blade/black_bronze": {
+    "x": 512,
+    "y": 704,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/scythe_blade/black_steel": {
+    "x": 576,
+    "y": 704,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/scythe_blade/blue_steel": {
+    "x": 640,
+    "y": 704,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/scythe_blade/bronze": {
+    "x": 704,
+    "y": 704,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/scythe_blade/copper": {
+    "x": 768,
+    "y": 704,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/scythe_blade/red_steel": {
+    "x": 832,
+    "y": 704,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/scythe_blade/steel": {
+    "x": 896,
+    "y": 704,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/scythe_blade/wrought_iron": {
+    "x": 960,
+    "y": 704,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sheet/bismuth": {
+    "x": 1024,
+    "y": 704,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sheet/bismuth_bronze": {
+    "x": 128,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sheet/black_bronze": {
+    "x": 192,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sheet/black_steel": {
+    "x": 256,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sheet/blue_steel": {
+    "x": 320,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sheet/brass": {
+    "x": 1088,
+    "y": 704,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sheet/bronze": {
+    "x": 384,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sheet/cast_iron": {
+    "x": 0,
+    "y": 768,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sheet/copper": {
+    "x": 448,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sheet/gold": {
+    "x": 64,
+    "y": 768,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sheet/nickel": {
+    "x": 128,
+    "y": 768,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sheet/red_steel": {
+    "x": 512,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sheet/rose_gold": {
+    "x": 192,
+    "y": 768,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sheet/silver": {
+    "x": 256,
+    "y": 768,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sheet/steel": {
+    "x": 576,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sheet/sterling_silver": {
+    "x": 320,
+    "y": 768,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sheet/tin": {
+    "x": 384,
+    "y": 768,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sheet/wrought_iron": {
+    "x": 640,
+    "y": 192,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sheet/zinc": {
+    "x": 448,
+    "y": 768,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/shield/bismuth_bronze": {
+    "x": 512,
+    "y": 768,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/shield/black_bronze": {
+    "x": 576,
+    "y": 768,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/shield/black_steel": {
+    "x": 640,
+    "y": 768,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/shield/blue_steel": {
+    "x": 704,
+    "y": 768,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/shield/bronze": {
+    "x": 768,
+    "y": 768,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/shield/copper": {
+    "x": 832,
+    "y": 768,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/shield/red_steel": {
+    "x": 896,
+    "y": 768,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/shield/steel": {
+    "x": 960,
+    "y": 768,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/shield/wrought_iron": {
+    "x": 1024,
+    "y": 768,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/shovel_head/bismuth_bronze": {
+    "x": 1088,
+    "y": 768,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/shovel_head/black_bronze": {
+    "x": 0,
+    "y": 832,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/shovel_head/black_steel": {
+    "x": 64,
+    "y": 832,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/shovel_head/blue_steel": {
+    "x": 128,
+    "y": 832,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/shovel_head/bronze": {
+    "x": 192,
+    "y": 832,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/shovel_head/copper": {
+    "x": 256,
+    "y": 832,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/shovel_head/red_steel": {
+    "x": 320,
+    "y": 832,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/shovel_head/steel": {
+    "x": 384,
+    "y": 832,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/shovel_head/wrought_iron": {
+    "x": 448,
+    "y": 832,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sword_blade/bismuth_bronze": {
+    "x": 512,
+    "y": 832,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sword_blade/black_bronze": {
+    "x": 576,
+    "y": 832,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sword_blade/black_steel": {
+    "x": 640,
+    "y": 832,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sword_blade/blue_steel": {
+    "x": 704,
+    "y": 832,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sword_blade/bronze": {
+    "x": 768,
+    "y": 832,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sword_blade/copper": {
+    "x": 832,
+    "y": 832,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sword_blade/red_steel": {
+    "x": 896,
+    "y": 832,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sword_blade/steel": {
+    "x": 960,
+    "y": 832,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/sword_blade/wrought_iron": {
+    "x": 1024,
+    "y": 832,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/trapdoor/bismuth_bronze": {
+    "x": 1088,
+    "y": 832,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/trapdoor/black_bronze": {
+    "x": 0,
+    "y": 896,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/trapdoor/black_steel": {
+    "x": 64,
+    "y": 896,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/trapdoor/blue_steel": {
+    "x": 128,
+    "y": 896,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/trapdoor/bronze": {
+    "x": 192,
+    "y": 896,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/trapdoor/copper": {
+    "x": 256,
+    "y": 896,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/trapdoor/red_steel": {
+    "x": 320,
+    "y": 896,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/trapdoor/steel": {
+    "x": 384,
+    "y": 896,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/trapdoor/wrought_iron": {
+    "x": 448,
+    "y": 896,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/tuyere/bismuth_bronze": {
+    "x": 512,
+    "y": 896,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/tuyere/black_bronze": {
+    "x": 576,
+    "y": 896,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/tuyere/black_steel": {
+    "x": 640,
+    "y": 896,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/tuyere/blue_steel": {
+    "x": 704,
+    "y": 896,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/tuyere/bronze": {
+    "x": 768,
+    "y": 896,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/tuyere/copper": {
+    "x": 832,
+    "y": 896,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/tuyere/red_steel": {
+    "x": 896,
+    "y": 896,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/tuyere/steel": {
+    "x": 960,
+    "y": 896,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/tuyere/wrought_iron": {
+    "x": 1024,
+    "y": 896,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_boots/bismuth_bronze": {
+    "x": 1088,
+    "y": 896,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_boots/black_bronze": {
+    "x": 0,
+    "y": 960,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_boots/black_steel": {
+    "x": 64,
+    "y": 960,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_boots/blue_steel": {
+    "x": 128,
+    "y": 960,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_boots/bronze": {
+    "x": 192,
+    "y": 960,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_boots/copper": {
+    "x": 256,
+    "y": 960,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_boots/red_steel": {
+    "x": 320,
+    "y": 960,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_boots/steel": {
+    "x": 384,
+    "y": 960,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_boots/wrought_iron": {
+    "x": 448,
+    "y": 960,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_chestplate/bismuth_bronze": {
+    "x": 512,
+    "y": 960,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_chestplate/black_bronze": {
+    "x": 576,
+    "y": 960,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_chestplate/black_steel": {
+    "x": 640,
+    "y": 960,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_chestplate/blue_steel": {
+    "x": 704,
+    "y": 960,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_chestplate/bronze": {
+    "x": 768,
+    "y": 960,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_chestplate/copper": {
+    "x": 832,
+    "y": 960,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_chestplate/red_steel": {
+    "x": 896,
+    "y": 960,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_chestplate/steel": {
+    "x": 960,
+    "y": 960,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_chestplate/wrought_iron": {
+    "x": 1024,
+    "y": 960,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_greaves/bismuth_bronze": {
+    "x": 1088,
+    "y": 960,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_greaves/black_bronze": {
+    "x": 0,
+    "y": 1024,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_greaves/black_steel": {
+    "x": 64,
+    "y": 1024,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_greaves/blue_steel": {
+    "x": 128,
+    "y": 1024,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_greaves/bronze": {
+    "x": 192,
+    "y": 1024,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_greaves/copper": {
+    "x": 256,
+    "y": 1024,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_greaves/red_steel": {
+    "x": 320,
+    "y": 1024,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_greaves/steel": {
+    "x": 384,
+    "y": 1024,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_greaves/wrought_iron": {
+    "x": 448,
+    "y": 1024,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_helmet/bismuth_bronze": {
+    "x": 512,
+    "y": 1024,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_helmet/black_bronze": {
+    "x": 576,
+    "y": 1024,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_helmet/black_steel": {
+    "x": 640,
+    "y": 1024,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_helmet/blue_steel": {
+    "x": 704,
+    "y": 1024,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_helmet/bronze": {
+    "x": 768,
+    "y": 1024,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_helmet/copper": {
+    "x": 832,
+    "y": 1024,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_helmet/red_steel": {
+    "x": 896,
+    "y": 1024,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_helmet/steel": {
+    "x": 960,
+    "y": 1024,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_helmet/wrought_iron": {
+    "x": 1024,
+    "y": 1024,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_lamp/bismuth_bronze": {
+    "x": 1088,
+    "y": 1024,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_lamp/black_bronze": {
+    "x": 0,
+    "y": 1088,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_lamp/black_steel": {
+    "x": 64,
+    "y": 1088,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_lamp/blue_steel": {
+    "x": 128,
+    "y": 1088,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_lamp/bronze": {
+    "x": 192,
+    "y": 1088,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_lamp/copper": {
+    "x": 256,
+    "y": 1088,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_lamp/red_steel": {
+    "x": 320,
+    "y": 1088,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_lamp/steel": {
+    "x": 384,
+    "y": 1088,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:metal/unfinished_lamp/wrought_iron": {
+    "x": 448,
+    "y": 1088,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:refined_iron_bloom": {
+    "x": 384,
+    "y": 0,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:steel_pipe x8": {
+    "x": 512,
+    "y": 1088,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  },
+  "tfc:wrought_iron_grill": {
+    "x": 576,
+    "y": 1088,
+    "width": 64,
+    "height": 64,
+    "atlasWidth": 1152,
+    "atlasHeight": 1152
+  }
+}
