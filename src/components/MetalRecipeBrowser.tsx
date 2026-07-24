@@ -23,9 +23,10 @@ function getRecipeCount(recipe: { result: string; resultName?: string }): number
 // Single Metal Button component with icon cycling
 const MetalButton: React.FC<{
   group: MetalGroup;
+  countOverride?: number;
   isSelected: boolean;
   onClick: () => void;
-}> = ({ group, isSelected, onClick }) => {
+}> = ({ group, countOverride, isSelected, onClick }) => {
   const [iconIndex, setIconIndex] = useState(0);
 
   useEffect(() => {
@@ -37,6 +38,7 @@ const MetalButton: React.FC<{
   }, [group.cyclingIcons]);
 
   const currentIconKey = group.cyclingIcons[iconIndex] || group.cyclingIcons[0];
+  const recipeCount = countOverride ?? group.recipes.length;
 
   return (
     <button
@@ -44,13 +46,13 @@ const MetalButton: React.FC<{
       onClick={onClick}
     >
       <ItemIcon itemKey={currentIconKey} size={32} />
-      <span className="slot-badge">{group.recipes.length}</span>
+      <span className="slot-badge">{recipeCount}</span>
 
       {/* Rich Metal Button Tooltip */}
       <div className="slot-tooltip">
         <div className="tooltip-title">{group.name}</div>
         <div className="tooltip-meta">Tier {group.tier} Anvil</div>
-        <div className="tooltip-sub">{group.recipes.length} recipes</div>
+        <div className="tooltip-sub">{recipeCount} recipes</div>
       </div>
     </button>
   );
@@ -60,6 +62,7 @@ export const MetalRecipeBrowser: React.FC = () => {
   const dispatch = useAppDispatch();
   const { selectedPreset, selectedRecipeId } = useAppSelector((state) => state.anvil);
   const preset = PRESETS[selectedPreset] || PRESETS.tfc;
+  const [searchQuery, setSearchQuery] = useState('');
 
   const metalGroups = useMemo(() => {
     return getMetalGroups(preset.recipes);
@@ -84,6 +87,25 @@ export const MetalRecipeBrowser: React.FC = () => {
     }
   }, [initialMetalId]);
 
+  const isSearching = searchQuery.trim().length > 0;
+  const queryLower = searchQuery.trim().toLowerCase();
+
+  const filteredGroups = useMemo(() => {
+    if (!isSearching) {
+      return metalGroups.map((g) => ({ group: g, recipes: g.recipes }));
+    }
+    return metalGroups
+      .map((g) => {
+        const matching = g.recipes.filter((r) => {
+          const inputStr = `${r.input} ${r.inputName || ''}`.toLowerCase();
+          const resultStr = `${r.result} ${r.resultName || ''}`.toLowerCase();
+          return inputStr.includes(queryLower) || resultStr.includes(queryLower);
+        });
+        return { group: g, recipes: matching };
+      })
+      .filter((item) => item.recipes.length > 0);
+  }, [metalGroups, isSearching, queryLower]);
+
   const handleMetalClick = (groupId: string) => {
     if (activeMetalId === groupId) {
       setActiveMetalId(null); // Toggle close
@@ -100,25 +122,44 @@ export const MetalRecipeBrowser: React.FC = () => {
           <span>Recipe Browser</span>
           <span className="preset-pill">{preset.name}</span>
         </div>
+        <div className="browser-search-wrapper">
+          <input
+            type="text"
+            className="browser-search-input"
+            placeholder="Search input or output..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+          />
+          {searchQuery && (
+            <button
+              className="search-clear-btn"
+              onClick={() => setSearchQuery('')}
+              title="Clear search"
+            >
+              ✕
+            </button>
+          )}
+        </div>
       </div>
 
       {/* Main Unified Grid Table for Metals & Expanded Recipe Slots */}
       <div className="recipe-browser-grid">
-        {metalGroups.map((group) => {
-          const isSelected = group.id === activeMetalId;
+        {filteredGroups.map(({ group, recipes }) => {
+          const isExpanded = isSearching || group.id === activeMetalId;
 
           return (
             <React.Fragment key={group.id}>
               {/* Metal Group Icon Button */}
               <MetalButton
                 group={group}
-                isSelected={isSelected}
+                countOverride={isSearching ? recipes.length : undefined}
+                isSelected={isExpanded}
                 onClick={() => handleMetalClick(group.id)}
               />
 
               {/* Direct Recipe Slots added into the exact same grid right after clicked metal button */}
-              {isSelected &&
-                group.recipes.map((recipe) => {
+              {isExpanded &&
+                recipes.map((recipe) => {
                   const isRecipeSelected = recipe.id === selectedRecipeId;
                   const recipeName = recipe.resultName || recipe.result;
                   const count = getRecipeCount(recipe);
@@ -145,6 +186,9 @@ export const MetalRecipeBrowser: React.FC = () => {
             </React.Fragment>
           );
         })}
+        {isSearching && filteredGroups.length === 0 && (
+          <div className="no-recipes-found">No recipes found matching "{searchQuery}"</div>
+        )}
       </div>
     </div>
   );
