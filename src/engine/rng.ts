@@ -165,3 +165,11 @@ export function calculateTargetProgress(worldSeedInput: string | number, recipeI
   targetProgressCache.set(cacheKey, result);
   return result;
 }
+
+export async function calculateTargetProgressAsync(worldSeedInput: string | number, recipeId: string): Promise<number> {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(calculateTargetProgress(worldSeedInput, recipeId));
+    }, 0);
+  });
+}

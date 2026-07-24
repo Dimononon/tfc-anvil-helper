@@ -208,6 +208,14 @@ export function solveAnvilSteps(targetProgress: number, rules: string[] = []): S
   return failResult;
 }
 
+export async function solveAnvilStepsAsync(targetProgress: number, rules: string[] = []): Promise<SolveResult> {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(solveAnvilSteps(targetProgress, rules));
+    }, 0);
+  });
+}
+
 /**
  * Groups consecutive identical actions into a single GroupedStep.
  * Mandatory and non-mandatory steps of the same action type merge seamlessly.

@@ -1,31 +1,45 @@
-import React, { useMemo } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { useAppSelector } from '../store';
 import { PRESETS } from '../data/presets';
-import { calculateTargetProgress } from '../engine/rng';
-import { solveAnvilSteps } from '../engine/solver';
+import { calculateTargetProgressAsync } from '../engine/rng';
+import { solveAnvilStepsAsync, SolveResult } from '../engine/solver';
 import { AnvilDisplay } from './AnvilDisplay';
 import { AnvilResult } from './AnvilResult';
 import { MetalRecipeBrowser } from './MetalRecipeBrowser';
 
 export const SolverView: React.FC = () => {
-  const { worldSeed, selectedRecipeId, selectedPreset } = useAppSelector(state => state.anvil);
+  const { worldSeed, selectedRecipeId, selectedPreset } = useAppSelector((state) => state.anvil);
   const preset = PRESETS[selectedPreset] || PRESETS.tfc;
 
   const recipe = useMemo(() => {
-    return preset.recipes.find(r => r.id === selectedRecipeId) || preset.recipes[0];
+    return preset.recipes.find((r) => r.id === selectedRecipeId) || preset.recipes[0];
   }, [selectedRecipeId, preset]);
 
-  // Calculate target progress value using 128-bit PRNG engine (instantaneous 0ms)
-  const targetProgress = useMemo(() => {
-    if (!recipe) return 40;
-    return calculateTargetProgress(worldSeed, recipe.id);
-  }, [worldSeed, recipe]);
+  const [targetProgress, setTargetProgress] = useState<number>(40);
+  const [solveResult, setSolveResult] = useState<SolveResult | undefined>(undefined);
 
-  // Run A* / BFS solver for optimal steps (0ms cached execution)
-  const solveResult = useMemo(() => {
-    if (!recipe) return undefined;
-    return solveAnvilSteps(targetProgress, recipe.rules);
-  }, [targetProgress, recipe]);
+  // Asynchronous calculation for target progress value and optimal anvil steps
+  useEffect(() => {
+    if (!recipe) return;
+
+    let isSubscribed = true;
+
+    async function runAsyncCalculation() {
+      const progress = await calculateTargetProgressAsync(worldSeed, recipe.id);
+      const result = await solveAnvilStepsAsync(progress, recipe.rules);
+
+      if (isSubscribed) {
+        setTargetProgress(progress);
+        setSolveResult(result);
+      }
+    }
+
+    runAsyncCalculation();
+
+    return () => {
+      isSubscribed = false;
+    };
+  }, [worldSeed, recipe]);
 
   if (!recipe) {
     return <div className="solver-panel">Select a recipe to view anvil instructions</div>;
