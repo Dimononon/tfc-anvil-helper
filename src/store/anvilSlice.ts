@@ -12,15 +12,9 @@ export interface AnvilState {
 const STORAGE_SEED_KEY = 'tfc_anvil_world_seed';
 const STORAGE_PRESET_KEY = 'tfc_anvil_preset_id';
 
-const initialSeed = typeof window !== 'undefined'
-  ? localStorage.getItem(STORAGE_SEED_KEY) || '123456789'
-  : '123456789';
-
-const initialPreset = (typeof window !== 'undefined'
-  ? (localStorage.getItem(STORAGE_PRESET_KEY) as PresetId)
-  : null) || 'tfc';
-
-const activePreset = PRESETS[initialPreset] || PRESETS.tfc;
+const initialSeed = '832011092856214026';
+const initialPreset: PresetId = 'tfg';
+const activePreset = PRESETS[initialPreset] || PRESETS.tfg;
 
 const initialState: AnvilState = {
   worldSeed: initialSeed,

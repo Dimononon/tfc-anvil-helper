@@ -135,6 +135,13 @@ body {
   border-color: var(--accent-primary);
 }
 
+.control-input:disabled {
+  background: var(--bg-darker);
+  color: var(--text-muted);
+  cursor: not-allowed;
+  opacity: 0.85;
+}
+
 /* Main Layout */
 .app-main {
   max-width: 1000px;

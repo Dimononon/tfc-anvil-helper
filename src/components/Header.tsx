@@ -26,6 +26,7 @@ export const Header: React.FC = () => {
               className="control-input"
               value={selectedPreset}
               onChange={e => dispatch(setSelectedPreset(e.target.value as PresetId))}
+              disabled
             >
               {Object.values(PRESETS).map(preset => (
                 <option key={preset.id} value={preset.id}>
@@ -44,6 +45,7 @@ export const Header: React.FC = () => {
               value={worldSeed}
               onChange={handleSeedChange}
               placeholder="Seed..."
+              disabled
             />
           </div>
         </div>
