@@ -82,6 +82,44 @@ function deduplicateRecipes(recipes: TfcRecipe[]): TfcRecipe[] {
   return unique;
 }
 
+function getRecipeCategoryRank(recipe: TfcRecipe): [number, number, string] {
+  const rawName = recipe.resultName || recipe.result;
+  const cleanName = rawName.replace(/[\s×x\d]+$/, '').trim();
+  const n = cleanName.toLowerCase();
+
+  // Category 1: Basic Metal Stock (Ingots, Sheets, Plates)
+  if (n.includes('ingot')) return [1, 1, cleanName];
+  if (n.includes('sheet') || /\bplate\b/.test(n)) return [1, 2, cleanName];
+
+  // Category 2: Small Parts & Fasteners (Rods, Wires, Bolts, Screws, Rings, Nuggets, Springs)
+  if (/\brod\b/.test(n) || (/\bwire\b/.test(n) && !n.includes('cutter'))) return [2, 1, cleanName];
+  if (
+    ['bolt', 'ring', 'nugget', 'spring'].some((k) => n.includes(k)) ||
+    (/\bscrew\b/.test(n) && !n.includes('screwdriver'))
+  )
+    return [2, 2, cleanName];
+
+  // Category 3: Tool & Instrument Heads / Weapon Parts (Axe, Saw, Pickaxe, Hoe, Chisel, Hammer, Knife, Screwdriver Tip, etc.)
+  if (['head', 'blade', 'tip', 'part', 'hook', 'cutter', 'screwdriver'].some((k) => n.includes(k))) return [3, 1, cleanName];
+
+  // Category 4: Armor & Protection
+  if (['unfinished', 'helmet', 'chestplate', 'greaves', 'boots', 'shield'].some((k) => n.includes(k))) return [4, 1, cleanName];
+
+  // Category 5: Utility, Blocks & Misc (Chain, Door, Trapdoor, Bars, Lamp, etc.)
+  return [5, 1, cleanName];
+}
+
+export function sortRecipes(recipes: TfcRecipe[]): TfcRecipe[] {
+  return [...recipes].sort((a, b) => {
+    const rankA = getRecipeCategoryRank(a);
+    const rankB = getRecipeCategoryRank(b);
+
+    if (rankA[0] !== rankB[0]) return rankA[0] - rankB[0];
+    if (rankA[1] !== rankB[1]) return rankA[1] - rankB[1];
+    return rankA[2].localeCompare(rankB[2]);
+  });
+}
+
 export function getMetalGroups(rawRecipes: TfcRecipe[]): MetalGroup[] {
   const recipes = deduplicateRecipes(rawRecipes);
   const map = new Map<string, TfcRecipe[]>();
@@ -128,7 +166,7 @@ export function getMetalGroups(rawRecipes: TfcRecipe[]): MetalGroup[] {
       tagOrId,
       tier,
       cyclingIcons,
-      recipes: groupRecipes,
+      recipes: sortRecipes(groupRecipes),
     });
   }
 
