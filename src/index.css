@@ -194,34 +194,6 @@ body {
   font-weight: 700;
 }
 
-.active-metal-summary {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.85rem;
-}
-
-.metal-title {
-  font-weight: 700;
-  color: var(--accent-primary);
-}
-
-.metal-tag {
-  font-family: var(--font-body);
-  font-size: 0.75rem;
-  background: var(--bg-card-hover);
-  color: var(--text-muted);
-  padding: 0.15rem 0.4rem;
-  border-radius: 4px;
-  border: 1px solid var(--border-color);
-}
-
-.count-tag {
-  font-size: 0.75rem;
-  color: var(--text-dim);
-  font-weight: 600;
-}
-
 /* Main Unified Grid Table for Metal & Recipe Slots */
 .recipe-browser-grid {
   display: flex;

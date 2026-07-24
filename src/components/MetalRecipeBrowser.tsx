@@ -84,10 +84,6 @@ export const MetalRecipeBrowser: React.FC = () => {
     }
   }, [initialMetalId]);
 
-  const activeGroup = useMemo(() => {
-    return metalGroups.find((g) => g.id === activeMetalId) || null;
-  }, [metalGroups, activeMetalId]);
-
   const handleMetalClick = (groupId: string) => {
     if (activeMetalId === groupId) {
       setActiveMetalId(null); // Toggle close
@@ -104,16 +100,6 @@ export const MetalRecipeBrowser: React.FC = () => {
           <span>Recipe Browser</span>
           <span className="preset-pill">{preset.name}</span>
         </div>
-        {activeGroup && (
-          <div className="active-metal-summary">
-            <span className="metal-title">{activeGroup.name}</span>
-            <span className="preset-pill" style={{ background: 'rgba(240, 140, 0, 0.15)', color: 'var(--accent-primary)', borderColor: 'rgba(240, 140, 0, 0.3)' }}>
-              Tier {activeGroup.tier}
-            </span>
-            <code className="metal-tag">{activeGroup.tagOrId}</code>
-            <span className="count-tag">{activeGroup.recipes.length} items</span>
-          </div>
-        )}
       </div>
 
       {/* Main Unified Grid Table for Metals & Expanded Recipe Slots */}
