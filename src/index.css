@@ -293,7 +293,7 @@ body {
   line-height: 1;
 }
 
-/* Clean Minimalist Tooltip */
+/* Clean Minimalist Tooltip (Light Theme) */
 .slot-tooltip {
   display: none;
   position: absolute;
@@ -303,13 +303,13 @@ body {
   z-index: 100;
   pointer-events: none;
   width: max-content;
-  max-width: 260px;
+  max-width: 280px;
   padding: 0.5rem 0.7rem;
-  background: #0f172a;
-  border: 1px solid #1e293b;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
   border-radius: 6px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  color: #fff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.05);
+  color: #0f172a;
   text-align: left;
   font-size: 0.78rem;
   line-height: 1.35;
@@ -321,27 +321,28 @@ body {
 
 .tooltip-title {
   font-weight: 700;
-  color: #ffffff;
-  border-bottom: 1px solid #334155;
+  color: #0f172a;
+  border-bottom: 1px solid #e2e8f0;
   padding-bottom: 0.2rem;
   margin-bottom: 0.25rem;
   font-size: 0.82rem;
 }
 
 .tooltip-sub {
-  color: #94a3b8;
+  color: #475569;
   font-size: 0.72rem;
+  word-break: break-all;
 }
 
 .tooltip-meta {
-  color: #fb923c;
+  color: #c2410c;
   font-size: 0.72rem;
   font-weight: 600;
   margin-top: 0.2rem;
 }
 
 .tooltip-rules {
-  color: #38bdf8;
+  color: #0284c7;
   font-size: 0.7rem;
   margin-top: 0.2rem;
   text-transform: capitalize;

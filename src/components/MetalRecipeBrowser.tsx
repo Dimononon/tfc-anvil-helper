@@ -49,9 +49,8 @@ const MetalButton: React.FC<{
       {/* Rich Metal Button Tooltip */}
       <div className="slot-tooltip">
         <div className="tooltip-title">{group.name}</div>
-        <div className="tooltip-meta">🔨 Tier {group.tier} Anvil</div>
+        <div className="tooltip-meta">Tier {group.tier} Anvil</div>
         <div className="tooltip-sub">{group.recipes.length} recipes</div>
-        <div className="tooltip-rules">{group.tagOrId}</div>
       </div>
     </button>
   );
@@ -136,7 +135,6 @@ export const MetalRecipeBrowser: React.FC = () => {
                 group.recipes.map((recipe) => {
                   const isRecipeSelected = recipe.id === selectedRecipeId;
                   const recipeName = recipe.resultName || recipe.result;
-                  const inputName = recipe.inputName || recipe.input;
                   const count = getRecipeCount(recipe);
 
                   return (
@@ -151,11 +149,9 @@ export const MetalRecipeBrowser: React.FC = () => {
                       {/* Rich Tooltip */}
                       <div className="slot-tooltip">
                         <div className="tooltip-title">{recipeName}</div>
-                        <div className="tooltip-sub">Input: {inputName}</div>
+                        <div className="tooltip-sub">input: {recipe.input.toLowerCase()}</div>
+                        <div className="tooltip-sub">result: {recipe.result.toLowerCase()}</div>
                         <div className="tooltip-meta">Anvil Tier {recipe.tier}</div>
-                        <div className="tooltip-rules">
-                          {recipe.rules.map((r) => r.replace(/_/g, ' ')).join(' • ')}
-                        </div>
                       </div>
                     </button>
                   );
