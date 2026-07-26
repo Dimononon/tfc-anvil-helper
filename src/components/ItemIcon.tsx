@@ -34,13 +34,15 @@ export const ItemIcon: React.FC<ItemIconProps> = ({ itemKey, size = 32, classNam
     );
   }
 
-  const scale = size / meta.width;
+  // Pad the sample boundary inward by 0.5 atlas pixels on each edge to completely eliminate nearest-neighbor subpixel bleed
+  // from adjacent tiles in the texture atlas regardless of container layout position, screen scaling, or CSS transforms.
+  const pad = 0.5;
+  const sampleWidth = meta.width - 2 * pad;
+  const scale = size / sampleWidth;
   const bgWidth = meta.atlasWidth * scale;
   const bgHeight = meta.atlasHeight * scale;
-  // Add a tiny subpixel offset (0.05 atlas px) to prevent subpixel nearest-neighbor bleed from adjacent atlas tiles
-  const offset = 0.05;
-  const bgX = -(meta.x + offset) * scale;
-  const bgY = -(meta.y + offset) * scale;
+  const bgX = -(meta.x + pad) * scale;
+  const bgY = -(meta.y + pad) * scale;
 
   return (
     <div
@@ -54,6 +56,7 @@ export const ItemIcon: React.FC<ItemIconProps> = ({ itemKey, size = 32, classNam
         backgroundRepeat: 'no-repeat',
         imageRendering: 'pixelated',
         flexShrink: 0,
+        overflow: 'hidden',
       }}
       title={itemKey}
     />
