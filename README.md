@@ -26,11 +26,11 @@ Live Web App: **[anvil.dimononon.com](https://anvil.dimononon.com)**
 - [x] **Preset Selector**: Preset support for Vanilla TFC and TerraFirmaGreg (TFG).
 - [x] **Categorized Recipe Browser**: Live search and group expansion for fast recipe lookups.
 - [x] **Pixel-Perfect Anvil GUI**: Replicating TFC anvil screen, chevron markers, and grouped action sequence overlays.
+- [x] **Mobile Adaptive UI**: Fully responsive layout optimized for mobile viewports and small screens.
 
 ### Work in Progress (`WIP`)
 - [ ] **Pinned Recipes (`WIP`)**: Pin favorite or frequently used recipes.
 - [ ] **Craft History (`WIP`)**: View a history log of recent recipe calculations.
-- [ ] **Mobile Adaptive UI (`WIP`)**: Fully responsive layout optimized for mobile viewports and small screens.
 - [ ] **Vanilla TFC-like UI (`WIP`)**: Authentic in-game TFC GUI theme option.
 - [ ] **Manual Target Value Mode (`WIP`)**: Select a recipe and manually enter the target progress value (useful when using target progress reader texture packs).
 - [ ] **Full Manual Mode / Custom Recipe Mode (`WIP`)**: Manually input custom mandatory forging rules and target progress values for custom or unlisted recipes.
