@@ -82,31 +82,64 @@ function deduplicateRecipes(recipes: TfcRecipe[]): TfcRecipe[] {
   return unique;
 }
 
+const ALL_METAL_PREFIXES = METAL_FAMILIES.flatMap((f) => f.prefixes).sort((a, b) => b.length - a.length);
+
+function getNormalizedItemName(cleanName: string): string {
+  let s = cleanName;
+
+  let leadMod = '';
+  const modMatch = s.match(/^(Small|Long|Big|Large|Unfinished)\s+/i);
+  if (modMatch) {
+    leadMod = modMatch[1];
+    s = s.slice(modMatch[0].length);
+  }
+
+  for (const prefix of ALL_METAL_PREFIXES) {
+    const reg = new RegExp('^' + prefix + '\\s+', 'i');
+    if (reg.test(s)) {
+      s = s.replace(reg, '');
+      break;
+    }
+  }
+
+  if (!leadMod) {
+    const modMatch2 = s.match(/^(Small|Long|Big|Large|Unfinished)\s+/i);
+    if (modMatch2) {
+      leadMod = modMatch2[1];
+      s = s.slice(modMatch2[0].length);
+    }
+  }
+
+  return leadMod ? `${s} (${leadMod})` : s;
+}
+
 function getRecipeCategoryRank(recipe: TfcRecipe): [number, number, string] {
   const rawName = recipe.resultName || recipe.result;
   const cleanName = rawName.replace(/[\s×x\d]+$/, '').trim();
   const n = cleanName.toLowerCase();
+  const sortKey = getNormalizedItemName(cleanName);
 
   // Category 1: Basic Metal Stock (Ingots, Sheets, Plates)
-  if (n.includes('ingot')) return [1, 1, cleanName];
-  if (n.includes('sheet') || /\bplate\b/.test(n)) return [1, 2, cleanName];
+  if (n.includes('bloom')) return [1, 1, sortKey];
+  if (n.includes('ingot')) return [1, 2, sortKey];
+  if (n.includes('sheet') || /\bplate\b/.test(n)) return [1, 3, sortKey];
 
   // Category 2: Small Parts & Fasteners (Rods, Wires, Bolts, Screws, Rings, Nuggets, Springs)
-  if (/\brod\b/.test(n) || (/\bwire\b/.test(n) && !n.includes('cutter'))) return [2, 1, cleanName];
+  if (/\brod\b/.test(n) || (/\bwire\b/.test(n) && !n.includes('cutter'))) return [2, 1, sortKey];
   if (
-    ['bolt', 'ring', 'nugget', 'spring'].some((k) => n.includes(k)) ||
+    ['bolt', 'ring', 'nugget', 'spring', 'gear'].some((k) => n.includes(k)) ||
     (/\bscrew\b/.test(n) && !n.includes('screwdriver'))
   )
-    return [2, 2, cleanName];
+    return [2, 2, sortKey];
 
   // Category 3: Tool & Instrument Heads / Weapon Parts (Axe, Saw, Pickaxe, Hoe, Chisel, Hammer, Knife, Screwdriver Tip, etc.)
-  if (['head', 'blade', 'tip', 'part', 'hook', 'cutter', 'screwdriver'].some((k) => n.includes(k))) return [3, 1, cleanName];
+  if (['head', 'blade', 'tip', 'part', 'hook', 'cutter', 'screwdriver'].some((k) => n.includes(k))) return [3, 1, sortKey];
 
   // Category 4: Armor & Protection
-  if (['unfinished', 'helmet', 'chestplate', 'greaves', 'boots', 'shield'].some((k) => n.includes(k))) return [4, 1, cleanName];
+  if (['unfinished', 'helmet', 'chestplate', 'greaves', 'boots', 'shield'].some((k) => n.includes(k))) return [4, 1, sortKey];
 
   // Category 5: Utility, Blocks & Misc (Chain, Door, Trapdoor, Bars, Lamp, etc.)
-  return [5, 1, cleanName];
+  return [5, 1, sortKey];
 }
 
 export function sortRecipes(recipes: TfcRecipe[]): TfcRecipe[] {
