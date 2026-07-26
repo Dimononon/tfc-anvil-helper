@@ -3546,15 +3546,15 @@
   },
   {
     "id": "afc:anvil/tree_tap",
-    "input": "item: tfc:metal/sheet/wrought_iron",
+    "input": "tag: forge:ingots/copper",
     "result": "afc:tree_tap",
-    "tier": 3,
+    "tier": 1,
     "rules": [
       "hit_last",
       "upset_second_last",
       "upset_third_last"
     ],
-    "inputName": "Wrought Iron Sheet",
+    "inputName": "Copper Ingot",
     "resultName": "Tree Tap"
   },
   {
