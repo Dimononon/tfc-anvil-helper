@@ -80,12 +80,10 @@ export const MetalRecipeBrowser: React.FC = () => {
 
   const [activeMetalId, setActiveMetalId] = useState<string | null>(initialMetalId);
 
-  // Sync active metal group if selectedRecipeId changes externally
+  // Sync active metal group when selectedPreset changes
   useEffect(() => {
-    if (!activeMetalId) {
-      setActiveMetalId(initialMetalId);
-    }
-  }, [initialMetalId]);
+    setActiveMetalId(initialMetalId);
+  }, [selectedPreset]);
 
   const isSearching = searchQuery.trim().length > 0;
   const queryLower = searchQuery.trim().toLowerCase();
@@ -111,6 +109,14 @@ export const MetalRecipeBrowser: React.FC = () => {
       setActiveMetalId(null); // Toggle close
     } else {
       setActiveMetalId(groupId);
+    }
+  };
+
+  const handleRecipeSelect = (recipeId: string) => {
+    dispatch(setSelectedRecipeId(recipeId));
+    // Auto-collapse active metal group on mobile viewports (< 640px) after selecting a recipe
+    if (window.innerWidth < 640 && !isSearching) {
+      setActiveMetalId(null);
     }
   };
 
@@ -168,7 +174,7 @@ export const MetalRecipeBrowser: React.FC = () => {
                     <button
                       key={recipe.id}
                       className={`slot-icon-btn recipe-slot ${isRecipeSelected ? 'selected' : ''}`}
-                      onClick={() => dispatch(setSelectedRecipeId(recipe.id))}
+                      onClick={() => handleRecipeSelect(recipe.id)}
                     >
                       <ItemIcon itemKey={recipe.result} size={32} />
                       {count > 1 && <span className="slot-badge">x{count}</span>}

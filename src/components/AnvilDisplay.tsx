@@ -75,12 +75,13 @@ export const AnvilDisplay: React.FC<AnvilDisplayProps> = ({ recipe, targetProgre
       if (!wrapperRef.current) return;
       const availableWidth = wrapperRef.current.clientWidth;
       if (availableWidth <= 0) return;
-      // Prefer exact integer scale (e.g., 3x for 528px, 2x for 352px)
-      const fitsScale = Math.floor(availableWidth / 176);
-      if (fitsScale >= 1) {
-        setScaleFactor(Math.min(fitsScale, 4));
+      // Fluid scale for mobile/narrow screens (< 528px), integer scale for desktop (>= 528px)
+      const fluidScale = availableWidth / 176;
+      if (availableWidth < 528) {
+        setScaleFactor(fluidScale);
       } else {
-        setScaleFactor(availableWidth / 176);
+        const integerScale = Math.floor(fluidScale);
+        setScaleFactor(Math.min(integerScale, 4));
       }
     };
 
