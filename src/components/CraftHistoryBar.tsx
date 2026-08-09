@@ -21,7 +21,6 @@ export const CraftHistoryBar: React.FC = () => {
       <div className="history-bar-header">
         <div className="history-title-group">
           <span className="history-header-title">History</span>
-          <span className="history-count-pill">{activeHistory.length}/20</span>
         </div>
         {activeHistory.length > 0 && (
           <button
