@@ -12,12 +12,28 @@ export const HistoryStepSequence: React.FC<HistoryStepSequenceProps> = ({
   success = true,
   isLoading = false,
 }) => {
+  // Render loading skeleton matching exact 44px column height and layout structure
   if (isLoading) {
-    return <span className="history-loading-indicator">Calculating...</span>;
+    return (
+      <div className="history-step-sequence history-skeleton-sequence">
+        {Array.from({ length: 4 }).map((_, idx) => (
+          <div key={idx} className="history-step-column">
+            <div className="history-skeleton-icon" />
+            <div className="history-skeleton-count-container">
+              <div className="history-skeleton-count" />
+            </div>
+          </div>
+        ))}
+      </div>
+    );
   }
 
   if (!success || groupedSteps.length === 0) {
-    return <span className="history-no-steps">{success ? 'No steps' : 'Unsolvable'}</span>;
+    return (
+      <div className="history-step-sequence">
+        <span className="history-no-steps">{success ? 'No steps' : 'Unsolvable'}</span>
+      </div>
+    );
   }
 
   // Render up to 6 grouped steps in one row with xN textures under each action icon
