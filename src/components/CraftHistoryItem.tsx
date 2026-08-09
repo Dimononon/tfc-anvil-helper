@@ -85,15 +85,21 @@ export const CraftHistoryItem: React.FC<CraftHistoryItemProps> = ({
       {/* Top Row: Flow Header (Input -> Arrow -> Result) */}
       <div className="history-card-header">
         <div className="history-flow-icons">
-          {/* Input Item Icon */}
+          {/* Input Item Icon (Aligns over Column 1) */}
           <div className="history-icon-wrapper" title={`Input: ${recipe.inputName || recipe.input}`}>
             <ItemIcon itemKey={recipe.input} size={32} />
           </div>
 
-          {/* Arrow */}
-          <span className="history-flow-arrow">→</span>
+          {/* Arrow PNG Icon Container (32px width - Aligns over Column 2) */}
+          <div className="history-arrow-wrapper" title="Crafting flow">
+            <img
+              src="/assets/arrow.png"
+              alt="→"
+              className="history-arrow-png"
+            />
+          </div>
 
-          {/* Result Item Icon */}
+          {/* Result Item Icon (Aligns over Column 3) */}
           <div className="history-icon-wrapper" title={`Result: ${resultName}`}>
             <ItemIcon itemKey={recipe.result} size={32} />
           </div>

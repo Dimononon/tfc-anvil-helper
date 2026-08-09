@@ -7,6 +7,7 @@ const ASSETS_TO_PRELOAD = [
   '/assets/anvil_tp_chevron.png',
   '/assets/results.png',
   '/assets/x.png',
+  '/assets/arrow.png',
   '/assets/hit_light.png',
   '/assets/hit_medium.png',
   '/assets/hit_hard.png',
