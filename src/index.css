@@ -144,7 +144,7 @@ body {
 
 /* Main Layout */
 .app-main {
-  max-width: 1000px;
+  max-width: 1280px;
   margin: 1rem auto;
   padding: 0 1rem;
   flex: 1;
@@ -153,6 +153,264 @@ body {
   align-items: center;
   width: 100%;
 }
+
+/* Workspace Layout with Craft History Sidebar */
+.solver-workspace-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 100%;
+}
+
+/* Craft History Left Sidebar */
+.craft-history-sidebar {
+  width: 268px;
+  min-width: 268px;
+  background: var(--bg-base);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 0.65rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  align-self: flex-start;
+  position: sticky;
+  top: 1rem;
+  max-height: calc(100vh - 5rem);
+  overflow-y: auto;
+}
+
+.history-bar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.4rem;
+}
+
+.history-title-group {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.history-header-title {
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.history-count-pill {
+  font-size: 0.65rem;
+  background: var(--bg-darker);
+  color: var(--text-muted);
+  border: 1px solid var(--border-color);
+  padding: 0.1rem 0.4rem;
+  border-radius: 10px;
+  font-family: var(--font-pixel);
+}
+
+.history-clear-btn {
+  background: none;
+  border: none;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0.15rem 0.35rem;
+  border-radius: var(--radius-sm);
+  transition: var(--transition-fast);
+}
+
+.history-clear-btn:hover {
+  color: var(--accent-red);
+  background: #fef2f2;
+}
+
+.history-items-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.history-empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0.5rem;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  text-align: center;
+  gap: 0.2rem;
+}
+
+.history-empty-sub {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+}
+
+/* History Item Card */
+.history-item-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 0.55rem 0.65rem;
+  background: #ffffff;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: border-color 0.12s ease, background-color 0.12s ease, box-shadow 0.12s ease;
+  user-select: none;
+  overflow: hidden;
+}
+
+.history-item-card:hover {
+  border-color: var(--accent-primary);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.history-item-card.selected {
+  border-color: var(--accent-cyan);
+  background: #f0f9ff;
+}
+
+/* Card Row 1: Flow Header (Input -> Arrow -> Result) */
+.history-card-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.history-flow-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.3rem;
+  flex-shrink: 0;
+}
+
+.history-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.history-flow-arrow {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+/* Card Row 2: 32x32 Action Steps Sequence (No Wrapper Box) */
+.history-step-sequence {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.35rem;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.history-step-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  flex-shrink: 0;
+  width: 32px;
+}
+
+.history-action-png-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+.history-action-count-texture {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  height: 10px;
+  margin-top: 1px;
+}
+
+.history-count-x,
+.history-count-digit {
+  width: 6px;
+  height: 10px;
+  display: block;
+  object-fit: contain;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+.history-no-steps,
+.history-loading-indicator {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  font-style: italic;
+  padding: 0.15rem 0;
+}
+
+.history-loading-indicator {
+  animation: pulseLoading 1s infinite ease-in-out;
+}
+
+@keyframes pulseLoading {
+  0%, 100% { opacity: 0.35; }
+  50% { opacity: 0.9; }
+}
+
+.history-remove-btn {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background: none;
+  border: none;
+  color: var(--text-dim);
+  font-size: 0.75rem;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.12s ease, color 0.12s ease;
+  line-height: 1;
+  padding: 2px 4px;
+}
+
+.history-item-card:hover .history-remove-btn {
+  opacity: 1;
+}
+
+.history-remove-btn:hover {
+  color: var(--accent-red);
+}
+
+/* Hide History Bar on screen width < 860px */
+@media (max-width: 859px) {
+  .craft-history-sidebar {
+    display: none !important;
+  }
+}
+
 
 /* Metal Recipe Browser Container */
 .metal-recipe-browser {
