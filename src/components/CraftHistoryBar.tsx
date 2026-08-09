@@ -9,9 +9,11 @@ import { CraftHistoryItem } from './CraftHistoryItem';
 
 export const CraftHistoryBar: React.FC = () => {
   const dispatch = useAppDispatch();
-  const { craftHistory, worldSeed, selectedRecipeId, selectedPreset } = useAppSelector(
+  const { craftHistoryByPreset, worldSeed, selectedRecipeId, selectedPreset } = useAppSelector(
     (state) => state.anvil
   );
+
+  const activeHistory = craftHistoryByPreset[selectedPreset] || [];
 
   return (
     <aside className="craft-history-sidebar">
@@ -19,13 +21,13 @@ export const CraftHistoryBar: React.FC = () => {
       <div className="history-bar-header">
         <div className="history-title-group">
           <span className="history-header-title">History</span>
-          <span className="history-count-pill">{craftHistory.length}/20</span>
+          <span className="history-count-pill">{activeHistory.length}/20</span>
         </div>
-        {craftHistory.length > 0 && (
+        {activeHistory.length > 0 && (
           <button
             className="history-clear-btn"
-            onClick={() => dispatch(clearHistory())}
-            title="Clear all craft history"
+            onClick={() => dispatch(clearHistory(selectedPreset))}
+            title={`Clear ${selectedPreset.toUpperCase()} craft history`}
           >
             Clear
           </button>
@@ -34,13 +36,13 @@ export const CraftHistoryBar: React.FC = () => {
 
       {/* History Items List */}
       <div className="history-items-list">
-        {craftHistory.length === 0 ? (
+        {activeHistory.length === 0 ? (
           <div className="history-empty-state">
             <span>No craft history</span>
             <span className="history-empty-sub">Select recipes to add history</span>
           </div>
         ) : (
-          craftHistory.map((entry, idx) => {
+          activeHistory.map((entry, idx) => {
             const isSelected =
               entry.recipeId === selectedRecipeId && entry.presetId === selectedPreset;
 

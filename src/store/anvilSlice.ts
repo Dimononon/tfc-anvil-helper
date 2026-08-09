@@ -13,7 +13,7 @@ export interface AnvilState {
   selectedRecipeId: string;
   searchQuery: string;
   selectedTier: number | null;
-  craftHistory: CraftHistoryEntry[];
+  craftHistoryByPreset: Record<PresetId, CraftHistoryEntry[]>;
 }
 
 const STORAGE_SEED_KEY = 'tfc_anvil_world_seed';
@@ -21,48 +21,52 @@ const STORAGE_PRESET_KEY = 'tfc_anvil_preset_id';
 const STORAGE_HISTORY_KEY = 'tfc_anvil_craft_history';
 const MAX_HISTORY_ITEMS = 20;
 
-function loadHistoryFromStorage(): CraftHistoryEntry[] {
+function loadHistoryForPreset(presetId: PresetId): CraftHistoryEntry[] {
   if (typeof window === 'undefined') return [];
   try {
-    const raw = localStorage.getItem(STORAGE_HISTORY_KEY);
-    if (!raw) return [];
-    const parsed = JSON.parse(raw);
-    if (Array.isArray(parsed)) {
-      return parsed.slice(0, MAX_HISTORY_ITEMS);
+    const key = `${STORAGE_HISTORY_KEY}_${presetId}`;
+    const raw = localStorage.getItem(key);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      if (Array.isArray(parsed)) {
+        return parsed.slice(0, MAX_HISTORY_ITEMS);
+      }
     }
   } catch (e) {
-    console.error('Failed to load craft history from localStorage:', e);
+    console.error(`Failed to load craft history for preset ${presetId}:`, e);
   }
   return [];
 }
 
-function saveHistoryToStorage(history: CraftHistoryEntry[]) {
+function saveHistoryForPreset(presetId: PresetId, history: CraftHistoryEntry[]) {
   if (typeof window === 'undefined') return;
   try {
-    localStorage.setItem(STORAGE_HISTORY_KEY, JSON.stringify(history));
+    const key = `${STORAGE_HISTORY_KEY}_${presetId}`;
+    localStorage.setItem(key, JSON.stringify(history));
   } catch (e) {
-    console.error('Failed to save craft history to localStorage:', e);
+    console.error(`Failed to save craft history for preset ${presetId}:`, e);
   }
 }
 
-function helperAddToHistory(
-  history: CraftHistoryEntry[],
+function helperAddToPresetHistory(
+  historyMap: Record<PresetId, CraftHistoryEntry[]>,
   recipeId: string,
   presetId: PresetId
-): CraftHistoryEntry[] {
-  if (!recipeId) return history;
-  // Remove existing duplicate entry for (recipeId, presetId)
-  const filtered = history.filter(
-    (item) => !(item.recipeId === recipeId && item.presetId === presetId)
-  );
-  // Prepend to top
-  const updated = [
+): Record<PresetId, CraftHistoryEntry[]> {
+  if (!recipeId || !presetId) return historyMap;
+  const currentList = historyMap[presetId] || [];
+  const filtered = currentList.filter((item) => item.recipeId !== recipeId);
+  const updatedList = [
     { recipeId, presetId, timestamp: Date.now() },
     ...filtered,
   ].slice(0, MAX_HISTORY_ITEMS);
 
-  saveHistoryToStorage(updated);
-  return updated;
+  saveHistoryForPreset(presetId, updatedList);
+
+  return {
+    ...historyMap,
+    [presetId]: updatedList,
+  };
 }
 
 const getInitialSeed = (): string => {
@@ -85,7 +89,17 @@ const initialSeed = getInitialSeed();
 const initialPreset = getInitialPreset();
 const activePreset = PRESETS[initialPreset] || PRESETS.tfg;
 const initialRecipeId = activePreset.recipes[0]?.id || '';
-const initialHistory = helperAddToHistory(loadHistoryFromStorage(), initialRecipeId, initialPreset);
+
+const initialPresetHistoryMap: Record<PresetId, CraftHistoryEntry[]> = {
+  tfc: loadHistoryForPreset('tfc'),
+  tfg: loadHistoryForPreset('tfg'),
+};
+
+const initialStateHistory = helperAddToPresetHistory(
+  initialPresetHistoryMap,
+  initialRecipeId,
+  initialPreset
+);
 
 const initialState: AnvilState = {
   worldSeed: initialSeed,
@@ -93,7 +107,7 @@ const initialState: AnvilState = {
   selectedRecipeId: initialRecipeId,
   searchQuery: '',
   selectedTier: null,
-  craftHistory: initialHistory,
+  craftHistoryByPreset: initialStateHistory,
 };
 
 export const anvilSlice = createSlice({
@@ -115,13 +129,21 @@ export const anvilSlice = createSlice({
       const newRecipeId = preset.recipes[0]?.id || '';
       state.selectedRecipeId = newRecipeId;
       if (newRecipeId) {
-        state.craftHistory = helperAddToHistory(state.craftHistory, newRecipeId, action.payload);
+        state.craftHistoryByPreset = helperAddToPresetHistory(
+          state.craftHistoryByPreset,
+          newRecipeId,
+          action.payload
+        );
       }
     },
     setSelectedRecipeId: (state, action: PayloadAction<string>) => {
       state.selectedRecipeId = action.payload;
       if (action.payload) {
-        state.craftHistory = helperAddToHistory(state.craftHistory, action.payload, state.selectedPreset);
+        state.craftHistoryByPreset = helperAddToPresetHistory(
+          state.craftHistoryByPreset,
+          action.payload,
+          state.selectedPreset
+        );
       }
     },
     selectRecipeFromHistory: (
@@ -133,8 +155,8 @@ export const anvilSlice = createSlice({
       if (typeof window !== 'undefined') {
         localStorage.setItem(STORAGE_PRESET_KEY, action.payload.presetId);
       }
-      state.craftHistory = helperAddToHistory(
-        state.craftHistory,
+      state.craftHistoryByPreset = helperAddToPresetHistory(
+        state.craftHistoryByPreset,
         action.payload.recipeId,
         action.payload.presetId
       );
@@ -145,19 +167,22 @@ export const anvilSlice = createSlice({
     setSelectedTier: (state, action: PayloadAction<number | null>) => {
       state.selectedTier = action.payload;
     },
-    clearHistory: (state) => {
-      state.craftHistory = [];
-      saveHistoryToStorage([]);
+    clearHistory: (state, action: PayloadAction<PresetId | undefined>) => {
+      const presetToClear = action.payload || state.selectedPreset;
+      state.craftHistoryByPreset[presetToClear] = [];
+      saveHistoryForPreset(presetToClear, []);
     },
     removeFromHistory: (
       state,
       action: PayloadAction<{ recipeId: string; presetId: PresetId }>
     ) => {
-      state.craftHistory = state.craftHistory.filter(
-        (item) =>
-          !(item.recipeId === action.payload.recipeId && item.presetId === action.payload.presetId)
+      const presetId = action.payload.presetId;
+      const currentList = state.craftHistoryByPreset[presetId] || [];
+      const updated = currentList.filter(
+        (item) => !(item.recipeId === action.payload.recipeId && item.presetId === presetId)
       );
-      saveHistoryToStorage(state.craftHistory);
+      state.craftHistoryByPreset[presetId] = updated;
+      saveHistoryForPreset(presetId, updated);
     },
   },
 });
