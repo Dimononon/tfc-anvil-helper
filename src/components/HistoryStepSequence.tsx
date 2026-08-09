@@ -16,7 +16,7 @@ export const HistoryStepSequence: React.FC<HistoryStepSequenceProps> = ({
   if (isLoading) {
     return (
       <div className="history-step-sequence history-skeleton-sequence">
-        {Array.from({ length: 4 }).map((_, idx) => (
+        {Array.from({ length: 6 }).map((_, idx) => (
           <div key={idx} className="history-step-column">
             <div className="history-skeleton-icon" />
             <div className="history-skeleton-count-container">
