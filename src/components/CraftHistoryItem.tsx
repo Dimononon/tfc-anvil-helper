@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { CraftHistoryEntry } from '../store/anvilSlice';
 import { PRESETS } from '../data/presets';
 import { calculateTargetProgressAsync } from '../engine/rng';
@@ -32,21 +32,34 @@ export const CraftHistoryItem: React.FC<CraftHistoryItemProps> = ({
   const recipe = preset.recipes.find((r) => r.id === entry.recipeId);
 
   const [solution, setSolution] = useState<HistorySolutionData | null>(null);
+  const solutionKeyRef = useRef<string>('');
 
   useEffect(() => {
     if (!recipe) return;
 
-    setSolution(null);
     const currentRecipeId = recipe.id;
     const currentRules = recipe.rules;
+    const key = `${worldSeed}:${currentRecipeId}`;
+
+    // If solution is already calculated for this seed and recipe, do not reset or recalculate on index shift
+    if (solutionKeyRef.current === key && solution !== null) {
+      return;
+    }
+
+    // Only set solution to null if the recipe/seed actually changed
+    if (solutionKeyRef.current !== key) {
+      setSolution(null);
+    }
+
     let isSubscribed = true;
 
-    // Stagger calculations based on index to calculate and display step results sequentially one at a time
+    // Stagger calculation based on index only for initial mount/seed changes
     const timer = setTimeout(() => {
       async function calculateSolution() {
         const progress = await calculateTargetProgressAsync(worldSeed, currentRecipeId);
         const result = await solveAnvilStepsAsync(progress, currentRules);
         if (isSubscribed) {
+          solutionKeyRef.current = key;
           setSolution({ progress, result });
         }
       }
@@ -57,7 +70,7 @@ export const CraftHistoryItem: React.FC<CraftHistoryItemProps> = ({
       isSubscribed = false;
       clearTimeout(timer);
     };
-  }, [worldSeed, recipe, index]);
+  }, [worldSeed, recipe, index, solution]);
 
   if (!recipe) return null;
 
