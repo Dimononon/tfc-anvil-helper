@@ -42,26 +42,40 @@ const METAL_FAMILIES: Array<{ family: string; prefixes: string[] }> = [
 ];
 
 function classifyRecipeFamily(recipe: TfcRecipe): string {
-  const iname = recipe.inputName || recipe.input;
-  const rname = recipe.resultName || recipe.result;
+  const iname = (recipe.inputName || recipe.input || '').trim();
+  const rname = (recipe.resultName || recipe.result || '').trim();
+  const rid = (recipe.id || '').toLowerCase();
 
-  // Move Aluminium Silicate and Stainless Steel Jar Lid recipes to 'Other'
-  if (iname.includes('Aluminium Silicate') || rname.includes('Aluminium Silicate')) {
-    return 'Other';
+  // 1. Try matching prefixes on resultName or inputName after stripping common modifiers
+  for (const name of [rname, iname]) {
+    let clean = name;
+    for (const mod of ['Double ', 'Unfinished ', 'Small ', 'Long ', 'Large ', 'Big ']) {
+      if (clean.startsWith(mod)) {
+        clean = clean.slice(mod.length);
+      }
+    }
+
+    for (const item of METAL_FAMILIES) {
+      for (const prefix of item.prefixes) {
+        if (clean.startsWith(prefix)) {
+          return item.family;
+        }
+      }
+    }
   }
-  if (rname.includes('Stainless Steel Jar Lid') || (iname.includes('Stainless Steel') && rname.includes('Jar Lid'))) {
-    return 'Other';
-  }
 
-  const cleaned = iname.startsWith('Long ') ? iname.slice(5) : iname;
-
+  // 2. Fallback: match metal family in full text (inputName, resultName, recipe ID)
+  const fullText = `${iname} ${rname} ${rid}`.toLowerCase();
   for (const item of METAL_FAMILIES) {
     for (const prefix of item.prefixes) {
-      if (cleaned.startsWith(prefix)) {
+      const p = prefix.toLowerCase();
+      const regex = new RegExp(`(^|[\\s_/:\\-])${p}([\\s_/:\\-]|$)`, 'i');
+      if (regex.test(fullText)) {
         return item.family;
       }
     }
   }
+
   return 'Other';
 }
 
@@ -70,10 +84,7 @@ function deduplicateRecipes(recipes: TfcRecipe[]): TfcRecipe[] {
   const seen = new Set<string>();
 
   for (const r of recipes) {
-    const res = r.resultName || r.result;
-    const inp = r.inputName || r.input;
-    const rulesStr = (r.rules || []).join(',');
-    const key = `${res}|${inp}|${r.tier}|${rulesStr}`;
+    const key = r.id ? r.id : `${r.result}|${r.input}|${r.tier}|${(r.rules || []).join(',')}`;
     if (!seen.has(key)) {
       seen.add(key);
       unique.push(r);
@@ -132,8 +143,8 @@ function getRecipeCategoryRank(recipe: TfcRecipe): [number, number, string] {
   )
     return [2, 2, sortKey];
 
-  // Category 3: Tool & Instrument Heads / Weapon Parts (Axe, Saw, Pickaxe, Hoe, Chisel, Hammer, Knife, Screwdriver Tip, etc.)
-  if (['head', 'blade', 'tip', 'part', 'hook', 'cutter', 'screwdriver'].some((k) => n.includes(k))) return [3, 1, sortKey];
+  // Category 3: Tool & Instrument Heads / Weapon Parts (Axe, Saw, Pickaxe, Hoe, Chisel, Hammer, Knife, Tuyere, Screwdriver Tip, etc.)
+  if (['head', 'blade', 'tip', 'part', 'hook', 'cutter', 'screwdriver', 'tuyere'].some((k) => n.includes(k))) return [3, 1, sortKey];
 
   // Category 4: Armor & Protection
   if (['unfinished', 'helmet', 'chestplate', 'greaves', 'boots', 'shield'].some((k) => n.includes(k))) return [4, 1, sortKey];
