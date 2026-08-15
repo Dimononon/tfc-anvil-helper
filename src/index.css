@@ -900,6 +900,18 @@ body {
   background: var(--bg-base);
 }
 
+.footer-link {
+  color: var(--accent-primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: var(--transition-fast);
+}
+
+.footer-link:hover {
+  color: var(--accent-primary-hover);
+  text-decoration: underline;
+}
+
 /* Responsive Mobile & Adaptive Layout Rules */
 @media (max-width: 640px) {
   .app-header {
