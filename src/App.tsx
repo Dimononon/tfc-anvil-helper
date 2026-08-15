@@ -7,6 +7,7 @@ const ASSETS_TO_PRELOAD = [
   '/assets/anvil_tp_chevron.png',
   '/assets/results.png',
   '/assets/x.png',
+  '/assets/arrow.png',
   '/assets/hit_light.png',
   '/assets/hit_medium.png',
   '/assets/hit_hard.png',
@@ -39,7 +40,15 @@ export const App: React.FC = () => {
         <SolverView />
       </main>
       <footer className="app-footer">
-        TFC Anvil Helper &bull; TerraFirmaCraft Crafting Optimizer &bull; Minimal Info Mode V1
+        <span>TFC Anvil Helper &bull; TerraFirmaCraft Crafting Optimizer &bull; Minimal Info Mode V1 &bull; </span>
+        <a
+          href="https://github.com/Dimononon/tfc-anvil-helper"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer-link"
+        >
+          GitHub
+        </a>
       </footer>
     </>
   );
