@@ -69,18 +69,14 @@ function helperAddToPresetHistory(
   };
 }
 
+const DEFAULT_WORLD_SEED = '832011092856214026';
+
 const getInitialSeed = (): string => {
   if (typeof window !== 'undefined') {
     const saved = localStorage.getItem(STORAGE_SEED_KEY);
-    if (saved !== null) {
-      if (saved === '832011092856214026') {
-        localStorage.removeItem(STORAGE_SEED_KEY);
-        return '';
-      }
-      return saved;
-    }
+    if (saved !== null) return saved;
   }
-  return '';
+  return DEFAULT_WORLD_SEED;
 };
 
 const getInitialPreset = (): PresetId => {
