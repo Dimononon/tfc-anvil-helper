@@ -9,8 +9,8 @@ interface ItemIconProps {
 }
 
 export const ItemIcon: React.FC<ItemIconProps> = ({ itemKey, size = 32, className = '' }) => {
-  const selectedPreset = useAppSelector(state => state.anvil.selectedPreset);
-  const preset = PRESETS[selectedPreset] || PRESETS.tfc;
+  const { selectedPreset } = useAppSelector((state) => state.anvil);
+  const preset = PRESETS[selectedPreset] || PRESETS.tfg;
   const meta = preset.textures[itemKey];
 
   if (!meta) {

@@ -72,9 +72,15 @@ function helperAddToPresetHistory(
 const getInitialSeed = (): string => {
   if (typeof window !== 'undefined') {
     const saved = localStorage.getItem(STORAGE_SEED_KEY);
-    if (saved) return saved;
+    if (saved !== null) {
+      if (saved === '832011092856214026') {
+        localStorage.removeItem(STORAGE_SEED_KEY);
+        return '';
+      }
+      return saved;
+    }
   }
-  return '832011092856214026';
+  return '';
 };
 
 const getInitialPreset = (): PresetId => {
@@ -125,7 +131,7 @@ export const anvilSlice = createSlice({
       if (typeof window !== 'undefined') {
         localStorage.setItem(STORAGE_PRESET_KEY, action.payload);
       }
-      const preset = PRESETS[action.payload] || PRESETS.tfc;
+      const preset = PRESETS[action.payload] || PRESETS.tfg;
       const newRecipeId = preset.recipes[0]?.id || '';
       state.selectedRecipeId = newRecipeId;
       if (newRecipeId) {

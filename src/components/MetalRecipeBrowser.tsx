@@ -61,7 +61,7 @@ const MetalButton: React.FC<{
 export const MetalRecipeBrowser: React.FC = () => {
   const dispatch = useAppDispatch();
   const { selectedPreset, selectedRecipeId } = useAppSelector((state) => state.anvil);
-  const preset = PRESETS[selectedPreset] || PRESETS.tfc;
+  const preset = PRESETS[selectedPreset] || PRESETS.tfg;
   const [searchQuery, setSearchQuery] = useState('');
 
   const metalGroups = useMemo(() => {

@@ -10,7 +10,7 @@ import { CraftHistoryBar } from './CraftHistoryBar';
 
 export const SolverView: React.FC = () => {
   const { worldSeed, selectedRecipeId, selectedPreset } = useAppSelector((state) => state.anvil);
-  const preset = PRESETS[selectedPreset] || PRESETS.tfc;
+  const preset = PRESETS[selectedPreset] || PRESETS.tfg;
 
   const recipe = useMemo(() => {
     return preset.recipes.find((r) => r.id === selectedRecipeId) || preset.recipes[0];

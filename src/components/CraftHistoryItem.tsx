@@ -28,7 +28,7 @@ export const CraftHistoryItem: React.FC<CraftHistoryItemProps> = ({
   onSelect,
   onRemove,
 }) => {
-  const preset = PRESETS[entry.presetId] || PRESETS.tfc;
+  const preset = PRESETS[entry.presetId] || PRESETS.tfg;
   const recipe = preset.recipes.find((r) => r.id === entry.recipeId);
 
   const [solution, setSolution] = useState<HistorySolutionData | null>(null);
